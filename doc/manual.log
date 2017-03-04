@@ -1,0 +1,637 @@
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=latex 2006.7.1)  8 SEP 2006 22:11
+entering extended mode
+**manual.tex
+(./manual.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(/usr/share/texmf-tetex/tex/latex/base/article.cls
+Document Class: article 2004/02/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf-tetex/tex/latex/base/size10.clo
+File: size10.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+\@indexfile=\write3
+\openout3 = `manual.idx'.
+
+
+Writing index file manual.idx
+(./rail.sty
+Package: rail 1998/05/19
+\railunit=\skip43
+\railextra=\skip44
+\railboxheight=\skip45
+\railboxskip=\skip46
+\railboxleft=\skip47
+\railboxright=\skip48
+\railovalspace=\skip49
+\railframespace=\skip50
+\railtextleft=\skip51
+\railtextright=\skip52
+\railtextup=\skip53
+\railjoinsize=\skip54
+\railjoinadjust=\skip55
+\railnamesep=\skip56
+\rail@extra=\count87
+\rail@boxht=\count88
+\rail@boxsp=\count89
+\rail@boxlf=\count90
+\rail@boxrt=\count91
+\rail@boxhht=\count92
+\rail@ovalsp=\count93
+\rail@framesp=\count94
+\rail@textlf=\count95
+\rail@textrt=\count96
+\rail@textup=\count97
+\rail@joinsz=\count98
+\rail@joinhsz=\count99
+\rail@joinadj=\count100
+\rail@reserved=\toks14
+\rail@nr=\count101
+\rail@x=\count102
+\rail@y=\count103
+\rail@ex=\count104
+\rail@sx=\count105
+\rail@rx=\count106
+\rail@tmpa=\count107
+\rail@tmpb=\count108
+\rail@tmpc=\count109
+\rail@box=\box26
+\rail@jx=\count110
+\rail@jy=\count111
+\rail@gx=\count112
+\rail@gy=\count113
+\rail@gex=\count114
+\rail@grx=\count115
+\rail@sy=\count116
+\rail@mx=\count117
+) (/usr/share/texmf-tetex/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks15
+\verbatim@line=\toks16
+\verbatim@in@stream=\read1
+)
+(/usr/share/texmf-tetex/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+(/usr/share/texmf-tetex/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-tetex/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texmf-tetex/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-tetex/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf-tetex/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 80.
+
+(/usr/share/texmf-tetex/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+) (./manual.rao)
+\tf@rai=\write4
+\openout4 = `manual.rai'.
+
+
+(/usr/share/texmf-tetex/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2003/11/30 v6.74m Hypertext links for LaTeX
+\@linkdim=\dimen107
+\Hy@linkcounter=\count118
+\Hy@pagecounter=\count119
+
+(/usr/share/texmf-tetex/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2003/11/30 v6.74m Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texmf-tetex/tex/latex/hyperref/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive and teTeX
+)
+Package hyperref Info: Hyper figures OFF on input line 1880.
+Package hyperref Info: Link nesting OFF on input line 1885.
+Package hyperref Info: Hyper index ON on input line 1888.
+Package hyperref Info: Plain pages ON on input line 1893.
+Package hyperref Info: Backreferencing OFF on input line 1900.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2004.
+(/usr/share/texmf-tetex/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2143.
+\Fld@menulength=\count120
+\Field@Width=\dimen108
+\Fld@charsize=\dimen109
+\Choice@toks=\toks18
+\Field@toks=\toks19
+Package hyperref Info: Hyper figures OFF on input line 2618.
+Package hyperref Info: Link nesting OFF on input line 2623.
+Package hyperref Info: Hyper index ON on input line 2626.
+Package hyperref Info: backreferencing OFF on input line 2633.
+Package hyperref Info: Link coloring OFF on input line 2638.
+\c@Item=\count121
+\c@Hfootnote=\count122
+)
+*hyperref using driver hdvips*
+(/usr/share/texmf-tetex/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2003/11/30 v6.74m Hyperref driver for dvips
+
+(/usr/share/texmf-tetex/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2003/11/30 v6.74m Hyperref definitions for pdfmark specials
+\pdf@docset=\toks20
+\pdf@box=\box27
+\pdf@toks=\toks21
+\pdf@defaulttoks=\toks22
+\Fld@listcount=\count123
+\@outlinefile=\write5
+)) (./manual.aux)
+\openout1 = `manual.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+Package hyperref Info: Link coloring OFF on input line 18.
+
+(/usr/share/texmf-tetex/tex/latex/hyperref/nameref.sty
+Package: nameref 2003/12/03 v2.21 Cross-referencing by name of section
+\c@section@level=\count124
+)
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+ (./manual.out)
+(./manual.out)
+\openout5 = `manual.out'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 28.
+ [1
+
+] (./manual.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+
+Overfull \hbox (29.8757pt too wide) in paragraph at lines 14--14
+ [][] [] []  
+ []
+
+
+Overfull \hbox (12.77852pt too wide) in paragraph at lines 21--21
+ [][] [] []  
+ []
+
+[2] [3] [4])
+\tf@toc=\write6
+\openout6 = `manual.toc'.
+
+ [5] (./manual.lof
+Overfull \hbox (2.63959pt too wide) in paragraph at lines 9--9
+ [][] [] []  
+ []
+
+)
+\tf@lof=\write7
+\openout7 = `manual.lof'.
+
+ [6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 40.
+ (/usr/share/texmf-tetex/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
+File: Account.i3  (verbatim)
+ [7]
+File: Account.m3  (verbatim)
+ [8]
+File: Account.ps Graphic file (type eps)
+ <Account.ps>
+[9]
+File: Account.inp  (verbatim)
+
+No file res/Account.pro.
+No file res/Account.res.
+[10]
+File: ATM.i3  (verbatim)
+File: ATM.m3  (verbatim)
+ [11]
+File: ATM.ps Graphic file (type eps)
+ <ATM.ps> [12]
+File: ATM.inp  (verbatim)
+
+No file res/ATM.res.
+File: Bank.ps Graphic file (type eps)
+<Bank.ps>
+File: Bank.i3  (verbatim)
+ [13]
+File: Bank.m3  (verbatim)
+File: ATMState.m3  (verbatim)
+ [14]
+File: ATMState.ps Graphic file (type eps)
+ <ATMState.ps>
+File: Interest.m3  (verbatim)
+ [15]
+File: Interest.ps Graphic file (type eps)
+ <Interest.ps> [16]
+File: BankInterest.ps Graphic file (type eps)
+ <BankInterest.ps>
+File: BankInterest.inp  (verbatim)
+
+No file res/BankInterest.res.
+[17]
+File: ATMTimeout.m3  (verbatim)
+ [18] [19]
+File: ATMTimeout.inp  (verbatim)
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 362--362
+[]\OT1/cmtt/m/n/10 > insertCard card = {encodedPIN: 1234}   % Put card into mac
+hine ...[] 
+ []
+
+
+Overfull \hbox (64.49643pt too wide) in paragraph at lines 362--362
+[]\OT1/cmtt/m/n/10 > inputPIN pin = 1234                    % ... and enter the
+ right PIN but ...[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 362--362
+[]\OT1/cmtt/m/n/10 ? 16 s                                   % ... forget to ask
+ for money[] 
+ []
+
+No file res/ATMTimeout.res.
+File: ATMTimeout.ps Graphic file (type eps)
+<ATMTimeout.ps> [20]
+File: ATMSafe.m3  (verbatim)
+ [21]
+File: ATMSafe.ps Graphic file (type eps)
+ <ATMSafe.ps> [22] [23] [24]
+File: ConjTypes.i3  (verbatim)
+File: ConjC1.i3  (verbatim)
+File: ConjC2.i3  (verbatim)
+File: ConjParent.ps Graphic file (type eps)
+ <ConjParent.ps> [25]
+[26] [27] [28] [29] [30] [31] [32] [33] [34]
+LaTeX Font Info:    Try loading font information for OMS+cmtt on input line 843
+.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 843.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 843.
+
+File: ../test/ScaleTypes.i3  (verbatim)
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 847--847
+[]\OT1/cmtt/m/n/10 TYPE Volts = SCALED INTEGER {mV * 1000 = V * 1000 = kV * 100
+0 = MV};[] 
+ []
+
+[35] [36] [37]
+File: Traffic.i3  (verbatim)
+ [38] (./rightMouse.inc [39]) (./modeDetails.inc [40]) [41]
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 1046--1046
+[]  \OT1/cmtt/m/n/10 -e, --stop-on-error   stop on error (rather than just comp
+lain and go on)[] 
+ []
+
+
+Overfull \hbox (32.9967pt too wide) in paragraph at lines 1048--1048
+[]                        \OT1/cmtt/m/n/10 library to store object files and ge
+nerated code[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 1050--1050
+[]                        \OT1/cmtt/m/n/10 suppress summary messages (restricts
+ output on[] 
+ []
+
+[42]
+Overfull \hbox (53.99652pt too wide) in paragraph at lines 1055--1055
+[]                        \OT1/cmtt/m/n/10 where to put script output (default 
+SessionScript.py[] 
+ []
+
+
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 1058--1058
+[]                        \OT1/cmtt/m/n/10 Track syntax checking over rules 0=n
+one;1=matched[] 
+ []
+
+
+Overfull \hbox (74.99634pt too wide) in paragraph at lines 1062--1062
+[]                        \OT1/cmtt/m/n/10 raise unhandled exceptions rather th
+an transforming them[] 
+ []
+
+
+Overfull \hbox (69.74638pt too wide) in paragraph at lines 1072--1072
+[]  \OT1/cmtt/m/n/10 -H, --hide-ports      Do not show messages in ports (usefu
+l for domain models[] 
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1077--1077
+[]                        \OT1/cmtt/m/n/10 ignore all resources (use random pos
+itions)[] 
+ []
+
+
+Overfull \hbox (32.9967pt too wide) in paragraph at lines 1078--1078
+[]  \OT1/cmtt/m/n/10 --screenshot          generate a screenshot of the capsule
+(s) and quit[] 
+ []
+
+File: runcapopts.txt  (verbatim)
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1083--1083
+[]\OT1/cmtt/m/n/10 usage: runcap.py [options] model [testscenario [outputfileba
+sename]][] 
+ []
+
+
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 1083--1083
+[]                        \OT1/cmtt/m/n/10 output protocol (pro) or results (re
+s) to console[] 
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1083--1083
+[]                        \OT1/cmtt/m/n/10 port for graphical debug messages to
+ server[] 
+ []
+
+
+Overfull \hbox (38.24666pt too wide) in paragraph at lines 1083--1083
+[]  \OT1/cmtt/m/n/10 --gi=GLOBALIMPLEMENT  set global implementations for capsu
+le interfaces[] 
+ []
+
+
+Overfull \hbox (48.74657pt too wide) in paragraph at lines 1083--1083
+[]                        \OT1/cmtt/m/n/10 set instance implementations for cap
+sule interfaces[] 
+ []
+
+[43]
+Overfull \hbox (17.24684pt too wide) in paragraph at lines 1083--1083
+[]                        \OT1/cmtt/m/n/10 trace all activity and transition in
+vocations[] 
+ []
+
+
+Overfull \hbox (27.74675pt too wide) in paragraph at lines 1083--1083
+[]                        \OT1/cmtt/m/n/10 path for results subdirectory (defau
+lts to res)[] 
+ []
+
+File: fileoverview.eps Graphic file (type eps)
+<fileoverview.eps> [44] [45] [46]
+File: TestInputTypes.i3  (verbatim)
+File: InputTypes.i3  (verbatim)
+File: TestInputTypes.inp  (verbatim)
+ [47] [48]
+File: withdraw.mac  (verbatim)
+File: Withdrawals.inp  (verbatim)
+
+No file res/Withdrawals.res.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 1269.
+
+[49] [50] [51] [52]
+File: CapRTC1.ps Graphic file (type eps)
+ <CapRTC1.ps>
+File: CapRTC21.ps Graphic file (type eps)
+ <CapRTC21.ps>
+File: CapRTC22.ps Graphic file (type eps)
+ <CapRTC22.ps> [53] [54]
+File: SimplePar.i3  (verbatim)
+File: SimplePar.m3  (verbatim)
+ [55]
+File: SimplePar.inp  (verbatim)
+
+No file res/SimplePar.res.
+[56]
+File: ParTop.ps Graphic file (type eps)
+ <ParTop.ps>
+File: SimplePar2.i3  (verbatim)
+File: SimplePar2.m3  (verbatim)
+ [57]
+No file res/ParTop.res.
+File: par/ParTop.res  (verbatim)
+[58]
+File: Arch.sys  (verbatim)
+
+Overfull \hbox (63.74657pt too wide) in paragraph at lines 1572--1573
+[]\OT1/cmtt/m/n/10 runcap ParTop --processors=par1=proca,par2=procb --system-ar
+chitecture=Arch
+ []
+
+File: parsys/ParTop.res  (verbatim)
+
+Overfull \hbox (10.21332pt too wide) in paragraph at lines 1580--1585
+\OT1/cmr/m/n/10 in a sep-a-rate map-ping file. This uses the fol-low-ing syn-ta
+x:                             
+ []
+
+[59]
+File: Sys1.map  (verbatim)
+File: ../lib/Results.i3  (verbatim)
+ [60]
+File: ../lib/Timer.i3  (verbatim)
+File: ../lib/IO.i3  (verbatim)
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1611--1611
+[]\OT1/cmtt/m/n/10 (* The following perform simple output to the terminal, for 
+testing[] 
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1611--1611
+[]   \OT1/cmtt/m/n/10 purposes it is recommended that you use the features prov
+ided by[] 
+ []
+
+File: ../lib/Fmt.i3  (verbatim)
+[61]
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1613--1613
+[]\OT1/cmtt/m/n/10 (* Converts basic data types into text, for use with the IO 
+package[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 1613--1613
+[]   \OT1/cmtt/m/n/10 Present to provide rudimentary compatibility with standar
+d Modula-3[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 1613--1613
+[]   \OT1/cmtt/m/n/10 It is recommended that you use the more powerful new buil
+t-in IMAGE[] 
+ []
+
+File: ../lib/Text.i3  (verbatim)
+[62] [63] [64] [65] [66] [67] [68] [69]
+File: ../lib/IO.i3  (verbatim)
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1794--1794
+[]\OT1/cmtt/m/n/10 (* The following perform simple output to the terminal, for 
+testing[] 
+ []
+
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1794--1794
+[]   \OT1/cmtt/m/n/10 purposes it is recommended that you use the features prov
+ided by[] 
+ []
+
+File: ../lib/IOMod.py  (verbatim)
+[70] [71]
+Overfull \hbox (16.16606pt too wide) in paragraph at lines 1833--1838
+\OT1/cmr/m/n/10 Capsules are de-clared as classes de-riv-ing from the base clas
+s \OT1/cmtt/m/n/10 M3CapsuleRuntimeType
+ []
+
+File: pyact.py  (verbatim)
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 1843--1843
+[]        \OT1/cmtt/m/n/10 print "activity a1 called with foo %s and bar %s" % 
+(foo, bar)[] 
+ []
+
+File: pyact.ps Graphic file (type eps)
+<pyact.ps> [72]
+File: pyact.inp  (verbatim)
+ [73]
+File: pytimer.py  (verbatim)
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1888--1888
+[]    \OT1/cmtt/m/n/10 # Defining an activity (which is simply a method of the 
+capsule)[] 
+ []
+
+
+Overfull \hbox (11.99689pt too wide) in paragraph at lines 1888--1888
+[]    \OT1/cmtt/m/n/10 # Defining the capsule contents and structure in the con
+structor[] 
+ []
+
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 1888--1888
+[]        \OT1/cmtt/m/n/10 self.myTimer=RTSTypes.M3TimerRuntimeType(delay=10*Ti
+me.F_psec,[] 
+ []
+
+
+Overfull \hbox (80.24629pt too wide) in paragraph at lines 1888--1888
+[]                                                 \OT1/cmtt/m/n/10 changeable=
+False).createObject()[] 
+ []
+
+[74]
+File: pytimer.ps Graphic file (type eps)
+ <pytimer.ps> [75] [76]
+File: C1.ps Graphic file (type eps)
+ <C1.ps>
+File: C1.py  (verbatim)
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1967--1967
+[]        \OT1/cmtt/m/n/10 self.c2.connect(self,'messageFromC2','c3act',self.c3
+,level)[] 
+ []
+
+[77]
+File: C2.py  (verbatim)
+File: C3.py  (verbatim)
+
+Overfull \hbox (6.74693pt too wide) in paragraph at lines 1988--1988
+[]        \OT1/cmtt/m/n/10 self.c2.connect(self,'messageFromC2','c3act',self.c3
+,level)[] 
+ []
+
+File: pytrigger.py  (verbatim)
+[78]
+File: pytrigger.ps Graphic file (type eps)
+ <pytrigger.ps> [79]
+File: pytypes.inp  (verbatim)
+File: pytypes.py  (verbatim)
+
+Overfull \hbox (22.4968pt too wide) in paragraph at lines 2041--2041
+[]        \OT1/cmtt/m/n/10 print "activity a1 called with foo %s and bar %s" % 
+(foo, bar)[] 
+ []
+
+
+Overfull \hbox (101.24611pt too wide) in paragraph at lines 2047--2047
+[]\OT1/cmtt/m/n/10 activity a1 called with foo {'a': 1, 'c': 'blather', 'b': 3.
+415} and bar [1, 2, 3, 4][] 
+ []
+
+
+Overfull \hbox (17.3362pt too wide) in paragraph at lines 2083--2099
+[] 
+ []
+
+[80] [81] [82] (./manual.ind [83
+
+
+]) (./manual.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 2909 strings out of 94501
+ 39328 string characters out of 1175812
+ 131579 words of memory out of 1000000
+ 6011 multiletter control sequences out of 10000+50000
+ 8762 words of font info for 31 fonts, out of 500000 for 2000
+ 580 hyphenation exceptions out of 8191
+ 32i,10n,36p,959b,308s stack positions out of 1500i,500n,5000p,200000b,5000s
+
+Output written on manual.dvi (83 pages, 370796 bytes).

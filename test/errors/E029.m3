@@ -1,0 +1,9 @@
+MODULE E029;
+
+
+VAR i : INTEGER;
+    j := TYPECODE(i); <*ERROR 029*>
+
+BEGIN
+  
+END E029.

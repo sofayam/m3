@@ -1,0 +1,3 @@
+> init
+> m1 param={b:TRUE, c:red}
+> summary

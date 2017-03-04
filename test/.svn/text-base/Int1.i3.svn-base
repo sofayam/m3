@@ -1,0 +1,3 @@
+INTERFACE Int1;
+VAR z : INTEGER;
+END Int1.

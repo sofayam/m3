@@ -1,0 +1,5 @@
+CAPSULE ConjC1 ;
+
+BEGIN
+
+END ConjC1.

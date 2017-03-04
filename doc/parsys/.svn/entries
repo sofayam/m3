@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-06-28T12:22:13.203674Z"
+   url="svn://titch/m3/doc/parsys"
+   last-author="gfr2fr"
+   kind="dir"
+   uuid="5d76ada3-2bd0-0310-b486-ec14cee89a57"
+   repos="svn://titch"
+   revision="109"/>
+<entry
+   committed-rev="1"
+   name="ParTop.pro"
+   text-time="2006-09-08T19:32:56.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8845ad64176fd0fa51eb0ee59cad7d45"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ParTop.seq"
+   text-time="2006-09-08T19:32:56.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ParTop.res"
+   text-time="2006-09-08T19:32:56.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5a172f06af27857f6b6f05118f37c0e4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+</wc-entries>

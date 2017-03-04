@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Interface source="/home/mark/m3/doc/BankTypes.i3" refid="1" slot="anon">
+ <KeyWord token="INTERFACE" startCol="0" leadChars="" refid="2" slot="kwi"/>
+ <Id idname="BankTypes" startCol="10" leadChars=" " refid="3" slot="modname"/>
+ <Sep token=";" startCol="19" leadChars="" refid="4" slot="ts"/>
+ <ImportList refid="5" slot="imports"/>
+ <InterfaceDeclList refid="6" slot="decls">
+  <TypeDecls refid="7" slot="anon">
+   <KeyWord token="TYPE" startCol="22" leadChars="%0A%0A" refid="8" slot="kwt"/>
+   <TypeDeclsList refid="9" slot="typeList">
+    <TypeDecl refid="10" slot="anon">
+     <Id idname="Card" startCol="27" leadChars=" " refid="11" slot="id"/>
+     <Op token="=" startCol="32" leadChars=" " refid="12" slot="sign"/>
+     <Record refid="13" slot="tipe">
+      <KeyWord token="RECORD" startCol="34" leadChars=" " refid="14" slot="kwr"/>
+      <FieldList refid="15" slot="fields">
+       <Field refid="16" slot="anon">
+        <IdList refid="17" slot="idlist">
+         <Id idname="encodedPIN" startCol="43" leadChars="%0A  " refid="18" slot="anon"/>
+        </IdList>
+        <Tok token=":" startCol="54" leadChars=" " refid="19" slot="col"/>
+        <TypeName refid="20" slot="tipe">
+         <QualId refid="21" slot="qualId">
+          <Id idname="INTEGER" startCol="56" leadChars=" " refid="22" slot="anon"/>
+         </QualId>
+        </TypeName>
+        <Null refid="23" slot="ass"/>
+        <Null refid="24" slot="constExpr"/>
+       </Field>
+       <Sep token=";" startCol="63" leadChars="" refid="25" slot="anon"/>
+      </FieldList>
+      <KeyWord token="END" startCol="65" leadChars="%0A" refid="26" slot="kwe"/>
+     </Record>
+    </TypeDecl>
+    <Sep token=";" startCol="68" leadChars="" refid="27" slot="anon"/>
+   </TypeDeclsList>
+  </TypeDecls>
+ </InterfaceDeclList>
+ <KeyWord token="END" startCol="71" leadChars="%0A%0A" refid="28" slot="kwe"/>
+ <Id idname="BankTypes" startCol="75" leadChars=" " refid="29" slot="endId"/>
+ <Sep token="." startCol="84" leadChars="" refid="30" slot="td"/>
+</Interface>

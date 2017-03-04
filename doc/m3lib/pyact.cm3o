@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<Capsule source="/home/mark/m3/doc/pyact.m3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <Id idname="pyact" startCol="8" leadChars=" " refid="3" slot="modname"/>
+ <Null refid="4" slot="kwi"/>
+ <Null refid="5" slot="implId"/>
+ <Sep token=";" startCol="14" leadChars=" " refid="6" slot="ts"/>
+ <ImportList refid="7" slot="imports">
+  <AsImport refid="8" slot="anon">
+   <KeyWord token="IMPORT" startCol="16" leadChars="%0A" refid="9" slot="kwi"/>
+   <AsImportList refid="10" slot="importList">
+    <ImportItem refid="11" slot="anon">
+     <Id idname="IO" startCol="23" leadChars=" " refid="12" slot="id"/>
+    </ImportItem>
+   </AsImportList>
+   <Sep token=";" startCol="25" leadChars="" refid="13" slot="ts"/>
+  </AsImport>
+ </ImportList>
+ <UseCapsuleList refid="14" slot="usedCapsules"/>
+ <CapsuleBlock refid="15" slot="block">
+  <DeclList refid="16" slot="decList">
+   <ActivityDecl refid="17" slot="anon">
+    <ActivityHead refid="18" slot="activityHead">
+     <KeyWord token="ACTIVITY" startCol="29" leadChars="%0A  " refid="19" slot="kwh"/>
+     <Id idname="act" startCol="38" leadChars=" " refid="20" slot="name"/>
+     <Signature refid="21" slot="signature">
+      <Tok token="(" startCol="42" leadChars=" " refid="22" slot="lbr"/>
+      <Formals refid="23" slot="formals"/>
+      <Tok token=")" startCol="43" leadChars="" refid="24" slot="rbr"/>
+      <Null refid="25" slot="col"/>
+      <Null refid="26" slot="tipe"/>
+      <Null refid="27" slot="kwr"/>
+      <Null refid="28" slot="raises"/>
+     </Signature>
+    </ActivityHead>
+    <Op token="=" startCol="45" leadChars=" " refid="29" slot="kweq"/>
+    <Block refid="30" slot="handlerBlock">
+     <DeclList refid="31" slot="decList"/>
+     <KeyWord token="BEGIN" startCol="50" leadChars=" %0A  " refid="32" slot="kwb"/>
+     <Statements refid="33" slot="statements">
+      <CallSt refid="34" slot="anon">
+       <Expr refid="35" slot="expr">
+        <SelectorExpr refid="36" slot="expr">
+         <TypeName refid="37" slot="expr">
+          <QualId refid="38" slot="qualId">
+           <Id idname="IO" startCol="62" leadChars=" %0A     " refid="39" slot="anon"/>
+           <Sep token="." startCol="64" leadChars="" refid="40" slot="anon"/>
+           <Id idname="Put" startCol="65" leadChars="" refid="41" slot="anon"/>
+          </QualId>
+         </TypeName>
+         <SelectorList refid="42" slot="selectorList">
+          <ProcCallSelector refid="43" slot="anon">
+           <Tok token="(" startCol="68" leadChars="" refid="44" slot="lbr"/>
+           <ActualList refid="45" slot="actualList">
+            <ActualExpr refid="46" slot="anon">
+             <Null refid="47" slot="id"/>
+             <Null refid="48" slot="ass"/>
+             <Expr refid="49" slot="expr">
+              <TextLiteral token='"act called\n"' startCol="69" leadChars="" refid="50" slot="expr"/>
+             </Expr>
+            </ActualExpr>
+           </ActualList>
+           <Tok token=")" startCol="83" leadChars="" refid="51" slot="rbr"/>
+          </ProcCallSelector>
+         </SelectorList>
+        </SelectorExpr>
+       </Expr>
+      </CallSt>
+      <Sep token=";" startCol="84" leadChars="" refid="52" slot="anon"/>
+     </Statements>
+     <KeyWord token="END" startCol="88" leadChars="%0A  " refid="53" slot="kwe"/>
+    </Block>
+    <Id idname="act" startCol="92" leadChars=" " refid="54" slot="endId"/>
+    <AfterClause refid="55" slot="after">
+     <Null refid="56" slot="kwa"/>
+     <Null refid="57" slot="afterExpr"/>
+    </AfterClause>
+    <Sep token=";" startCol="96" leadChars=" " refid="58" slot="ts"/>
+   </ActivityDecl>
+  </DeclList>
+  <Null refid="59" slot="connections"/>
+  <KeyWord token="BEGIN" startCol="98" leadChars="%0A" refid="60" slot="kwb"/>
+  <Statements refid="61" slot="statements"/>
+  <KeyWord token="END" startCol="105" leadChars="%0A%0A" refid="62" slot="kwe"/>
+ </CapsuleBlock>
+ <Id idname="pyact" startCol="109" leadChars=" " refid="63" slot="endId"/>
+ <Sep token="." startCol="114" leadChars="" refid="64" slot="td"/>
+</Capsule>

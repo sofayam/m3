@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Capsule source="/home/mark/m3/doc/C2.m3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <Id idname="C2" startCol="8" leadChars=" " refid="3" slot="modname"/>
+ <Null refid="4" slot="kwi"/>
+ <Null refid="5" slot="implId"/>
+ <Sep token=";" startCol="11" leadChars=" " refid="6" slot="ts"/>
+ <ImportList refid="7" slot="imports">
+  <AsImport refid="8" slot="anon">
+   <KeyWord token="IMPORT" startCol="13" leadChars="%0A" refid="9" slot="kwi"/>
+   <AsImportList refid="10" slot="importList">
+    <ImportItem refid="11" slot="anon">
+     <Id idname="Timer" startCol="20" leadChars=" " refid="12" slot="id"/>
+    </ImportItem>
+   </AsImportList>
+   <Sep token=";" startCol="25" leadChars="" refid="13" slot="ts"/>
+  </AsImport>
+ </ImportList>
+ <UseCapsuleList refid="14" slot="usedCapsules"/>
+ <CapsuleBlock refid="15" slot="block">
+  <DeclList refid="16" slot="decList">
+   <ActivityDecl refid="17" slot="anon">
+    <ActivityHead refid="18" slot="activityHead">
+     <KeyWord token="ACTIVITY" startCol="29" leadChars="%0A  " refid="19" slot="kwh"/>
+     <Id idname="c2act" startCol="38" leadChars=" " refid="20" slot="name"/>
+     <Signature refid="21" slot="signature">
+      <Tok token="(" startCol="44" leadChars=" " refid="22" slot="lbr"/>
+      <Formals refid="23" slot="formals"/>
+      <Tok token=")" startCol="45" leadChars="" refid="24" slot="rbr"/>
+      <Null refid="25" slot="col"/>
+      <Null refid="26" slot="tipe"/>
+      <Null refid="27" slot="kwr"/>
+      <Null refid="28" slot="raises"/>
+     </Signature>
+    </ActivityHead>
+    <Op token="=" startCol="47" leadChars=" " refid="29" slot="kweq"/>
+    <Block refid="30" slot="handlerBlock">
+     <DeclList refid="31" slot="decList"/>
+     <KeyWord token="BEGIN" startCol="52" leadChars=" %0A  " refid="32" slot="kwb"/>
+     <Statements refid="33" slot="statements">
+      <SendSt refid="34" slot="anon">
+       <KeyWord token="SEND" startCol="64" leadChars=" %0A     " refid="35" slot="kws"/>
+       <Expr refid="36" slot="expr">
+        <SelectorExpr refid="37" slot="expr">
+         <TypeName refid="38" slot="expr">
+          <QualId refid="39" slot="qualId">
+           <Id idname="messageFromC2" startCol="69" leadChars=" " refid="40" slot="anon"/>
+          </QualId>
+         </TypeName>
+         <SelectorList refid="41" slot="selectorList">
+          <ProcCallSelector refid="42" slot="anon">
+           <Tok token="(" startCol="82" leadChars="" refid="43" slot="lbr"/>
+           <ActualList refid="44" slot="actualList"/>
+           <Tok token=")" startCol="83" leadChars="" refid="45" slot="rbr"/>
+          </ProcCallSelector>
+         </SelectorList>
+        </SelectorExpr>
+       </Expr>
+       <AfterClause refid="46" slot="after">
+        <Null refid="47" slot="kwa"/>
+        <Null refid="48" slot="afterExpr"/>
+       </AfterClause>
+      </SendSt>
+      <Sep token=";" startCol="84" leadChars="" refid="49" slot="anon"/>
+     </Statements>
+     <KeyWord token="END" startCol="88" leadChars="%0A  " refid="50" slot="kwe"/>
+    </Block>
+    <Id idname="c2act" startCol="92" leadChars=" " refid="51" slot="endId"/>
+    <AfterClause refid="52" slot="after">
+     <Null refid="53" slot="kwa"/>
+     <Null refid="54" slot="afterExpr"/>
+    </AfterClause>
+    <Sep token=";" startCol="98" leadChars=" " refid="55" slot="ts"/>
+   </ActivityDecl>
+  </DeclList>
+  <Null refid="56" slot="connections"/>
+  <KeyWord token="BEGIN" startCol="100" leadChars="%0A" refid="57" slot="kwb"/>
+  <Statements refid="58" slot="statements"/>
+  <KeyWord token="END" startCol="107" leadChars="%0A%0A" refid="59" slot="kwe"/>
+ </CapsuleBlock>
+ <Id idname="C2" startCol="111" leadChars=" " refid="60" slot="endId"/>
+ <Sep token="." startCol="113" leadChars="" refid="61" slot="td"/>
+</Capsule>

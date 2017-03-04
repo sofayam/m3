@@ -1,0 +1,54 @@
+What does a line drawn from x to y mean ?
+							      
+.. where x and y are in the following table		      
+
+
++----------+-------+-----------+---------+------+-------+----------+----------+------+
+|TO:       |MESSAGE|ACTIVITY   |DATASTORE|TIMER |TRIGGER|TRANSITION|TRANSITION|STATE |
+|          |       |           |         |      |       |          |PROXY     |      |
++----------+-------+-----------+---------+------+-------+----------+----------+------+
+|FROM:     |       |           |         |      |       |          |          |      |
++----------+-------+-----------+---------+------+-------+----------+----------+------+
+|MESSAGE   |CMSG   |ILL(1)(5)  |ILL      |ILL(6)|ILL(6) |ILL(7)    |CMSG      |ILL   |
++----------+-------+-----------+---------+------+-------+----------+----------+------+
+|ACTIVITY  |SMSG   |SMSG(2)    |DAT      |DAT   |ILL    |ILL(7)    |SMSG      |ILL   |
++----------+-------+-----------+---------+------+-------+----------+----------+------+
+|DATASTORE |ILL    |DATA       |ILL      |ILL   |DAT    |DAT       |ILL       |ILL   |
++----------+-------+-----------+---------+------+-------+----------+----------+------+
+|TIMER     |CMSG   |CMSG/DAT(3)|ILL      |ILL   |ILL    |ILL(7)    |CMSG      |ILL   |
++----------+-------+-----------+---------+------+-------+----------+----------+------+
+|TRIGGER   |CMSG   |CMSG       |ILL      |ILL   |ILL    |ILL(7)    |CMSG      |ILL   |
++----------+-------+-----------+---------+------+-------+----------+----------+------+
+|TRANSITION|SMSG   |SMSG(2)    |DAT      |DAT   |ILL    |ILL       |SMSG      |TRA   |
++----------+-------+-----------+---------+------+-------+----------+----------+------+
+|TRANSITION|ILL    |ILL        |ILL      |ILL   |ILL    |ILL       |ILL       |ILL   |
+|PROXY     |       |           |         |      |       |          |          |      |
++----------+-------+-----------+---------+------+-------+----------+----------+------+
+|STATE     |ILL    |ILL        |ILL      |ILL   |ILL    |TRA       |ILL       |TRA(4)|
++----------+-------+-----------+---------+------+-------+----------+----------+------+
+
+   	      	 	    
+ILL : Illegal
+CMSG : Message connection, text uses CONNECT
+SMSG : Message connection, text uses SEND
+DAT : Data flow    			   	      	 	    
+TRA : Transition
+    			   	      	 	    
+Notes:	       		    			   	      	 	    
+(1) Activities are implicitly mapped to incoming messages of the same name.
+(2) Activities should (in a pure domain model) not send messages to other activities.
+Technically no problem
+(3) In the case of TIMER -> ACT we cannot know if the ACT is reading the timers current 
+value (dataflow) or receiving an elapsed signal (MSG)	      	 	    
+(4) Automatically creates an intervening transition when drawn
+(5) Case of child message connecting to activity is TBD
+(6) Timers and Triggers can only be controlled locally
+(7) Must use Transition Proxy
+
+							      	 	    
+							      	 
+							      	 
+							      	 
+							      	 
+								 
+								 

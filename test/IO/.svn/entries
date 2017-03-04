@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-06-28T12:22:13.203674Z"
+   url="svn://titch/m3/test/IO"
+   last-author="gfr2fr"
+   kind="dir"
+   uuid="5d76ada3-2bd0-0310-b486-ec14cee89a57"
+   repos="svn://titch"
+   prop-time="2006-09-08T19:32:48.000000Z"
+   revision="109"/>
+<entry
+   committed-rev="1"
+   name="libs.dat"
+   text-time="2006-09-08T19:32:48.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6e13f90f8f2291b639a7253f8e2b33d4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="AtomAtomTbl.m3"
+   text-time="2006-09-08T19:32:48.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0ed58c1a68e52084157379aa71149c84"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Word.i3"
+   text-time="2006-09-08T19:32:48.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="428b752fc0033e3a3acbfe87f6a015c3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="AtomList.i3"
+   text-time="2006-09-08T19:32:48.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5a1dd93ff07c7e1e47d5d676f46d14d1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="getalllibs.py"
+   text-time="2006-09-08T19:32:48.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2c5e47bfbed568f6ee810edf7075d957"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="AtomList.m3"
+   text-time="2006-09-08T19:32:48.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f746a8602f598736cd53b32ff29d3b54"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="AtomAtomTbl.i3"
+   text-time="2006-09-08T19:32:48.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7fd024c7ba2ccc993160175bd9654d9c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+</wc-entries>

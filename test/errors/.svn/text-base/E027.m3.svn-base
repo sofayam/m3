@@ -1,0 +1,8 @@
+MODULE E027;
+
+
+VAR i := MAX(1.0, 2); <*ERROR 027*>
+
+BEGIN
+  
+END E027.

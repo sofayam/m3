@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<Capsule source="/home/mark/m3/doc/SimplePar.m3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <Id idname="SimplePar" startCol="8" leadChars=" " refid="3" slot="modname"/>
+ <Null refid="4" slot="kwi"/>
+ <Null refid="5" slot="implId"/>
+ <Sep token=";" startCol="18" leadChars=" " refid="6" slot="ts"/>
+ <ImportList refid="7" slot="imports"/>
+ <UseCapsuleList refid="8" slot="usedCapsules"/>
+ <CapsuleBlock refid="9" slot="block">
+  <DeclList refid="10" slot="decList">
+   <ActivityDecl refid="11" slot="anon">
+    <ActivityHead refid="12" slot="activityHead">
+     <KeyWord token="ACTIVITY" startCol="23" leadChars="%0A  " refid="13" slot="kwh"/>
+     <Id idname="getBusy" startCol="32" leadChars=" " refid="14" slot="name"/>
+     <Signature refid="15" slot="signature">
+      <Tok token="(" startCol="40" leadChars=" " refid="16" slot="lbr"/>
+      <Formals refid="17" slot="formals"/>
+      <Tok token=")" startCol="41" leadChars="" refid="18" slot="rbr"/>
+      <Null refid="19" slot="col"/>
+      <Null refid="20" slot="tipe"/>
+      <Null refid="21" slot="kwr"/>
+      <Null refid="22" slot="raises"/>
+     </Signature>
+    </ActivityHead>
+    <Op token="=" startCol="43" leadChars=" " refid="23" slot="kweq"/>
+    <Block refid="24" slot="handlerBlock">
+     <DeclList refid="25" slot="decList"/>
+     <KeyWord token="BEGIN" startCol="49" leadChars=" %0A  " refid="26" slot="kwb"/>
+     <Statements refid="27" slot="statements">
+      <CallSt refid="28" slot="anon">
+       <Expr refid="29" slot="expr">
+        <SelectorExpr refid="30" slot="expr">
+         <TypeName refid="31" slot="expr">
+          <QualId refid="32" slot="qualId">
+           <Id idname="complex1" startCol="62" leadChars=" %0A     " refid="33" slot="anon"/>
+          </QualId>
+         </TypeName>
+         <SelectorList refid="34" slot="selectorList">
+          <ProcCallSelector refid="35" slot="anon">
+           <Tok token="(" startCol="70" leadChars="" refid="36" slot="lbr"/>
+           <ActualList refid="37" slot="actualList"/>
+           <Tok token=")" startCol="71" leadChars="" refid="38" slot="rbr"/>
+          </ProcCallSelector>
+         </SelectorList>
+        </SelectorExpr>
+       </Expr>
+      </CallSt>
+      <Sep token=";" startCol="72" leadChars="" refid="39" slot="anon"/>
+      <SendSt refid="40" slot="anon">
+       <KeyWord token="SEND" startCol="80" leadChars="%0A     " refid="41" slot="kws"/>
+       <Expr refid="42" slot="expr">
+        <SelectorExpr refid="43" slot="expr">
+         <TypeName refid="44" slot="expr">
+          <QualId refid="45" slot="qualId">
+           <Id idname="delegate" startCol="85" leadChars=" " refid="46" slot="anon"/>
+          </QualId>
+         </TypeName>
+         <SelectorList refid="47" slot="selectorList">
+          <ProcCallSelector refid="48" slot="anon">
+           <Tok token="(" startCol="93" leadChars="" refid="49" slot="lbr"/>
+           <ActualList refid="50" slot="actualList"/>
+           <Tok token=")" startCol="94" leadChars="" refid="51" slot="rbr"/>
+          </ProcCallSelector>
+         </SelectorList>
+        </SelectorExpr>
+       </Expr>
+       <AfterClause refid="52" slot="after">
+        <KeyWord token="AFTER" startCol="96" leadChars=" " refid="53" slot="kwa"/>
+        <Expr refid="54" slot="afterExpr">
+         <Number refid="55" slot="expr">
+          <Int intname="5" startCol="102" leadChars=" " refid="56" slot="intVal"/>
+          <Null refid="57" slot="td"/>
+          <Null refid="58" slot="numberRest"/>
+          <Id idname="s" startCol="104" leadChars=" " refid="59" slot="scaling"/>
+         </Number>
+        </Expr>
+       </AfterClause>
+      </SendSt>
+      <Sep token=";" startCol="105" leadChars="" refid="60" slot="anon"/>
+      <CallSt refid="61" slot="anon">
+       <Expr refid="62" slot="expr">
+        <SelectorExpr refid="63" slot="expr">
+         <TypeName refid="64" slot="expr">
+          <QualId refid="65" slot="qualId">
+           <Id idname="complex2" startCol="113" leadChars="%0A     " refid="66" slot="anon"/>
+          </QualId>
+         </TypeName>
+         <SelectorList refid="67" slot="selectorList">
+          <ProcCallSelector refid="68" slot="anon">
+           <Tok token="(" startCol="121" leadChars="" refid="69" slot="lbr"/>
+           <ActualList refid="70" slot="actualList"/>
+           <Tok token=")" startCol="122" leadChars="" refid="71" slot="rbr"/>
+          </ProcCallSelector>
+         </SelectorList>
+        </SelectorExpr>
+       </Expr>
+      </CallSt>
+     </Statements>
+     <KeyWord token="END" startCol="127" leadChars="%0A  " refid="72" slot="kwe"/>
+    </Block>
+    <Id idname="getBusy" startCol="131" leadChars=" " refid="73" slot="endId"/>
+    <AfterClause refid="74" slot="after">
+     <KeyWord token="AFTER" startCol="139" leadChars=" " refid="75" slot="kwa"/>
+     <Expr refid="76" slot="afterExpr">
+      <Number refid="77" slot="expr">
+       <Int intname="10" startCol="145" leadChars=" " refid="78" slot="intVal"/>
+       <Null refid="79" slot="td"/>
+       <Null refid="80" slot="numberRest"/>
+       <Id idname="s" startCol="148" leadChars=" " refid="81" slot="scaling"/>
+      </Number>
+     </Expr>
+    </AfterClause>
+    <Sep token=";" startCol="149" leadChars="" refid="82" slot="ts"/>
+   </ActivityDecl>
+   <ProcedureDecl refid="83" slot="anon">
+    <ProcedureHead refid="84" slot="procHead">
+     <KeyWord token="PROCEDURE" startCol="154" leadChars="%0A  " refid="85" slot="kwp"/>
+     <Id idname="complex1" startCol="164" leadChars=" " refid="86" slot="name"/>
+     <Signature refid="87" slot="signature">
+      <Tok token="(" startCol="173" leadChars=" " refid="88" slot="lbr"/>
+      <Formals refid="89" slot="formals"/>
+      <Tok token=")" startCol="174" leadChars="" refid="90" slot="rbr"/>
+      <Null refid="91" slot="col"/>
+      <Null refid="92" slot="tipe"/>
+      <Null refid="93" slot="kwr"/>
+      <Null refid="94" slot="raises"/>
+     </Signature>
+    </ProcedureHead>
+    <Op token="=" startCol="176" leadChars=" " refid="95" slot="kweq"/>
+    <Block refid="96" slot="procBlock">
+     <DeclList refid="97" slot="decList"/>
+     <KeyWord token="BEGIN" startCol="182" leadChars=" %0A  " refid="98" slot="kwb"/>
+     <Statements refid="99" slot="statements"/>
+     <KeyWord token="END" startCol="192" leadChars=" %0A  " refid="100" slot="kwe"/>
+    </Block>
+    <Id idname="complex1" startCol="196" leadChars=" " refid="101" slot="endId"/>
+    <Sep token=";" startCol="205" leadChars=" " refid="102" slot="ts"/>
+   </ProcedureDecl>
+   <ProcedureDecl refid="103" slot="anon">
+    <ProcedureHead refid="104" slot="procHead">
+     <KeyWord token="PROCEDURE" startCol="210" leadChars="%0A  " refid="105" slot="kwp"/>
+     <Id idname="complex2" startCol="220" leadChars=" " refid="106" slot="name"/>
+     <Signature refid="107" slot="signature">
+      <Tok token="(" startCol="229" leadChars=" " refid="108" slot="lbr"/>
+      <Formals refid="109" slot="formals"/>
+      <Tok token=")" startCol="230" leadChars="" refid="110" slot="rbr"/>
+      <Null refid="111" slot="col"/>
+      <Null refid="112" slot="tipe"/>
+      <Null refid="113" slot="kwr"/>
+      <Null refid="114" slot="raises"/>
+     </Signature>
+    </ProcedureHead>
+    <Op token="=" startCol="232" leadChars=" " refid="115" slot="kweq"/>
+    <Block refid="116" slot="procBlock">
+     <DeclList refid="117" slot="decList"/>
+     <KeyWord token="BEGIN" startCol="238" leadChars=" %0A  " refid="118" slot="kwb"/>
+     <Statements refid="119" slot="statements"/>
+     <KeyWord token="END" startCol="248" leadChars=" %0A  " refid="120" slot="kwe"/>
+    </Block>
+    <Id idname="complex2" startCol="252" leadChars=" " refid="121" slot="endId"/>
+    <Sep token=";" startCol="261" leadChars=" " refid="122" slot="ts"/>
+   </ProcedureDecl>
+  </DeclList>
+  <Null refid="123" slot="connections"/>
+  <KeyWord token="BEGIN" startCol="264" leadChars="%0A" refid="124" slot="kwb"/>
+  <Statements refid="125" slot="statements"/>
+  <KeyWord token="END" startCol="271" leadChars="%0A" refid="126" slot="kwe"/>
+ </CapsuleBlock>
+ <Id idname="SimplePar" startCol="275" leadChars=" " refid="127" slot="endId"/>
+ <Sep token="." startCol="284" leadChars="" refid="128" slot="td"/>
+</Capsule>

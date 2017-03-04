@@ -1,0 +1,11 @@
+MODULE E010;
+
+TYPE O  = OBJECT
+   i : INTEGER;
+END;
+VAR
+  oref1 := NEW(O,i := 1.0) ;<*ERROR 010*>
+
+BEGIN
+
+END E010.

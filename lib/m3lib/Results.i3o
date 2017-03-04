@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Interface source="/home/mark/m3/lib/Results.i3" refid="1" slot="anon">
+ <KeyWord token="INTERFACE" startCol="0" leadChars="" refid="2" slot="kwi"/>
+ <Id idname="Results" startCol="10" leadChars=" " refid="3" slot="modname"/>
+ <Sep token=";" startCol="17" leadChars="" refid="4" slot="ts"/>
+ <ImportList refid="5" slot="imports"/>
+ <InterfaceDeclList refid="6" slot="decls">
+  <ProcedureDecl refid="7" slot="anon">
+   <ProcedureHead refid="8" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="20" leadChars="%0A%0A" refid="9" slot="kwp"/>
+    <Id idname="Write" startCol="30" leadChars=" " refid="10" slot="name"/>
+    <Signature refid="11" slot="signature">
+     <Tok token="(" startCol="35" leadChars="" refid="12" slot="lbr"/>
+     <Formals refid="13" slot="formals">
+      <Formal refid="14" slot="anon">
+       <Null refid="15" slot="mode"/>
+       <IdList refid="16" slot="idList">
+        <Id idname="msg" startCol="36" leadChars="" refid="17" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="40" leadChars=" " refid="18" slot="col"/>
+       <TypeName refid="19" slot="tipe">
+        <QualId refid="20" slot="qualId">
+         <Id idname="TEXT" startCol="42" leadChars=" " refid="21" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Null refid="22" slot="ass"/>
+       <Null refid="23" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="46" leadChars="" refid="24" slot="rbr"/>
+     <Null refid="25" slot="col"/>
+     <Null refid="26" slot="tipe"/>
+     <Null refid="27" slot="kwr"/>
+     <Null refid="28" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="29" slot="kweq"/>
+   <Null refid="30" slot="procBlock"/>
+   <Null refid="31" slot="endId"/>
+   <Sep token=";" startCol="47" leadChars="" refid="32" slot="ts"/>
+  </ProcedureDecl>
+  <ProcedureDecl refid="33" slot="anon">
+   <ProcedureHead refid="34" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="103" leadChars="   %0A(* Write msg to results file and protocol file *)%0A%0A" refid="35" slot="kwp"/>
+    <Id idname="WriteProtocol" startCol="113" leadChars=" " refid="36" slot="name"/>
+    <Signature refid="37" slot="signature">
+     <Tok token="(" startCol="126" leadChars="" refid="38" slot="lbr"/>
+     <Formals refid="39" slot="formals">
+      <Formal refid="40" slot="anon">
+       <Null refid="41" slot="mode"/>
+       <IdList refid="42" slot="idList">
+        <Id idname="msg" startCol="127" leadChars="" refid="43" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="131" leadChars=" " refid="44" slot="col"/>
+       <TypeName refid="45" slot="tipe">
+        <QualId refid="46" slot="qualId">
+         <Id idname="TEXT" startCol="133" leadChars=" " refid="47" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Null refid="48" slot="ass"/>
+       <Null refid="49" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="137" leadChars="" refid="50" slot="rbr"/>
+     <Null refid="51" slot="col"/>
+     <Null refid="52" slot="tipe"/>
+     <Null refid="53" slot="kwr"/>
+     <Null refid="54" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="55" slot="kweq"/>
+   <Null refid="56" slot="procBlock"/>
+   <Null refid="57" slot="endId"/>
+   <Sep token=";" startCol="138" leadChars="" refid="58" slot="ts"/>
+  </ProcedureDecl>
+ </InterfaceDeclList>
+ <KeyWord token="END" startCol="179" leadChars="%0A(* Write msg to protocol file only *)%0A%0A" refid="59" slot="kwe"/>
+ <Id idname="Results" startCol="183" leadChars=" " refid="60" slot="endId"/>
+ <Sep token="." startCol="190" leadChars="" refid="61" slot="td"/>
+</Interface>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<CapsuleInterface source="/home/mark/m3/doc/SimplePar.i3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <KeyWord token="INTERFACE" startCol="8" leadChars=" " refid="3" slot="kwi"/>
+ <Id idname="SimplePar" startCol="18" leadChars=" " refid="4" slot="modname"/>
+ <Sep token=";" startCol="28" leadChars=" " refid="5" slot="ts"/>
+ <ImportList refid="6" slot="imports"/>
+ <PortList refid="7" slot="portList">
+  <Port refid="8" slot="anon">
+   <KeyWord token="PORT" startCol="31" leadChars="%0A" refid="9" slot="kwp"/>
+   <Id idname="p1" startCol="36" leadChars=" " refid="10" slot="id"/>
+   <Tok token=":" startCol="39" leadChars=" " refid="11" slot="col"/>
+   <Protocol refid="12" slot="protocol">
+    <KeyWord token="PROTOCOL" startCol="41" leadChars=" " refid="13" slot="kwp"/>
+    <MessageGroupList refid="14" slot="mgl">
+     <MessageGroup refid="15" slot="anon">
+      <Null refid="16" slot="kwsyn"/>
+      <KeyWord token="INCOMING" startCol="52" leadChars="%0A " refid="17" slot="kwdir"/>
+      <MessageList refid="18" slot="msgList">
+       <Message refid="19" slot="anon">
+        <KeyWord token="MESSAGE" startCol="61" leadChars=" " refid="20" slot="kwm"/>
+        <Id idname="getBusy" startCol="69" leadChars=" " refid="21" slot="name"/>
+        <Signature refid="22" slot="signature">
+         <Tok token="(" startCol="76" leadChars="" refid="23" slot="lbr"/>
+         <Formals refid="24" slot="formals"/>
+         <Tok token=")" startCol="77" leadChars="" refid="25" slot="rbr"/>
+         <Null refid="26" slot="col"/>
+         <Null refid="27" slot="tipe"/>
+         <Null refid="28" slot="kwr"/>
+         <Null refid="29" slot="raises"/>
+        </Signature>
+       </Message>
+       <Sep token=";" startCol="79" leadChars=" " refid="30" slot="anon"/>
+      </MessageList>
+     </MessageGroup>
+     <MessageGroup refid="31" slot="anon">
+      <Null refid="32" slot="kwsyn"/>
+      <KeyWord token="OUTGOING" startCol="83" leadChars="%0A " refid="33" slot="kwdir"/>
+      <MessageList refid="34" slot="msgList">
+       <Message refid="35" slot="anon">
+        <KeyWord token="MESSAGE" startCol="92" leadChars=" " refid="36" slot="kwm"/>
+        <Id idname="delegate" startCol="100" leadChars=" " refid="37" slot="name"/>
+        <Signature refid="38" slot="signature">
+         <Tok token="(" startCol="108" leadChars="" refid="39" slot="lbr"/>
+         <Formals refid="40" slot="formals"/>
+         <Tok token=")" startCol="109" leadChars="" refid="41" slot="rbr"/>
+         <Null refid="42" slot="col"/>
+         <Null refid="43" slot="tipe"/>
+         <Null refid="44" slot="kwr"/>
+         <Null refid="45" slot="raises"/>
+        </Signature>
+       </Message>
+       <Sep token=";" startCol="111" leadChars=" " refid="46" slot="anon"/>
+      </MessageList>
+     </MessageGroup>
+    </MessageGroupList>
+    <KeyWord token="END" startCol="114" leadChars="%0A" refid="47" slot="kwe"/>
+   </Protocol>
+  </Port>
+  <Sep token=";" startCol="117" leadChars="" refid="48" slot="anon"/>
+ </PortList>
+ <KeyWord token="END" startCol="120" leadChars="%0A" refid="49" slot="kwe"/>
+ <Id idname="SimplePar" startCol="124" leadChars=" " refid="50" slot="endId"/>
+ <Sep token="." startCol="133" leadChars="" refid="51" slot="td"/>
+</CapsuleInterface>

@@ -1,0 +1,5 @@
+CAPSULE ConjC2 ;
+IMPORT Timer;
+BEGIN
+
+END ConjC2.

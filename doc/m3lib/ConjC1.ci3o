@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<CapsuleInterface source="/home/mark/m3/doc/ConjC1.i3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <KeyWord token="INTERFACE" startCol="8" leadChars=" " refid="3" slot="kwi"/>
+ <Id idname="ConjC1" startCol="18" leadChars=" " refid="4" slot="modname"/>
+ <Sep token=";" startCol="25" leadChars=" " refid="5" slot="ts"/>
+ <ImportList refid="6" slot="imports">
+  <AsImport refid="7" slot="anon">
+   <KeyWord token="IMPORT" startCol="27" leadChars="%0A" refid="8" slot="kwi"/>
+   <AsImportList refid="9" slot="importList">
+    <RenamedImportItem refid="10" slot="anon">
+     <Id idname="ConjTypes" startCol="34" leadChars=" " refid="11" slot="origId"/>
+     <KeyWord token="AS" startCol="44" leadChars=" " refid="12" slot="kwa"/>
+     <Id idname="CT" startCol="47" leadChars=" " refid="13" slot="newId"/>
+    </RenamedImportItem>
+   </AsImportList>
+   <Sep token=";" startCol="49" leadChars="" refid="14" slot="ts"/>
+  </AsImport>
+ </ImportList>
+ <PortList refid="15" slot="portList">
+  <Port refid="16" slot="anon">
+   <KeyWord token="PORT" startCol="51" leadChars="%0A" refid="17" slot="kwp"/>
+   <Id idname="p1" startCol="56" leadChars=" " refid="18" slot="id"/>
+   <Tok token=":" startCol="59" leadChars=" " refid="19" slot="col"/>
+   <TypeName refid="20" slot="protocol">
+    <QualId refid="21" slot="qualId">
+     <Id idname="CT" startCol="61" leadChars=" " refid="22" slot="anon"/>
+     <Sep token="." startCol="63" leadChars="" refid="23" slot="anon"/>
+     <Id idname="aInbOut" startCol="64" leadChars="" refid="24" slot="anon"/>
+    </QualId>
+   </TypeName>
+  </Port>
+  <Sep token=";" startCol="72" leadChars=" " refid="25" slot="anon"/>
+ </PortList>
+ <KeyWord token="END" startCol="75" leadChars=" %0A" refid="26" slot="kwe"/>
+ <Id idname="ConjC1" startCol="79" leadChars=" " refid="27" slot="endId"/>
+ <Sep token="." startCol="85" leadChars="" refid="28" slot="td"/>
+</CapsuleInterface>

@@ -1,0 +1,14 @@
+
+CAPSULE CapRTC22 ;
+  USECAPSULE CapRTC221 ;
+  USECAPSULE CapRTC222 ;
+  VAR capRTC221 : CapRTC221 ;
+  VAR capRTC222 : CapRTC222 ;
+  CONNECT
+    capRTC221.p2 <=> capRTC222.p2;
+    p1 <=> capRTC221.p1;
+    p1 <=> capRTC222.p1;
+
+BEGIN
+
+END CapRTC22.

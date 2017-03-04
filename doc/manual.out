@@ -1,0 +1,129 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}
+\BOOKMARK [1][-]{section.2}{A Gentle Introduction to the Main Features}{}
+\BOOKMARK [2][-]{subsection.2.1}{Our First Capsule}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.1.1}{So What Does It Do?}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.2}{A Graphical Equivalent}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Executing the Model}{subsection.2.1}
+\BOOKMARK [2][-]{subsection.2.2}{Nesting and Instantiation of Capsules}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.2.1}{A Second Component for the Bank}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.2}{ATM at a glance}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.3}{... and some more Testing}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Building the Bank}{subsection.2.2}
+\BOOKMARK [2][-]{subsection.2.3}{State Machines}{section.2}
+\BOOKMARK [2][-]{subsection.2.4}{Timers}{section.2}
+\BOOKMARK [2][-]{subsection.2.5}{Excursion: Time Granularity, a Smaller Interval and an Internal Message}{section.2}
+\BOOKMARK [2][-]{subsection.2.6}{Triggers}{section.2}
+\BOOKMARK [2][-]{subsection.2.7}{How Triggers Work}{section.2}
+\BOOKMARK [1][-]{section.3}{Language Elements}{}
+\BOOKMARK [2][-]{subsection.3.1}{New Compilation Entities}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Capsule Interface}{subsection.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Ports, Protocols and Messages}{subsection.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Operations on Protocol Types : Conjugation and Aggregation}{subsection.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Capsules}{subsection.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.5}{Message Routing}{subsection.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.6}{Capsules, Types and Modules, similarities and differences}{subsection.3.1}
+\BOOKMARK [3][-]{subsubsection.3.1.7}{Specifying and Using Alternative Capsule Implementations}{subsection.3.1}
+\BOOKMARK [2][-]{subsection.3.2}{Types and Declarations}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Intentions}{section.3}
+\BOOKMARK [2][-]{subsection.3.4}{Activities}{section.3}
+\BOOKMARK [2][-]{subsection.3.5}{Datastores}{section.3}
+\BOOKMARK [2][-]{subsection.3.6}{States and Transitions}{section.3}
+\BOOKMARK [2][-]{subsection.3.7}{The SEND, CALL and REPLY Statements}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.7.1}{Callbacks using REPLY}{subsection.3.7}
+\BOOKMARK [2][-]{subsection.3.8}{Triggers}{section.3}
+\BOOKMARK [2][-]{subsection.3.9}{Timers}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.9.1}{Timer Resolution}{subsection.3.9}
+\BOOKMARK [3][-]{subsubsection.3.9.2}{Library Functions}{subsection.3.9}
+\BOOKMARK [2][-]{subsection.3.10}{The RESET Statement}{section.3}
+\BOOKMARK [2][-]{subsection.3.11}{Additions to the core language}{section.3}
+\BOOKMARK [3][-]{subsubsection.3.11.1}{Predefined Exceptions}{subsection.3.11}
+\BOOKMARK [3][-]{subsubsection.3.11.2}{Assertions}{subsection.3.11}
+\BOOKMARK [3][-]{subsubsection.3.11.3}{Scaled types}{subsection.3.11}
+\BOOKMARK [3][-]{subsubsection.3.11.4}{Modeling Container Types and Iteration}{subsection.3.11}
+\BOOKMARK [3][-]{subsubsection.3.11.5}{LIST}{subsection.3.11}
+\BOOKMARK [3][-]{subsubsection.3.11.6}{DICT}{subsection.3.11}
+\BOOKMARK [3][-]{subsubsection.3.11.7}{Iteration using FOREACH}{subsection.3.11}
+\BOOKMARK [3][-]{subsubsection.3.11.8}{Variant Records}{subsection.3.11}
+\BOOKMARK [3][-]{subsubsection.3.11.9}{IMAGE}{subsection.3.11}
+\BOOKMARK [3][-]{subsubsection.3.11.10}{PYTHON}{subsection.3.11}
+\BOOKMARK [2][-]{subsection.3.12}{Un\(der\)implemented Features of Modula-3}{section.3}
+\BOOKMARK [1][-]{section.4}{The Capsule Editor}{}
+\BOOKMARK [2][-]{subsection.4.1}{Windows used by the capsule editor}{section.4}
+\BOOKMARK [2][-]{subsection.4.2}{Graphical Editing}{section.4}
+\BOOKMARK [2][-]{subsection.4.3}{Editing Modes}{section.4}
+\BOOKMARK [2][-]{subsection.4.4}{Working with source}{section.4}
+\BOOKMARK [2][-]{subsection.4.5}{Emacs integration}{section.4}
+\BOOKMARK [2][-]{subsection.4.6}{Compilation}{section.4}
+\BOOKMARK [2][-]{subsection.4.7}{Graphical Debugging}{section.4}
+\BOOKMARK [1][-]{section.5}{Tool Invocation}{}
+\BOOKMARK [2][-]{subsection.5.1}{m3 - the Compiler}{section.5}
+\BOOKMARK [2][-]{subsection.5.2}{ce - the Capsule Editor}{section.5}
+\BOOKMARK [2][-]{subsection.5.3}{runcap - the Capsule Launcher}{section.5}
+\BOOKMARK [1][-]{section.6}{RTS and Testing Issues}{}
+\BOOKMARK [2][-]{subsection.6.1}{Toolset Dataflow Overview}{section.6}
+\BOOKMARK [2][-]{subsection.6.2}{The Input File Sublanguage}{section.6}
+\BOOKMARK [3][-]{subsubsection.6.2.1}{Lexical issues}{subsection.6.2}
+\BOOKMARK [3][-]{subsubsection.6.2.2}{Syntax}{subsection.6.2}
+\BOOKMARK [3][-]{subsubsection.6.2.3}{Message Input}{subsection.6.2}
+\BOOKMARK [3][-]{subsubsection.6.2.4}{Simulating Time Elapse}{subsection.6.2}
+\BOOKMARK [3][-]{subsubsection.6.2.5}{Dataports and TestValue Commands }{subsection.6.2}
+\BOOKMARK [3][-]{subsubsection.6.2.6}{Using Macros}{subsection.6.2}
+\BOOKMARK [2][-]{subsection.6.3}{Input, Result and Protocol Files}{section.6}
+\BOOKMARK [2][-]{subsection.6.4}{Feedback Testing : Advanced Input Files}{section.6}
+\BOOKMARK [3][-]{subsubsection.6.4.1}{Expected Values}{subsection.6.4}
+\BOOKMARK [3][-]{subsubsection.6.4.2}{Expected Times}{subsection.6.4}
+\BOOKMARK [2][-]{subsection.6.5}{Debugging}{section.6}
+\BOOKMARK [1][-]{section.7}{Simulation Concepts}{}
+\BOOKMARK [2][-]{subsection.7.1}{Time}{section.7}
+\BOOKMARK [2][-]{subsection.7.2}{Run To Completion}{section.7}
+\BOOKMARK [1][-]{section.8}{Parallelism, System Architecture and Deployment}{}
+\BOOKMARK [2][-]{subsection.8.1}{Time weighted execution}{section.8}
+\BOOKMARK [2][-]{subsection.8.2}{A Single Processor Example}{section.8}
+\BOOKMARK [2][-]{subsection.8.3}{Multiple Processors}{section.8}
+\BOOKMARK [2][-]{subsection.8.4}{Defining System Architecture}{section.8}
+\BOOKMARK [2][-]{subsection.8.5}{System Mapping}{section.8}
+\BOOKMARK [2][-]{subsection.8.6}{Restrictions}{section.8}
+\BOOKMARK [1][-]{section.9}{The Library}{}
+\BOOKMARK [2][-]{subsection.9.1}{Results}{section.9}
+\BOOKMARK [2][-]{subsection.9.2}{Timer}{section.9}
+\BOOKMARK [2][-]{subsection.9.3}{IO}{section.9}
+\BOOKMARK [2][-]{subsection.9.4}{Fmt}{section.9}
+\BOOKMARK [2][-]{subsection.9.5}{Text}{section.9}
+\BOOKMARK [1][-]{section.10}{C Code Generation \(highly experimental\)}{}
+\BOOKMARK [2][-]{subsection.10.1}{Invocation}{section.10}
+\BOOKMARK [2][-]{subsection.10.2}{Mappings}{section.10}
+\BOOKMARK [3][-]{subsubsection.10.2.1}{Modules}{subsection.10.2}
+\BOOKMARK [3][-]{subsubsection.10.2.2}{Types}{subsection.10.2}
+\BOOKMARK [3][-]{subsubsection.10.2.3}{Parameters}{subsection.10.2}
+\BOOKMARK [2][-]{subsection.10.3}{Restrictions \(permanent\)}{section.10}
+\BOOKMARK [2][-]{subsection.10.4}{Restrictions \(hopefully temporary\)}{section.10}
+\BOOKMARK [2][-]{subsection.10.5}{The C Run Time System}{section.10}
+\BOOKMARK [1][-]{section.A}{Installation}{}
+\BOOKMARK [2][-]{subsection.A.1}{Prerequisites}{section.A}
+\BOOKMARK [2][-]{subsection.A.2}{Environment variables}{section.A}
+\BOOKMARK [2][-]{subsection.A.3}{Check that everything is working}{section.A}
+\BOOKMARK [1][-]{section.B}{Complete Syntax Summary}{}
+\BOOKMARK [1][-]{section.C}{Interfacing to the Generated Code}{}
+\BOOKMARK [2][-]{subsection.C.1}{Implementing Modules in Python}{section.C}
+\BOOKMARK [2][-]{subsection.C.2}{Example}{section.C}
+\BOOKMARK [2][-]{subsection.C.3}{Modula-3 Type and Object Representation}{section.C}
+\BOOKMARK [1][-]{section.D}{Accessing the RTS from Python}{}
+\BOOKMARK [2][-]{subsection.D.1}{Installation}{section.D}
+\BOOKMARK [2][-]{subsection.D.2}{Capsules}{section.D}
+\BOOKMARK [3][-]{subsubsection.D.2.1}{Example}{subsection.D.2}
+\BOOKMARK [3][-]{subsubsection.D.2.2}{Running the Capsule}{subsection.D.2}
+\BOOKMARK [2][-]{subsection.D.3}{Activities}{section.D}
+\BOOKMARK [2][-]{subsection.D.4}{Timers}{section.D}
+\BOOKMARK [3][-]{subsubsection.D.4.1}{Example}{subsection.D.4}
+\BOOKMARK [3][-]{subsubsection.D.4.2}{Timer Definition}{subsection.D.4}
+\BOOKMARK [3][-]{subsubsection.D.4.3}{Timer Functions}{subsection.D.4}
+\BOOKMARK [2][-]{subsection.D.5}{Making Connections with connect}{section.D}
+\BOOKMARK [2][-]{subsection.D.6}{Message Dispatch with send}{section.D}
+\BOOKMARK [2][-]{subsection.D.7}{Nested Capsules}{section.D}
+\BOOKMARK [2][-]{subsection.D.8}{More about Connections}{section.D}
+\BOOKMARK [2][-]{subsection.D.9}{Triggers}{section.D}
+\BOOKMARK [3][-]{subsubsection.D.9.1}{Example}{subsection.D.9}
+\BOOKMARK [3][-]{subsubsection.D.9.2}{Defining a Trigger}{subsection.D.9}
+\BOOKMARK [2][-]{subsection.D.10}{Testing and type conversion}{section.D}
+\BOOKMARK [1][-]{section.E}{Comparison with ASCET}{}
+\BOOKMARK [1][-]{section.F}{Quo Vadis?}{}

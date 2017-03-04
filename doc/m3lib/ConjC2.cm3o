@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Capsule source="/home/mark/m3/doc/ConjC2.m3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <Id idname="ConjC2" startCol="8" leadChars=" " refid="3" slot="modname"/>
+ <Null refid="4" slot="kwi"/>
+ <Null refid="5" slot="implId"/>
+ <Sep token=";" startCol="15" leadChars=" " refid="6" slot="ts"/>
+ <ImportList refid="7" slot="imports">
+  <AsImport refid="8" slot="anon">
+   <KeyWord token="IMPORT" startCol="17" leadChars="%0A" refid="9" slot="kwi"/>
+   <AsImportList refid="10" slot="importList">
+    <ImportItem refid="11" slot="anon">
+     <Id idname="Timer" startCol="24" leadChars=" " refid="12" slot="id"/>
+    </ImportItem>
+   </AsImportList>
+   <Sep token=";" startCol="29" leadChars="" refid="13" slot="ts"/>
+  </AsImport>
+ </ImportList>
+ <UseCapsuleList refid="14" slot="usedCapsules"/>
+ <CapsuleBlock refid="15" slot="block">
+  <DeclList refid="16" slot="decList"/>
+  <Null refid="17" slot="connections"/>
+  <KeyWord token="BEGIN" startCol="31" leadChars="%0A" refid="18" slot="kwb"/>
+  <Statements refid="19" slot="statements"/>
+  <KeyWord token="END" startCol="38" leadChars="%0A%0A" refid="20" slot="kwe"/>
+ </CapsuleBlock>
+ <Id idname="ConjC2" startCol="42" leadChars=" " refid="21" slot="endId"/>
+ <Sep token="." startCol="48" leadChars="" refid="22" slot="td"/>
+</Capsule>

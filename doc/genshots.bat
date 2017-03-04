@@ -1,0 +1,14 @@
+call ce Account --screenshot -G
+call ce ATM --screenshot -G
+call ce Bank --screenshot -G
+call ce ATMState --screenshot -G
+call ce Interest --screenshot -G
+call ce BankInterest --screenshot -G
+call ce ATMTimeout --screenshot -G
+call ce ATMSafe --screenshot -G
+call ce ParTop --screenshot -G
+call ce C1 --screenshot -G
+call ce ConjParent --screenshot -G
+call ce pytimer --screenshot -G
+call ce pytrigger --screenshot -G
+call ce pyact --screenshot -G

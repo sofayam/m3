@@ -1,0 +1,3 @@
+> insertCard card = {encodedPIN: 1234}
+> inputPIN pin = 1233
+> inputSum sum = 1000

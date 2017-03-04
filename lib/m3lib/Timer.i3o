@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<Interface source="/home/mark/m3/lib/Timer.i3" refid="1" slot="anon">
+ <KeyWord token="INTERFACE" startCol="0" leadChars="" refid="2" slot="kwi"/>
+ <Id idname="Timer" startCol="10" leadChars=" " refid="3" slot="modname"/>
+ <Sep token=";" startCol="15" leadChars="" refid="4" slot="ts"/>
+ <ImportList refid="5" slot="imports"/>
+ <InterfaceDeclList refid="6" slot="decls">
+  <TypeDecls refid="7" slot="anon">
+   <KeyWord token="TYPE" startCol="22" leadChars="%0A%0A%0A" refid="8" slot="kwt"/>
+   <TypeDeclsList refid="9" slot="typeList">
+    <TypeDecl refid="10" slot="anon">
+     <Id idname="Time" startCol="27" leadChars=" " refid="11" slot="id"/>
+     <Op token="=" startCol="32" leadChars=" " refid="12" slot="sign"/>
+     <ScaledType refid="13" slot="tipe">
+      <KeyWord token="SCALED" startCol="34" leadChars=" " refid="14" slot="kws"/>
+      <TypeName refid="15" slot="tn">
+       <QualId refid="16" slot="qualId">
+        <Id idname="INTEGER" startCol="41" leadChars=" " refid="17" slot="anon"/>
+       </QualId>
+      </TypeName>
+      <Tok token="{" startCol="49" leadChars=" " refid="18" slot="lsq"/>
+      <Id idname="ps" startCol="50" leadChars="" refid="19" slot="unit"/>
+      <ScaleList refid="20" slot="scaleList">
+       <ScaleElt refid="21" slot="anon">
+        <Op token="*" startCol="53" leadChars=" " refid="22" slot="tc1"/>
+        <Number refid="23" slot="n">
+         <Int intname="1000" startCol="55" leadChars=" " refid="24" slot="intVal"/>
+         <Null refid="25" slot="td"/>
+         <Null refid="26" slot="numberRest"/>
+         <Null refid="27" slot="scaling"/>
+        </Number>
+        <Op token="=" startCol="60" leadChars=" " refid="28" slot="tc2"/>
+        <Id idname="ns" startCol="62" leadChars=" " refid="29" slot="i"/>
+       </ScaleElt>
+       <ScaleElt refid="30" slot="anon">
+        <Op token="*" startCol="66" leadChars="  " refid="31" slot="tc1"/>
+        <Number refid="32" slot="n">
+         <Int intname="1000" startCol="68" leadChars=" " refid="33" slot="intVal"/>
+         <Null refid="34" slot="td"/>
+         <Null refid="35" slot="numberRest"/>
+         <Null refid="36" slot="scaling"/>
+        </Number>
+        <Op token="=" startCol="73" leadChars=" " refid="37" slot="tc2"/>
+        <Id idname="us" startCol="75" leadChars=" " refid="38" slot="i"/>
+       </ScaleElt>
+       <ScaleElt refid="39" slot="anon">
+        <Op token="*" startCol="111" leadChars=" %0A                               " refid="40" slot="tc1"/>
+        <Number refid="41" slot="n">
+         <Int intname="1000" startCol="113" leadChars=" " refid="42" slot="intVal"/>
+         <Null refid="43" slot="td"/>
+         <Null refid="44" slot="numberRest"/>
+         <Null refid="45" slot="scaling"/>
+        </Number>
+        <Op token="=" startCol="118" leadChars=" " refid="46" slot="tc2"/>
+        <Id idname="ms" startCol="120" leadChars=" " refid="47" slot="i"/>
+       </ScaleElt>
+       <ScaleElt refid="48" slot="anon">
+        <Op token="*" startCol="124" leadChars="  " refid="49" slot="tc1"/>
+        <Number refid="50" slot="n">
+         <Int intname="1000" startCol="126" leadChars=" " refid="51" slot="intVal"/>
+         <Null refid="52" slot="td"/>
+         <Null refid="53" slot="numberRest"/>
+         <Null refid="54" slot="scaling"/>
+        </Number>
+        <Op token="=" startCol="131" leadChars=" " refid="55" slot="tc2"/>
+        <Id idname="s" startCol="133" leadChars=" " refid="56" slot="i"/>
+       </ScaleElt>
+       <ScaleElt refid="57" slot="anon">
+        <Op token="*" startCol="168" leadChars=" %0A                               " refid="58" slot="tc1"/>
+        <Number refid="59" slot="n">
+         <Int intname="60" startCol="170" leadChars=" " refid="60" slot="intVal"/>
+         <Null refid="61" slot="td"/>
+         <Null refid="62" slot="numberRest"/>
+         <Null refid="63" slot="scaling"/>
+        </Number>
+        <Op token="=" startCol="175" leadChars="   " refid="64" slot="tc2"/>
+        <Id idname="min" startCol="177" leadChars=" " refid="65" slot="i"/>
+       </ScaleElt>
+       <ScaleElt refid="66" slot="anon">
+        <Op token="*" startCol="181" leadChars=" " refid="67" slot="tc1"/>
+        <Number refid="68" slot="n">
+         <Int intname="60" startCol="183" leadChars=" " refid="69" slot="intVal"/>
+         <Null refid="70" slot="td"/>
+         <Null refid="71" slot="numberRest"/>
+         <Null refid="72" slot="scaling"/>
+        </Number>
+        <Op token="=" startCol="188" leadChars="   " refid="73" slot="tc2"/>
+        <Id idname="hour" startCol="190" leadChars=" " refid="74" slot="i"/>
+       </ScaleElt>
+       <ScaleElt refid="75" slot="anon">
+        <Op token="*" startCol="228" leadChars=" %0A                               " refid="76" slot="tc1"/>
+        <Number refid="77" slot="n">
+         <Int intname="24" startCol="230" leadChars=" " refid="78" slot="intVal"/>
+         <Null refid="79" slot="td"/>
+         <Null refid="80" slot="numberRest"/>
+         <Null refid="81" slot="scaling"/>
+        </Number>
+        <Op token="=" startCol="235" leadChars="   " refid="82" slot="tc2"/>
+        <Id idname="day" startCol="237" leadChars=" " refid="83" slot="i"/>
+       </ScaleElt>
+       <ScaleElt refid="84" slot="anon">
+        <Op token="*" startCol="241" leadChars=" " refid="85" slot="tc1"/>
+        <Number refid="86" slot="n">
+         <Int intname="365" startCol="243" leadChars=" " refid="87" slot="intVal"/>
+         <Null refid="88" slot="td"/>
+         <Null refid="89" slot="numberRest"/>
+         <Null refid="90" slot="scaling"/>
+        </Number>
+        <Op token="=" startCol="248" leadChars="  " refid="91" slot="tc2"/>
+        <Id idname="year" startCol="250" leadChars=" " refid="92" slot="i"/>
+       </ScaleElt>
+      </ScaleList>
+      <Tok token="}" startCol="254" leadChars="" refid="93" slot="rsq"/>
+     </ScaledType>
+    </TypeDecl>
+    <Sep token=";" startCol="255" leadChars="" refid="94" slot="anon"/>
+   </TypeDeclsList>
+  </TypeDecls>
+  <ProcedureDecl refid="95" slot="anon">
+   <ProcedureHead refid="96" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="260" leadChars="%0A%0A" refid="97" slot="kwp"/>
+    <Id idname="Start" startCol="270" leadChars=" " refid="98" slot="name"/>
+    <Signature refid="99" slot="signature">
+     <Tok token="(" startCol="275" leadChars="" refid="100" slot="lbr"/>
+     <Formals refid="101" slot="formals">
+      <Formal refid="102" slot="anon">
+       <KeyWord token="VAR" startCol="276" leadChars="" refid="103" slot="mode"/>
+       <IdList refid="104" slot="idList">
+        <Id idname="T" startCol="280" leadChars=" " refid="105" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="282" leadChars=" " refid="106" slot="col"/>
+       <Timer refid="107" slot="tipe">
+        <Null refid="108" slot="periodicity"/>
+        <Null refid="109" slot="variability"/>
+        <KeyWord token="TIMER" startCol="284" leadChars=" " refid="110" slot="kwt"/>
+        <Null refid="111" slot="kwd"/>
+        <Null refid="112" slot="delayExpr"/>
+       </Timer>
+       <Null refid="113" slot="ass"/>
+       <Null refid="114" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="289" leadChars="" refid="115" slot="rbr"/>
+     <Null refid="116" slot="col"/>
+     <Null refid="117" slot="tipe"/>
+     <Null refid="118" slot="kwr"/>
+     <Null refid="119" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="120" slot="kweq"/>
+   <Null refid="121" slot="procBlock"/>
+   <Null refid="122" slot="endId"/>
+   <Sep token=";" startCol="290" leadChars="" refid="123" slot="ts"/>
+  </ProcedureDecl>
+  <ProcedureDecl refid="124" slot="anon">
+   <ProcedureHead refid="125" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="293" leadChars="%0A" refid="126" slot="kwp"/>
+    <Id idname="Stop" startCol="303" leadChars=" " refid="127" slot="name"/>
+    <Signature refid="128" slot="signature">
+     <Tok token="(" startCol="307" leadChars="" refid="129" slot="lbr"/>
+     <Formals refid="130" slot="formals">
+      <Formal refid="131" slot="anon">
+       <KeyWord token="VAR" startCol="308" leadChars="" refid="132" slot="mode"/>
+       <IdList refid="133" slot="idList">
+        <Id idname="T" startCol="312" leadChars=" " refid="134" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="314" leadChars=" " refid="135" slot="col"/>
+       <Timer refid="136" slot="tipe">
+        <Null refid="137" slot="periodicity"/>
+        <Null refid="138" slot="variability"/>
+        <KeyWord token="TIMER" startCol="316" leadChars=" " refid="139" slot="kwt"/>
+        <Null refid="140" slot="kwd"/>
+        <Null refid="141" slot="delayExpr"/>
+       </Timer>
+       <Null refid="142" slot="ass"/>
+       <Null refid="143" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="321" leadChars="" refid="144" slot="rbr"/>
+     <Null refid="145" slot="col"/>
+     <Null refid="146" slot="tipe"/>
+     <Null refid="147" slot="kwr"/>
+     <Null refid="148" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="149" slot="kweq"/>
+   <Null refid="150" slot="procBlock"/>
+   <Null refid="151" slot="endId"/>
+   <Sep token=";" startCol="322" leadChars="" refid="152" slot="ts"/>
+  </ProcedureDecl>
+  <ProcedureDecl refid="153" slot="anon">
+   <ProcedureHead refid="154" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="325" leadChars="%0A" refid="155" slot="kwp"/>
+    <Id idname="Change" startCol="335" leadChars=" " refid="156" slot="name"/>
+    <Signature refid="157" slot="signature">
+     <Tok token="(" startCol="341" leadChars="" refid="158" slot="lbr"/>
+     <Formals refid="159" slot="formals">
+      <Formal refid="160" slot="anon">
+       <KeyWord token="VAR" startCol="342" leadChars="" refid="161" slot="mode"/>
+       <IdList refid="162" slot="idList">
+        <Id idname="T" startCol="346" leadChars=" " refid="163" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="348" leadChars=" " refid="164" slot="col"/>
+       <Timer refid="165" slot="tipe">
+        <Null refid="166" slot="periodicity"/>
+        <Null refid="167" slot="variability"/>
+        <KeyWord token="TIMER" startCol="350" leadChars=" " refid="168" slot="kwt"/>
+        <Null refid="169" slot="kwd"/>
+        <Null refid="170" slot="delayExpr"/>
+       </Timer>
+       <Null refid="171" slot="ass"/>
+       <Null refid="172" slot="constExpr"/>
+      </Formal>
+      <Sep token=";" startCol="355" leadChars="" refid="173" slot="anon"/>
+      <Formal refid="174" slot="anon">
+       <Null refid="175" slot="mode"/>
+       <IdList refid="176" slot="idList">
+        <Id idname="newValue" startCol="357" leadChars=" " refid="177" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="366" leadChars=" " refid="178" slot="col"/>
+       <TypeName refid="179" slot="tipe">
+        <QualId refid="180" slot="qualId">
+         <Id idname="Time" startCol="368" leadChars=" " refid="181" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Null refid="182" slot="ass"/>
+       <Null refid="183" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="372" leadChars="" refid="184" slot="rbr"/>
+     <Null refid="185" slot="col"/>
+     <Null refid="186" slot="tipe"/>
+     <Null refid="187" slot="kwr"/>
+     <Null refid="188" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="189" slot="kweq"/>
+   <Null refid="190" slot="procBlock"/>
+   <Null refid="191" slot="endId"/>
+   <Sep token=";" startCol="373" leadChars="" refid="192" slot="ts"/>
+  </ProcedureDecl>
+  <ProcedureDecl refid="193" slot="anon">
+   <ProcedureHead refid="194" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="376" leadChars="%0A" refid="195" slot="kwp"/>
+    <Id idname="GetElapsed" startCol="386" leadChars=" " refid="196" slot="name"/>
+    <Signature refid="197" slot="signature">
+     <Tok token="(" startCol="396" leadChars="" refid="198" slot="lbr"/>
+     <Formals refid="199" slot="formals"/>
+     <Tok token=")" startCol="397" leadChars="" refid="200" slot="rbr"/>
+     <Tok token=":" startCol="399" leadChars=" " refid="201" slot="col"/>
+     <TypeName refid="202" slot="tipe">
+      <QualId refid="203" slot="qualId">
+       <Id idname="Time" startCol="401" leadChars=" " refid="204" slot="anon"/>
+      </QualId>
+     </TypeName>
+     <Null refid="205" slot="kwr"/>
+     <Null refid="206" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="207" slot="kweq"/>
+   <Null refid="208" slot="procBlock"/>
+   <Null refid="209" slot="endId"/>
+   <Sep token=";" startCol="405" leadChars="" refid="210" slot="ts"/>
+  </ProcedureDecl>
+ </InterfaceDeclList>
+ <KeyWord token="END" startCol="408" leadChars="%0A" refid="211" slot="kwe"/>
+ <Id idname="Timer" startCol="412" leadChars=" " refid="212" slot="endId"/>
+ <Sep token="." startCol="417" leadChars="" refid="213" slot="td"/>
+</Interface>

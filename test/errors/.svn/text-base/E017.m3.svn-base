@@ -1,0 +1,7 @@
+MODULE E017;
+
+VAR a := ORD(1.0); <*ERROR 017*>
+
+BEGIN
+
+END E017.

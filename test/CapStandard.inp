@@ -1,0 +1,3 @@
+> init testName=NoSwap
+> ask expected=standard
+> summary

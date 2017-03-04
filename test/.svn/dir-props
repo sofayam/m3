@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 48
+m3lib
+res
+m3test
+*.bck
+backups
+SessionScript.py
+
+END

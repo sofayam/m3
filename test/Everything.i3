@@ -1,0 +1,14 @@
+
+CAPSULE INTERFACE Everything ;
+PORT p1 : PROTOCOL
+    INCOMING MESSAGE a() ;
+    INCOMING MESSAGE b() ;
+    INCOMING MESSAGE c() ;
+   
+  
+    OUTGOING MESSAGE om() ;
+   
+    INCOMING MESSAGE aa() ;
+    INCOMING MESSAGE abc() ;
+END;
+END Everything.

@@ -1,0 +1,3 @@
+> init testName=SwapInstance
+> ask expected=special
+> summary

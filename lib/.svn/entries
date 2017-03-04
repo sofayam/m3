@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-06-28T12:22:13.203674Z"
+   url="svn://titch/m3/lib"
+   last-author="gfr2fr"
+   kind="dir"
+   uuid="5d76ada3-2bd0-0310-b486-ec14cee89a57"
+   repos="svn://titch"
+   prop-time="2006-09-08T19:33:01.000000Z"
+   revision="109"/>
+<entry
+   committed-rev="1"
+   name="MathMod.py"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e57c35c666cb72f603cf27553bd93534"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Regress.obj"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="97b9b02520b32c3e6141a6863a363705"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ResultsMod.py"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1de4305ab414453fc435cabc863e0bbc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IO.c"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b5801908a82e3a9f490eaced0c32f504"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Timer.i3"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4a51ea1cee32ab7f755147def9992815"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="M3Predef.h"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eb7223483f168db34f525a455dda8edc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Text.obj"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2b44e35d165a7d31691805385e457026"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IO.h"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="211c2d84487ab65286f857aa876bacfe"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IOMod.py"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c9cd1b5aaf309e68cf2430343d6ac6f9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Fmt.i3"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9fe57f09de396445d06d0bdbac290d1e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Math.i3"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0097e8dd5232d82feef8b83f6f63478e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="avatars.pov"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e0da65fa5617514b9cb06a34b3a1f6e4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Timer.h"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3c71a83a50a9d3ccc7ae62589c4e7769"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TimerMod.py"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="274b95d8eb0ae9241f5dfe6bb42f3fa9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Fmt.c"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2a97f2f22f8adf09bc5eeef808032ad9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="psprocs.ps"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="17f9e20b73f673f255b6a8a3a015db48"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Results.i3"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="485a4c65150059f155857d5b28056d69"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Fmt.h"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="74170d7ade628c34049a4b1837ebb75b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="FmtMod.py"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="78b4f1170c525515aa69e35307f7a29f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IO.obj"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="398cc449dec7563cfb505b8a7454f5c5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IO.i3"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7511b7078d9e7b532bfd75bf1667a09e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Regress.i3"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7bfc8a770df862e9168cbc8f300a733b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="updateNeeded"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e2c6f48dc1a6989d607ae34a80f6c298"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="vps.c"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b44f418b64d1820410c82eeda4d84a32"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Regress.c"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5fa85a638ad1efec81853af447da20f2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="vps.h"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="946267865dee59b852d7268a756b333a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Text.i3"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5e6000a28fb261e0d13424e027cce055"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Fmt.obj"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="60499349ee3c0d482f5bc6baa77f2534"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Regress.h"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="008946ef66da7c4a7ec5c690fc5f9123"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RegressMod.py"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f081eefe73c83d670c9d85264684d44f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Text.c"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bb3ab7538bb8072f37a2fa426c679500"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Text.h"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="523a6c1334c250f3bac859ff3a66a14f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="donttar"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="17b781fbabe588ca61405403649958ff"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TextMod.py"
+   text-time="2006-09-08T19:33:01.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b71172a7110130f6e8cc17224bfea57d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+</wc-entries>

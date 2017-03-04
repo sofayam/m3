@@ -1,0 +1,10 @@
+MODULE E025;
+
+TYPE O  = OBJECT
+   i : INTEGER;
+END;
+
+VAR i := TRUNC(O) ; <*ERROR 025*>
+BEGIN
+  
+END E025.

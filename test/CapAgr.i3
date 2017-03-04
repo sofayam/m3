@@ -1,0 +1,4 @@
+CAPSULE INTERFACE CapAgr ;
+IMPORT CapAgrTypes AS CAT;
+PORT p1 : CAT.test;
+END CapAgr.

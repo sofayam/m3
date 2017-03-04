@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Capsule source="/home/mark/m3/doc/ConjC1.m3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <Id idname="ConjC1" startCol="8" leadChars=" " refid="3" slot="modname"/>
+ <Null refid="4" slot="kwi"/>
+ <Null refid="5" slot="implId"/>
+ <Sep token=";" startCol="15" leadChars=" " refid="6" slot="ts"/>
+ <ImportList refid="7" slot="imports"/>
+ <UseCapsuleList refid="8" slot="usedCapsules"/>
+ <CapsuleBlock refid="9" slot="block">
+  <DeclList refid="10" slot="decList"/>
+  <Null refid="11" slot="connections"/>
+  <KeyWord token="BEGIN" startCol="18" leadChars="%0A%0A" refid="12" slot="kwb"/>
+  <Statements refid="13" slot="statements"/>
+  <KeyWord token="END" startCol="25" leadChars="%0A%0A" refid="14" slot="kwe"/>
+ </CapsuleBlock>
+ <Id idname="ConjC1" startCol="29" leadChars=" " refid="15" slot="endId"/>
+ <Sep token="." startCol="35" leadChars="" refid="16" slot="td"/>
+</Capsule>

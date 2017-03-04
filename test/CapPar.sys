@@ -1,0 +1,8 @@
+SYSTEM ARCHITECTURE CapPar IS 
+  PROCESSOR a SPEED 1.0;
+  PROCESSOR b SPEED 1.0;
+  PROCESSOR c ;
+  LINK a -> b COST 10 ms;
+  LINK b -> a COST 5 ms;
+  LINK b <=> c COST 1.03 ms;
+END

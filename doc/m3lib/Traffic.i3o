@@ -1,0 +1,428 @@
+<?xml version="1.0"?>
+<Interface source="/home/mark/m3/doc/Traffic.i3" refid="1" slot="anon">
+ <KeyWord token="INTERFACE" startCol="0" leadChars="" refid="2" slot="kwi"/>
+ <Id idname="Traffic" startCol="10" leadChars=" " refid="3" slot="modname"/>
+ <Sep token=";" startCol="17" leadChars="" refid="4" slot="ts"/>
+ <ImportList refid="5" slot="imports"/>
+ <InterfaceDeclList refid="6" slot="decls">
+  <TypeDecls refid="7" slot="anon">
+   <KeyWord token="TYPE" startCol="20" leadChars="%0A%0A" refid="8" slot="kwt"/>
+   <TypeDeclsList refid="9" slot="typeList">
+    <TypeDecl refid="10" slot="anon">
+     <Id idname="vk" startCol="28" leadChars=" %0A  " refid="11" slot="id"/>
+     <Op token="=" startCol="31" leadChars=" " refid="12" slot="sign"/>
+     <Enum refid="13" slot="tipe">
+      <Tok token="{" startCol="33" leadChars=" " refid="14" slot="lcr"/>
+      <IdList refid="15" slot="idlist">
+       <Id idname="car" startCol="34" leadChars="" refid="16" slot="anon"/>
+       <Sep token="," startCol="37" leadChars="" refid="17" slot="anon"/>
+       <Id idname="truck" startCol="39" leadChars=" " refid="18" slot="anon"/>
+       <Sep token="," startCol="44" leadChars="" refid="19" slot="anon"/>
+       <Id idname="motorcycle" startCol="46" leadChars=" " refid="20" slot="anon"/>
+      </IdList>
+      <Tok token="}" startCol="56" leadChars="" refid="21" slot="rcr"/>
+     </Enum>
+    </TypeDecl>
+    <Sep token=";" startCol="57" leadChars="" refid="22" slot="anon"/>
+    <TypeDecl refid="23" slot="anon">
+     <Id idname="MetricWeight" startCol="61" leadChars="%0A  " refid="24" slot="id"/>
+     <Op token="=" startCol="74" leadChars=" " refid="25" slot="sign"/>
+     <ScaledType refid="26" slot="tipe">
+      <KeyWord token="SCALED" startCol="76" leadChars=" " refid="27" slot="kws"/>
+      <TypeName refid="28" slot="tn">
+       <QualId refid="29" slot="qualId">
+        <Id idname="INTEGER" startCol="83" leadChars=" " refid="30" slot="anon"/>
+       </QualId>
+      </TypeName>
+      <Tok token="{" startCol="92" leadChars="  " refid="31" slot="lsq"/>
+      <Id idname="g" startCol="93" leadChars="" refid="32" slot="unit"/>
+      <ScaleList refid="33" slot="scaleList">
+       <ScaleElt refid="34" slot="anon">
+        <Op token="*" startCol="95" leadChars=" " refid="35" slot="tc1"/>
+        <Number refid="36" slot="n">
+         <Int intname="1000" startCol="97" leadChars=" " refid="37" slot="intVal"/>
+         <Null refid="38" slot="td"/>
+         <Null refid="39" slot="numberRest"/>
+         <Null refid="40" slot="scaling"/>
+        </Number>
+        <Op token="=" startCol="102" leadChars=" " refid="41" slot="tc2"/>
+        <Id idname="kg" startCol="104" leadChars=" " refid="42" slot="i"/>
+       </ScaleElt>
+       <ScaleElt refid="43" slot="anon">
+        <Op token="*" startCol="107" leadChars=" " refid="44" slot="tc1"/>
+        <Number refid="45" slot="n">
+         <Int intname="1000" startCol="109" leadChars=" " refid="46" slot="intVal"/>
+         <Null refid="47" slot="td"/>
+         <Null refid="48" slot="numberRest"/>
+         <Null refid="49" slot="scaling"/>
+        </Number>
+        <Op token="=" startCol="114" leadChars=" " refid="50" slot="tc2"/>
+        <Id idname="tonne" startCol="116" leadChars=" " refid="51" slot="i"/>
+       </ScaleElt>
+      </ScaleList>
+      <Tok token="}" startCol="121" leadChars="" refid="52" slot="rsq"/>
+     </ScaledType>
+    </TypeDecl>
+    <Sep token=";" startCol="122" leadChars="" refid="53" slot="anon"/>
+    <TypeDecl refid="54" slot="anon">
+     <Id idname="vehicle" startCol="126" leadChars="%0A  " refid="55" slot="id"/>
+     <Op token="=" startCol="134" leadChars=" " refid="56" slot="sign"/>
+     <VariantRecord refid="57" slot="tipe">
+      <KeyWord token="RECORD" startCol="136" leadChars=" " refid="58" slot="kwr"/>
+      <KeyWord token="CASE" startCol="148" leadChars=" %0A    " refid="59" slot="kwc"/>
+      <Field refid="60" slot="tagField">
+       <IdList refid="61" slot="idlist">
+        <Id idname="kind" startCol="153" leadChars=" " refid="62" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="158" leadChars=" " refid="63" slot="col"/>
+       <TypeName refid="64" slot="tipe">
+        <QualId refid="65" slot="qualId">
+         <Id idname="vk" startCol="160" leadChars=" " refid="66" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Null refid="67" slot="ass"/>
+       <Null refid="68" slot="constExpr"/>
+      </Field>
+      <KeyWord token="OF" startCol="163" leadChars=" " refid="69" slot="kwo"/>
+      <VCaseEltList refid="70" slot="caseElts">
+       <Sep token="|" startCol="170" leadChars="%0A    " refid="71" slot="anon"/>
+       <VCase refid="72" slot="anon">
+        <LabelsList refid="73" slot="labelList">
+         <Labels refid="74" slot="anon">
+          <ConstExpr refid="75" slot="anon">
+           <Expr refid="76" slot="expr">
+            <TypeName refid="77" slot="expr">
+             <QualId refid="78" slot="qualId">
+              <Id idname="vk" startCol="173" leadChars="  " refid="79" slot="anon"/>
+              <Sep token="." startCol="175" leadChars="" refid="80" slot="anon"/>
+              <Id idname="truck" startCol="176" leadChars="" refid="81" slot="anon"/>
+             </QualId>
+            </TypeName>
+           </Expr>
+          </ConstExpr>
+         </Labels>
+        </LabelsList>
+        <KeyWord token="=&gt;" startCol="182" leadChars=" " refid="82" slot="kwa"/>
+        <FieldList refid="83" slot="fields">
+         <Field refid="84" slot="anon">
+          <IdList refid="85" slot="idlist">
+           <Id idname="axels" startCol="195" leadChars=" %0A         " refid="86" slot="anon"/>
+          </IdList>
+          <Tok token=":" startCol="201" leadChars=" " refid="87" slot="col"/>
+          <Subrange refid="88" slot="tipe">
+           <Tok token="[" startCol="203" leadChars=" " refid="89" slot="lsq"/>
+           <ConstExpr refid="90" slot="const1">
+            <Expr refid="91" slot="expr">
+             <Number refid="92" slot="expr">
+              <Int intname="2" startCol="204" leadChars="" refid="93" slot="intVal"/>
+              <Null refid="94" slot="td"/>
+              <Null refid="95" slot="numberRest"/>
+              <Null refid="96" slot="scaling"/>
+             </Number>
+            </Expr>
+           </ConstExpr>
+           <Sep token=".." startCol="205" leadChars="" refid="97" slot="tdd"/>
+           <ConstExpr refid="98" slot="const2">
+            <Expr refid="99" slot="expr">
+             <Number refid="100" slot="expr">
+              <Int intname="10" startCol="207" leadChars="" refid="101" slot="intVal"/>
+              <Null refid="102" slot="td"/>
+              <Null refid="103" slot="numberRest"/>
+              <Null refid="104" slot="scaling"/>
+             </Number>
+            </Expr>
+           </ConstExpr>
+           <Tok token="]" startCol="209" leadChars="" refid="105" slot="rsq"/>
+          </Subrange>
+          <Tok token=":=" startCol="211" leadChars=" " refid="106" slot="ass"/>
+          <ConstExpr refid="107" slot="constExpr">
+           <Expr refid="108" slot="expr">
+            <Number refid="109" slot="expr">
+             <Int intname="2" startCol="214" leadChars=" " refid="110" slot="intVal"/>
+             <Null refid="111" slot="td"/>
+             <Null refid="112" slot="numberRest"/>
+             <Null refid="113" slot="scaling"/>
+            </Number>
+           </Expr>
+          </ConstExpr>
+         </Field>
+         <Sep token=";" startCol="216" leadChars=" " refid="114" slot="anon"/>
+         <Field refid="115" slot="anon">
+          <IdList refid="116" slot="idlist">
+           <Id idname="weight" startCol="227" leadChars="%0A         " refid="117" slot="anon"/>
+          </IdList>
+          <Tok token=":" startCol="234" leadChars=" " refid="118" slot="col"/>
+          <TypeName refid="119" slot="tipe">
+           <QualId refid="120" slot="qualId">
+            <Id idname="MetricWeight" startCol="236" leadChars=" " refid="121" slot="anon"/>
+           </QualId>
+          </TypeName>
+          <Null refid="122" slot="ass"/>
+          <Null refid="123" slot="constExpr"/>
+         </Field>
+         <Sep token=";" startCol="249" leadChars=" " refid="124" slot="anon"/>
+        </FieldList>
+       </VCase>
+       <Sep token="|" startCol="255" leadChars="%0A    " refid="125" slot="anon"/>
+       <VCase refid="126" slot="anon">
+        <LabelsList refid="127" slot="labelList">
+         <Labels refid="128" slot="anon">
+          <ConstExpr refid="129" slot="anon">
+           <Expr refid="130" slot="expr">
+            <TypeName refid="131" slot="expr">
+             <QualId refid="132" slot="qualId">
+              <Id idname="vk" startCol="258" leadChars="  " refid="133" slot="anon"/>
+              <Sep token="." startCol="260" leadChars="" refid="134" slot="anon"/>
+              <Id idname="car" startCol="261" leadChars="" refid="135" slot="anon"/>
+             </QualId>
+            </TypeName>
+           </Expr>
+          </ConstExpr>
+         </Labels>
+        </LabelsList>
+        <KeyWord token="=&gt;" startCol="265" leadChars=" " refid="136" slot="kwa"/>
+        <FieldList refid="137" slot="fields">
+         <Field refid="138" slot="anon">
+          <IdList refid="139" slot="idlist">
+           <Id idname="doors" startCol="278" leadChars=" %0A         " refid="140" slot="anon"/>
+          </IdList>
+          <Tok token=":" startCol="284" leadChars=" " refid="141" slot="col"/>
+          <Subrange refid="142" slot="tipe">
+           <Tok token="[" startCol="286" leadChars=" " refid="143" slot="lsq"/>
+           <ConstExpr refid="144" slot="const1">
+            <Expr refid="145" slot="expr">
+             <Number refid="146" slot="expr">
+              <Int intname="2" startCol="287" leadChars="" refid="147" slot="intVal"/>
+              <Null refid="148" slot="td"/>
+              <Null refid="149" slot="numberRest"/>
+              <Null refid="150" slot="scaling"/>
+             </Number>
+            </Expr>
+           </ConstExpr>
+           <Sep token=".." startCol="288" leadChars="" refid="151" slot="tdd"/>
+           <ConstExpr refid="152" slot="const2">
+            <Expr refid="153" slot="expr">
+             <Number refid="154" slot="expr">
+              <Int intname="5" startCol="290" leadChars="" refid="155" slot="intVal"/>
+              <Null refid="156" slot="td"/>
+              <Null refid="157" slot="numberRest"/>
+              <Null refid="158" slot="scaling"/>
+             </Number>
+            </Expr>
+           </ConstExpr>
+           <Tok token="]" startCol="291" leadChars="" refid="159" slot="rsq"/>
+          </Subrange>
+          <Null refid="160" slot="ass"/>
+          <Null refid="161" slot="constExpr"/>
+         </Field>
+         <Sep token=";" startCol="293" leadChars=" " refid="162" slot="anon"/>
+        </FieldList>
+       </VCase>
+      </VCaseEltList>
+      <KeyWord token="ELSE" startCol="299" leadChars="%0A    " refid="163" slot="kwel"/>
+      <FieldList refid="164" slot="efields"/>
+      <KeyWord token="END" startCol="354" leadChars=" (* mandatory, shows we have not forgotten *) %0A    " refid="165" slot="kwce"/>
+      <Sep token=";" startCol="357" leadChars="" refid="166" slot="ts"/>
+      <FieldList refid="167" slot="sfields">
+       <Field refid="168" slot="anon">
+        <IdList refid="169" slot="idlist">
+         <Id idname="topSpeed" startCol="363" leadChars="%0A    " refid="170" slot="anon"/>
+        </IdList>
+        <Tok token=":" startCol="372" leadChars=" " refid="171" slot="col"/>
+        <Subrange refid="172" slot="tipe">
+         <Tok token="[" startCol="374" leadChars=" " refid="173" slot="lsq"/>
+         <ConstExpr refid="174" slot="const1">
+          <Expr refid="175" slot="expr">
+           <Number refid="176" slot="expr">
+            <Int intname="30" startCol="375" leadChars="" refid="177" slot="intVal"/>
+            <Null refid="178" slot="td"/>
+            <Null refid="179" slot="numberRest"/>
+            <Null refid="180" slot="scaling"/>
+           </Number>
+          </Expr>
+         </ConstExpr>
+         <Sep token=".." startCol="378" leadChars=" " refid="181" slot="tdd"/>
+         <ConstExpr refid="182" slot="const2">
+          <Expr refid="183" slot="expr">
+           <Number refid="184" slot="expr">
+            <Int intname="300" startCol="381" leadChars=" " refid="185" slot="intVal"/>
+            <Null refid="186" slot="td"/>
+            <Null refid="187" slot="numberRest"/>
+            <Null refid="188" slot="scaling"/>
+           </Number>
+          </Expr>
+         </ConstExpr>
+         <Tok token="]" startCol="384" leadChars="" refid="189" slot="rsq"/>
+        </Subrange>
+        <Null refid="190" slot="ass"/>
+        <Null refid="191" slot="constExpr"/>
+       </Field>
+       <Sep token=";" startCol="385" leadChars="" refid="192" slot="anon"/>
+      </FieldList>
+      <KeyWord token="END" startCol="389" leadChars="%0A  " refid="193" slot="kwe"/>
+     </VariantRecord>
+    </TypeDecl>
+    <Sep token=";" startCol="392" leadChars="" refid="194" slot="anon"/>
+   </TypeDeclsList>
+  </TypeDecls>
+  <VariableDecls refid="195" slot="anon">
+   <KeyWord token="VAR" startCol="395" leadChars="%0A%0A" refid="196" slot="kwv"/>
+   <VariableDeclsList refid="197" slot="variables">
+    <VariableDecl refid="198" slot="anon">
+     <IdList refid="199" slot="idlist">
+      <Id idname="myCar" startCol="401" leadChars="%0A  " refid="200" slot="anon"/>
+     </IdList>
+     <Null refid="201" slot="col"/>
+     <Null refid="202" slot="tipe"/>
+     <Tok token=":=" startCol="409" leadChars="   " refid="203" slot="ass"/>
+     <Expr refid="204" slot="expr">
+      <Constructor refid="205" slot="expr">
+       <TypeName refid="206" slot="tipe">
+        <QualId refid="207" slot="qualId">
+         <Id idname="vehicle" startCol="412" leadChars=" " refid="208" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Tok token="{" startCol="419" leadChars="" refid="209" slot="lcr"/>
+       <ConsEltList refid="210" slot="consEltList">
+        <ConsEltExpr refid="211" slot="anon">
+         <Expr refid="212" slot="expr">
+          <TypeName refid="213" slot="expr">
+           <QualId refid="214" slot="qualId">
+            <Id idname="vk" startCol="420" leadChars="" refid="215" slot="anon"/>
+            <Sep token="." startCol="422" leadChars="" refid="216" slot="anon"/>
+            <Id idname="car" startCol="423" leadChars="" refid="217" slot="anon"/>
+           </QualId>
+          </TypeName>
+         </Expr>
+        </ConsEltExpr>
+        <Sep token="," startCol="426" leadChars="" refid="218" slot="anon"/>
+        <ConsEltAss refid="219" slot="anon">
+         <Id idname="doors" startCol="428" leadChars=" " refid="220" slot="id"/>
+         <Tok token=":=" startCol="434" leadChars=" " refid="221" slot="ass"/>
+         <Expr refid="222" slot="expr">
+          <Number refid="223" slot="expr">
+           <Int intname="3" startCol="437" leadChars=" " refid="224" slot="intVal"/>
+           <Null refid="225" slot="td"/>
+           <Null refid="226" slot="numberRest"/>
+           <Null refid="227" slot="scaling"/>
+          </Number>
+         </Expr>
+        </ConsEltAss>
+        <Sep token="," startCol="438" leadChars="" refid="228" slot="anon"/>
+        <ConsEltAss refid="229" slot="anon">
+         <Id idname="topSpeed" startCol="440" leadChars=" " refid="230" slot="id"/>
+         <Tok token=":=" startCol="449" leadChars=" " refid="231" slot="ass"/>
+         <Expr refid="232" slot="expr">
+          <Number refid="233" slot="expr">
+           <Int intname="210" startCol="452" leadChars=" " refid="234" slot="intVal"/>
+           <Null refid="235" slot="td"/>
+           <Null refid="236" slot="numberRest"/>
+           <Null refid="237" slot="scaling"/>
+          </Number>
+         </Expr>
+        </ConsEltAss>
+       </ConsEltList>
+       <Tok token="}" startCol="455" leadChars="" refid="238" slot="rcr"/>
+      </Constructor>
+     </Expr>
+    </VariableDecl>
+    <Sep token=";" startCol="456" leadChars="" refid="239" slot="anon"/>
+    <VariableDecl refid="240" slot="anon">
+     <IdList refid="241" slot="idlist">
+      <Id idname="myTruck" startCol="460" leadChars="%0A  " refid="242" slot="anon"/>
+     </IdList>
+     <Null refid="243" slot="col"/>
+     <Null refid="244" slot="tipe"/>
+     <Tok token=":=" startCol="468" leadChars=" " refid="245" slot="ass"/>
+     <Expr refid="246" slot="expr">
+      <Constructor refid="247" slot="expr">
+       <TypeName refid="248" slot="tipe">
+        <QualId refid="249" slot="qualId">
+         <Id idname="vehicle" startCol="471" leadChars=" " refid="250" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Tok token="{" startCol="478" leadChars="" refid="251" slot="lcr"/>
+       <ConsEltList refid="252" slot="consEltList">
+        <ConsEltExpr refid="253" slot="anon">
+         <Expr refid="254" slot="expr">
+          <TypeName refid="255" slot="expr">
+           <QualId refid="256" slot="qualId">
+            <Id idname="vk" startCol="479" leadChars="" refid="257" slot="anon"/>
+            <Sep token="." startCol="481" leadChars="" refid="258" slot="anon"/>
+            <Id idname="truck" startCol="482" leadChars="" refid="259" slot="anon"/>
+           </QualId>
+          </TypeName>
+         </Expr>
+        </ConsEltExpr>
+        <Sep token="," startCol="487" leadChars="" refid="260" slot="anon"/>
+        <ConsEltAss refid="261" slot="anon">
+         <Id idname="weight" startCol="489" leadChars=" " refid="262" slot="id"/>
+         <Tok token=":=" startCol="496" leadChars=" " refid="263" slot="ass"/>
+         <Expr refid="264" slot="expr">
+          <Number refid="265" slot="expr">
+           <Int intname="5" startCol="499" leadChars=" " refid="266" slot="intVal"/>
+           <Null refid="267" slot="td"/>
+           <Null refid="268" slot="numberRest"/>
+           <Id idname="tonne" startCol="501" leadChars=" " refid="269" slot="scaling"/>
+          </Number>
+         </Expr>
+        </ConsEltAss>
+       </ConsEltList>
+       <Tok token="}" startCol="506" leadChars="" refid="270" slot="rcr"/>
+      </Constructor>
+     </Expr>
+    </VariableDecl>
+    <Sep token=";" startCol="507" leadChars="" refid="271" slot="anon"/>
+    <VariableDecl refid="272" slot="anon">
+     <IdList refid="273" slot="idlist">
+      <Id idname="myBike" startCol="512" leadChars=" %0A  " refid="274" slot="anon"/>
+     </IdList>
+     <Null refid="275" slot="col"/>
+     <Null refid="276" slot="tipe"/>
+     <Tok token=":=" startCol="520" leadChars="  " refid="277" slot="ass"/>
+     <Expr refid="278" slot="expr">
+      <Constructor refid="279" slot="expr">
+       <TypeName refid="280" slot="tipe">
+        <QualId refid="281" slot="qualId">
+         <Id idname="vehicle" startCol="523" leadChars=" " refid="282" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Tok token="{" startCol="530" leadChars="" refid="283" slot="lcr"/>
+       <ConsEltList refid="284" slot="consEltList">
+        <ConsEltExpr refid="285" slot="anon">
+         <Expr refid="286" slot="expr">
+          <TypeName refid="287" slot="expr">
+           <QualId refid="288" slot="qualId">
+            <Id idname="vk" startCol="531" leadChars="" refid="289" slot="anon"/>
+            <Sep token="." startCol="533" leadChars="" refid="290" slot="anon"/>
+            <Id idname="motorcycle" startCol="534" leadChars="" refid="291" slot="anon"/>
+           </QualId>
+          </TypeName>
+         </Expr>
+        </ConsEltExpr>
+        <Sep token="," startCol="544" leadChars="" refid="292" slot="anon"/>
+        <ConsEltAss refid="293" slot="anon">
+         <Id idname="topSpeed" startCol="546" leadChars=" " refid="294" slot="id"/>
+         <Tok token=":=" startCol="555" leadChars=" " refid="295" slot="ass"/>
+         <Expr refid="296" slot="expr">
+          <Number refid="297" slot="expr">
+           <Int intname="200" startCol="558" leadChars=" " refid="298" slot="intVal"/>
+           <Null refid="299" slot="td"/>
+           <Null refid="300" slot="numberRest"/>
+           <Null refid="301" slot="scaling"/>
+          </Number>
+         </Expr>
+        </ConsEltAss>
+       </ConsEltList>
+       <Tok token="}" startCol="561" leadChars="" refid="302" slot="rcr"/>
+      </Constructor>
+     </Expr>
+    </VariableDecl>
+    <Sep token=";" startCol="562" leadChars="" refid="303" slot="anon"/>
+   </VariableDeclsList>
+  </VariableDecls>
+ </InterfaceDeclList>
+ <KeyWord token="END" startCol="564" leadChars="%0A" refid="304" slot="kwe"/>
+ <Id idname="Traffic" startCol="568" leadChars=" " refid="305" slot="endId"/>
+ <Sep token="." startCol="575" leadChars="" refid="306" slot="td"/>
+</Interface>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-06-28T12:22:13.203674Z"
+   url="svn://titch/m3/test/errors"
+   last-author="gfr2fr"
+   kind="dir"
+   uuid="5d76ada3-2bd0-0310-b486-ec14cee89a57"
+   repos="svn://titch"
+   prop-time="2006-09-08T19:32:47.000000Z"
+   revision="109"/>
+<entry
+   committed-rev="1"
+   name="E010.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2e5c82e9c2ca3498fb4f041c168853f3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E020.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="10e841331cdb1a9cc57740046266f380"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E002.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fc69081082cab85a6edb9d48353dbb03"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E030.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6ea176c54aeb94c64b1fa30766df5f04"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E012.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="93045fb0c6c957e85333a05420b91308"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E022.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f83739d82b1fa508c89957c35f8d1a80"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E004.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="544cfb8f06c41b54f10ed9e161893ca1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E014.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ca9ea395d6f8054b67d517db526920ae"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E032.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5eb8f0c748ee9112a8737eb689921a87"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E024.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="453bf1301d2e860c0cc1d361f14dc6b7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E006.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8e92c938a1a66653d25c7dc790219e01"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E016.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="000538d9e73a79bb453a4eb5259a94bf"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E034.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7398739b1f0b5c6bf9f896f37670d35a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E026.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7cc28b553ab8cc775e070615ff6dc1a9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E008.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="64742c7e84c542519cd52335b882c436"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E018.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c4460c40cc703447a40dc00f15a3d7a8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E028.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b37599e7863d7de07d22a6e926ad073f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E001.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ad54f492a453bd5ee620aebecf62a146"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E011.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ba9c5e8e90c35d7d3594048dd2ab34cf"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="testerrors.sh"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1f12f55fb9ef86c8b24fbaf8e9d2210d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E003.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9898d5cf04aec261f3299c2feecbe514"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E021.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f045bf5adc066c5c3c7d1b6c948e6b05"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E013.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3ac31de436315e13452c353fd6ed8e1d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E031.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2b30aa986b1d15dec696d04ac1533491"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E005.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eeee816541ed59ce4b1b3bfe4bb37336"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E023.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="21cd7cb858f9a2190d3d558e64ffef33"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E033.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ec95e491571ad280f4e0a540a50ad048"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E015.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="cac20226cce072074918e852916b1fe4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E007.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="02b59e77863203bd94534824b4c0c0bb"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E025.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="de3598f6c0bd24306138a308dda2477b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E017.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9c7846bf16784fa17aafdc9a3f2e9718"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E027.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1f744644b74300c556394cfcaa552cca"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E009.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0376938dda3d18df735cd3049ebb4434"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E019.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f257ae7ae8e252b3dfea36cb7b2f1dbe"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="E029.m3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="912911ba1ade055781c050f6393adcdb"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="S001.i3"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="dc03567fcdaf6e1d16ed32c479f3aeb7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="AAAReadme.txt"
+   text-time="2006-09-08T19:32:47.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="520419192ce14b9e874eefcefe9cf21b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+</wc-entries>

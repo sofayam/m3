@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-06-28T12:22:13.203674Z"
+   url="svn://titch/m3/doc"
+   last-author="gfr2fr"
+   kind="dir"
+   uuid="5d76ada3-2bd0-0310-b486-ec14cee89a57"
+   repos="svn://titch"
+   prop-time="2006-09-08T19:33:00.000000Z"
+   revision="109"/>
+<entry
+   committed-rev="1"
+   name="C3.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a6943f936a9a17764ac990a9588b4f54"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SimplePar2.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a7654da588de3b2fa4b6a16a8f77ad6a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMSafe.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e8780927a2c119914b6cb9d9ae7dc5fa"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ParTop.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b37d4cfd466763d3af53c3566769812e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ConjC2.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5ef7e732f3ff0d252179f1b2f9856e6d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pyact.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a8a28c874dec78af1a3ea55a9d6d0ba9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TestInputTypes.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c18d43544e63321771c9d176e407c39a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytimer.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3f1c8bd0b2d3f0d4e10441b3e10f3196"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ConjC1.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5f7182d8b130ce1d6696425834c9ce6d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SimplePar2.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a9e850b5484aa013f4201600132bfbe8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="restrictions.txt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="58b8f38a1f4f66680dd656a0c67d1435"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pyact.py"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ad59f35510c71a4c90dc127d75d4d7ef"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ApproachesToModeling.ppt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5d4d047b4543fddfea0a07d951783cc5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="runcapopts.txt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="de6743f8305e0f17a5dd369769786931"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="manual.tex"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8c5ea7ebfd27c59d39a065376ab6027f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C2.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b9ee6cc47d861a05cb088d1275c7d1b2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="StichPunkte.txt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9d31082d432e158b28d65898e197b5c2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ParTop.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0eed6cf84a33b7bee14b553eaa831cd8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Bank.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a52afcfd414f25e51b623527f29fac5a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="clean.bat"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0e83cf8b4c52cae250cca7bc9a6ca1c1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ConjC1.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c02ef7a45f98bac7a0c5fd90762e900a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ParTop.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="dd89a93d6380cbd890a652d37a62af81"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMState.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ec8ac594279b5b71f38ddaefb1532d41"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ToolReqts.doc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="618914c07d515796dfec82061752433c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMSafe.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7154f8a7838ae9ff8db94ffcf2da86f4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:50.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC22.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3a0ad7467db5f770dfcf57be4d286b95"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pyact.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8d79c8bee652ef61e651111b636ebdbd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATM.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b622d471bbbfa7733a6899ebb4d40eec"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="runexamples.bat"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9e2eae1f2a0e8130d0c6e5f1bf27a732"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="fileoverview.ppt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1d2cceb6de620bfdec572d9f40844435"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytimer.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2c91e28e54286145b75f4f6ede163702"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Sys1.map"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="de44002082d35036b90d95af3dbededd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Interest.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3000e7c15d5940e8843d7b956117f7d1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ConjParent.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="059a4c5d530497ac1595c42135f84c49"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Withdrawals.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="25675047830e24a918761bb4c17ef582"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:51.000000Z"/>
+<entry
+   committed-rev="1"
+   name="MarketingPresentation.ppt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7bf54129faf424679f0d00e438f8d6b0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytimer.py"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d980a4cd969b5009b95ab158b7809ee5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C1.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5d383bf62261908589eab6ec4c891951"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SimplePar.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7e41f6c93f74d7bc16c054f9e2468dfe"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ParTop.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="704e2c4919e35ae34f478bd49e973edc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="trigger.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a63947d73e18cfdec0d25f93ff1225ad"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytrigger.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="39e7e0adea38913d2ba07f98945886cd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C2.py"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="330776ce93f9398e96e2bff5dabee0cd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Bank.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="48aeb1fca010a0f6e9ba1fde8dc09cc1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATM.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="379865d8e1d0646bab9de0672b68df5f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="connections.txt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f3be91a28101b4eac677673916103ec7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="modeDetails.inc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8bc959ed27e37a8fb29d7b8c88c30231"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMState.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="46a020fc700e7af2010afb7d542b34bc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pyact.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bc0770f25ed61ed91f2249a6069b4db7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="m3gotchas.txt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="de64a9ee7598fe5a6fddda76ca728a54"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATM.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="77c2e938dab01f6da8976a1acb03cb84"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMSafe.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b3016cbba7a8170ae5320f4b118f8c50"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="designwarts.txt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7b7fab9ad501dc923e7bc5aabdb278b9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TestInputTypes.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="351b0d1d5f31f2ac584a9fc498008941"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Account.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6adaa54321fa52a79f49b62b5e880d50"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:53.000000Z"/>
+<entry
+   committed-rev="1"
+   name="runexamples.sh"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ee03af8436135a354a4a57896626fc10"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SimplePar.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="dd89a93d6380cbd890a652d37a62af81"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:54.000000Z"/>
+<entry
+   name="par"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="ConjParent.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3ecebcd918332bf743ce98ed57b74fe3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:54.000000Z"/>
+<entry
+   committed-rev="111"
+   name="manual.ind"
+   text-time="2006-09-08T20:11:16.000000Z"
+   committed-date="2006-09-08T20:10:13.678788Z"
+   checksum="76207781d43db61bb3991a0c8950a6f1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:54.000000Z"
+   revision="111"/>
+<entry
+   committed-rev="1"
+   name="Traffic.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="51005b79aaf1aba70b427af9a3b6b9d7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C1.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8c7fa3e0c611a6a2c57f4fcccd022c1e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Arch.sys"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d9ede61ed5c28ae39976d4a8ac9c80d5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="clean.sh"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a0aef5f985a8ddf6ef10a5bb4a833e9f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C3.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="90b95240c1d67d087f1fba82e1d886fc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:54.000000Z"/>
+<entry
+   committed-rev="1"
+   name="fileoverview.eps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0b4406a7d097ec54d2a889632abf2517"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pyact.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="99c7a7fb5c326332cba28a1b5ac45a88"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMTimeout.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2931aa92e0ff6b1bee75b5e3d253d4b7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytypes.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7eab1e203410fc91b1df12415fbb3277"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="BankInterest.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="abc3260fb589a35116830c398cdfba7b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMSafe.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eef29d867c09ea8725ee8e88eeadc55b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SimplePar.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="820ae246e3f2a45db5361328595cd446"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TestInputTypes.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="22256a442e64f9a3d0d4627bdba06f2e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C3.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d38795a237aca10dc8da7f253bf9f784"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytimer.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6809d6620bf0347fe008f7e202577ef3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Nodes.txt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="09a311d23060b21e031674ab8aaafc65"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ConjTypes.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="13b533c91d43f89e382fd1cab4ba0dbf"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C1.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="be3fc8ae4825cc52a36c8ac43ac34889"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ConjC2.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d555de197ceaf1cc812489b74dba18fb"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SimplePar2.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="737cb8caefdcc4a001aa178f7b7b67e3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TestInputTypes.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="20763d50e7baaa4b015e8e2be7a6d777"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMSafe.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e4dc8a96e0b8ab0b4ab98eb0061820ec"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="genshots.bat"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6c02f9261e902d951b18c051004eb70a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytrigger.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="278fc386472f7603fad0fe1a3d0fcf77"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ConjC2.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6506d8d006d2ea5396143f962c059697"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytypes.py"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="38fea25af7007c2f0a2cc0ce3f6bbf34"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytimer.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="48fb114453eb0ab286ba2cb41e6dffe8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMTimeout.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2c8a97f2e7babeb2618a8b43c9cdcfde"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="BankInterest.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="67a0b8956b866eb664b2cbc673397cbf"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="BankTypes.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="efa8c4db4d69974bb189aa1c4c00bcc7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytimer.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a0ab3e29c88eea80f6ac3e6f050ed583"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="makemanual.bat"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="48b98492ce76137022bdd5c98e08397e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="subversionlog.gz"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c637ddd3bbcb6721aaf02fa53b7f9260"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Account.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6ccf0671f096e4574cfea115b712c59a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C2.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c3a94e07ee9f5bc4b30d6f52bf239408"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ParTop.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="63d56682b738cc6073eba7a187827ba4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Interest.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="19cab740ca674f45f576c0a9ce6796a5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rtcbild.ppt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e9db00cf18b9ab1e4adc1837f34db57b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Bank.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5cb1012ce7cb1f670dd4606b44213e7a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:55.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ConjC1.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0a4d43b50aa5adb77b0d55cd40a1c47d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C3.py"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="24ef7c83a83dbd0934ef80c7fbaa94f2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="genpics.bat"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="53f766cabcde26978d8e3660c5216279"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMState.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1ff27c674a5b0aa3ecbdec4a860ef3b1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytrigger.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f71074aa90612a25a80e7b5d757fbd5e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Interest.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="546d4f00477da185283f37920a31ce20"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rail.exe"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5dc70d9ed324e890f9dc35821557d38c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMState.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2ad7ae7b246c05f5cc60613c7d0badfb"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C1.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bc3d29d686cc632fbb36042806db41bc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMTimeout.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0a5ba0c0357da5d68c443a9d1f49e419"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   name="parsys"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="genps.bat"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="53f766cabcde26978d8e3660c5216279"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Account.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a2cbefd6de8d299088ab0e6aaeda56c4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ConjParent.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="03266d7c5f8051cd927065d950755b8c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Interest.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6c50b6b0b31a68848e66542a50410755"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="111"
+   name="makemanual.sh"
+   text-time="2006-09-08T20:10:47.000000Z"
+   committed-date="2006-09-08T20:10:13.678788Z"
+   checksum="087d39564aac7d6c2572eb1b1eff7412"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"
+   revision="111"/>
+<entry
+   committed-rev="1"
+   name="genps.sh"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e1d1d419632ba650ae2528f6d427645c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytrigger.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3a164dd2c83008497cb92d84186c0c14"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rail"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d382bbdec6a75d82ac5cb84cb2daf8a8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATM.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f5d856a310ddaacc5a42d7b17fe1890a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="InputTypes.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d04b153032210260115f1309285f3a17"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC21.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="928f65840ff41552ed8d0f3eb6b626b5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Bank.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="43c4c7c863a11874eeede683f345fdee"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="genshots.sh"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="19f3e427b3ad0c1658d04f6b34d35da3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rail.sty"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b00d4498700856a86d339ccadfdd976f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="compexamples.sh"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8d35d0ecb96b1c35572f7ffd63eb8a71"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Account.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="452d7bec2989773dbf426bef948a74b3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:56.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rtcbild.eps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="101ccc1e54aae27396ee3f34bc845502"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:57.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMTimeout.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bdb7cd71f3c495e9b7c2108b46194615"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:57.000000Z"/>
+<entry
+   committed-rev="1"
+   name="whatneedschangingifyouaddsyntax"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="58a8e86c6638eb71485cc5ecfac025ed"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:57.000000Z"/>
+<entry
+   committed-rev="1"
+   name="bugs.txt"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c7e63e0d834e61de4989241031d143e1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:57.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Interest.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5191951c54d39611f85591d888ba0be7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:57.000000Z"/>
+<entry
+   committed-rev="1"
+   name="BankInterest.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a1080b25c294f35ef911a0147adbe146"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:57.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C1.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="888f8e431eb52444a40d4c6d2ce9e89c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:58.000000Z"/>
+<entry
+   committed-rev="111"
+   name="manual.pdf"
+   text-time="2006-09-08T20:11:22.000000Z"
+   committed-date="2006-09-08T20:10:13.678788Z"
+   checksum="1c02426382730c8fa6166844694bea88"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"
+   revision="111"/>
+<entry
+   committed-rev="1"
+   name="withdraw.mac"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="94381fdba40ed7e314fc66751bbbb11f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ConjParent.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5c4540c1ac3965eb452222baf1faf131"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pyact.i3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="21149cdc7d960bab7548fb1ec0386cf9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C1.py"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="53beb8c086f6c67b8cae137debc7106a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="C2.rsc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3322b55e5ee691c703eba9f786877ac3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Traffic.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7da1fbf0305353ba4faea45bd2821f25"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytrigger.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="78aa5c9ea7c76e8c87d7a9116032891f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="rightMouse.inc"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6133a089c9ae8693efb016b5033c2114"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Bank.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6eea728c413d55b2cbe299e57e01f0fe"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="compexamples.bat"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fd61724e025b330b42e18bd9bbc8c013"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATM.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e053be4987880b469a592b0011fca992"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pytrigger.py"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0a36086024058b7b004469e8264ed77c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ATMTimeout.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b676d191c0e2b1ebc3cf4b6d9ec95107"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="BankInterest.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="159420b32775116f52cb644afdcb2954"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SimplePar.m3"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ee6a03323f4f898be0ee0371bb1cde3c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Account.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4f0f34b4b59a8cee34751c75c8d3bed1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="BankInterest.inp"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2951b01c0fe82db6b88d2d31ac6e33ee"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC1.ps"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="992a41015b076f282e6558e0077aaf5b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+</wc-entries>

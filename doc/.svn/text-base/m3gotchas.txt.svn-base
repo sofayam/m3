@@ -1,0 +1,11 @@
+Top X Favorite M3 Syntax errors
+
+1) = instead of := (also in method assignment)
+2) end tag for procedure forgotten
+3) lower case keyword (e.g. 'of' instead of 'OF') - use emacs fontlock mode and M-u
+4) missing semicolon (DOH!)
+5) missing (usually closing) brackets
+6) missing BEGIN before END of module 
+7) ELSIF also needs THEN (sigh)
+8) type mismatch : trust the compiler and look at the left and right hand sides really hard
+9) missing VAR, TYPE, CONST

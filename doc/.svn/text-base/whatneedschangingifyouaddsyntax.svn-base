@@ -1,0 +1,242 @@
+Index: test/Assert.m3
+===================================================================
+--- test/Assert.m3	(revision 0)
++++ test/Assert.m3	(revision 0)
+@@ -0,0 +1,9 @@
++MODULE Assert;
++
++
++
++BEGIN
++
++ASSERT(FALSE)
++
++END Assert. 
+Index: src/UserNodes.py
+===================================================================
+--- src/UserNodes.py	(revision 964)
++++ src/UserNodes.py	(working copy)
+@@ -749,6 +749,10 @@
+             error("Only call to OUTGOING message allowed here",self)
+         # TBD are we in a capsule at all ?
+ 
++class AssertStUser:
++    def checkCallSt(self):
++        if not self.expr.exprType.isBoolean:
++            error("assert statement must contain boolean expression", self)
+         
+ class PythonStUser: pass
+ 
+@@ -2142,6 +2146,12 @@
+     def createType(self):
+         #import pdb; pdb.set_trace()
+         self.type = M3Types.M3ProtocolType(self.mgl.getGroups())
++        dict = {}
++        for msg in self.type.messages:
++            if msg.name in dict:
++                error("Message %s used twice in this protocol" % msg.name, self)
++            dict[msg.name] = True
++        
+ 
+ class ConjugatedProtocolUser(TypeOwner):
+     def createType(self):
+Index: src/m3.g
+===================================================================
+--- src/m3.g	(revision 954)
++++ src/m3.g	(working copy)
+@@ -156,7 +156,7 @@
+                       |  Block/s |  CaseSt/s | ExitSt/s | EvalSt/s | ForSt/s | ForEachSt/s 
+                       |  IfSt/s | LockSt/s | LoopSt/s | RaiseSt/s | RepeatSt/s | ReturnSt/s
+                       |  TCaseSt/s | TryXptSt/s | TryFinSt/s | WhileSt/s | WithSt/s 
+-                      |  SendSt/s | PythonSt/s  | ResetSt/s | SynCallSt/s ;
++                      |  SendSt/s | PythonSt/s  | ResetSt/s | SynCallSt/s | AssertSt/s ;
+ 
+         S/ss          -> $ss=StatementsNode()$ (Stmt/s $ss.add(s)$ (tokSEMI/ts1 Stmt/s $ss.add(ts1); ss.add(s)$)* (tokSEMI/ts2 $ss.add(ts2)$)? )? ;
+ 
+@@ -166,6 +166,7 @@
+ 
+         SendSt/ss     -> kwSEND/kws Expr/e $ss=SendStNode(kws,e)$ ;
+         SynCallSt/ss  -> kwCALL/kwc Expr/e $ss=SynCallStNode(kwc,e)$ ;
++        AssertSt/as   -> kwASSERT/kwa Expr/e $as=AssertStNode(kwa,e)$;
+         PythonSt/ps   -> kwPYTHON/kwp TextLiteral/l $ps=PythonStNode(kwp,l)$ ;
+         ResetSt/ps    -> kwRESET/kwr ( Expr/level | $level=NullNode()$ ) $ps=ResetStNode(kwr,level)$ ;
+ 
+Index: src/NodeGenerator.py
+===================================================================
+--- src/NodeGenerator.py	(revision 951)
++++ src/NodeGenerator.py	(working copy)
+@@ -113,6 +113,7 @@
+ gen("CallSt", [],["expr"])
+ gen("SendSt", [], ["kws","expr"])
+ gen("SynCallSt", [], ["kwc","expr"])
++gen("AssertSt", [], ["kwa","expr"])
+ gen("CaseSt", [],["kwc","expr","kwo","caseElts","kwel","elseStatements","kwe"])
+ gen("CaseEltList", [],[])
+ gen("CaseElt", [],[])
+Index: src/EditNodes.py
+===================================================================
+--- src/EditNodes.py	(revision 958)
++++ src/EditNodes.py	(working copy)
+@@ -133,8 +133,11 @@
+         for port in self.portList.kidsNoSep():
+             if (portName == '') or (port.id.idname == portName):
+                 if port.protocol.__class__.__name__ == "TypeNameNode":
+-                    print "cannot add message to externally defined protocol"
++                    print "cannot add message to externally defined protocol - use a text editor for advanced stuff like this"
+                 else:
++                    if messageName in [msg.name for msg in port.protocol.getType().messages]:
++                        print "message %s already exists" % messageName
++                        return 
+                     port.protocol.mgl.kids.append(messageSpec)
+                 return 
+         raise "panic : this port does not exist"
+@@ -541,6 +544,7 @@
+         # bypass the procedure name
+         self.expr.expr.selectorList.getReadWriteDependencies(res)
+ 
++class AssertStEdit: pass
+ 
+ class ProcedureDeclEdit: 
+     def gatherProcedures(self):
+Index: src/M3Reserved.py
+===================================================================
+--- src/M3Reserved.py	(revision 904)
++++ src/M3Reserved.py	(working copy)
+@@ -48,6 +48,7 @@
+     "DivideByZeroError":  LUT.LUTEntry(tipe=M3Types.M3ExceptionType("DivideByZeroError"),declarer="EXCEPTION"),
+     "UninitialisedError": LUT.LUTEntry(tipe=M3Types.M3ExceptionType("UninitialisedError"),declarer="EXCEPTION"),
+     "NullPointerError":   LUT.LUTEntry(tipe=M3Types.M3ExceptionType("NullPointerError"),declarer="EXCEPTION"),
++    "AssertError":   LUT.LUTEntry(tipe=M3Types.M3ExceptionType("AssertError"),declarer="EXCEPTION"),
+     
+ }
+     
+Index: src/RuleNodes.py
+===================================================================
+--- src/RuleNodes.py	(revision 951)
++++ src/RuleNodes.py	(working copy)
+@@ -743,6 +743,19 @@
+     def restore(self):
+         [self.kwc,self.expr]=self.kids
+ 
++class AssertStNode(AssertStUser,BaseUser,AssertStPyGen,BasePyGen,AssertStM3Gen,BaseM3Gen,AssertStEdit,BaseEdit,Node):
++    def __init__(self, kwa=None,expr=None):
++        Node.__init__(self)
++        self.kwa=kwa
++        self.expr=expr
++        self.add(kwa,expr)
++        self.attributes=[]
++    def setSlots(self):
++        self.makeSlot(self.kwa,'kwa')
++        self.makeSlot(self.expr,'expr')
++    def restore(self):
++        [self.kwa,self.expr]=self.kids
++
+ class CaseStNode(CaseStUser,BaseUser,CaseStPyGen,BasePyGen,CaseStM3Gen,BaseM3Gen,CaseStEdit,BaseEdit,Node):
+     def __init__(self, kwc=None,expr=None,kwo=None,caseElts=None,kwel=None,elseStatements=None,kwe=None):
+         Node.__init__(self)
+Index: src/M3GenNodes.py
+===================================================================
+--- src/M3GenNodes.py	(revision 951)
++++ src/M3GenNodes.py	(working copy)
+@@ -78,6 +78,7 @@
+ class CallStM3Gen: pass
+ class SendStM3Gen: pass
+ class SynCallStM3Gen: pass
++class AssertStM3Gen: pass
+ class CaseStM3Gen: pass
+ class CaseEltListM3Gen: pass
+ class CaseEltM3Gen: pass
+Index: src/PyGenNodes.py
+===================================================================
+--- src/PyGenNodes.py	(revision 955)
++++ src/PyGenNodes.py	(working copy)
+@@ -546,6 +546,10 @@
+         target,msgName = self.expr.expr.genSendTarget()
+         s.write("%s%s.call('%s', %s)\n" % (sp(ind),target,msgName,self.expr.genSend()))
+ 
++class AssertStPyGen:
++    def genPy(self,s,ind):
++        s.write("%sM3Predefined.M3Assert(%s)\n" % (sp(ind), self.expr.genPy()))
++        
+ class PythonStPyGen:
+     def genPy(self,s,ind):
+         s.write("%s%s #inserted via PYTHON statement\n" % (sp(ind), self.pythonText.token[1:-1]))
+@@ -830,7 +834,7 @@
+ 
+ class BracketedTypePyGen:
+     def genPy(self):
+-        raise "unimplemented"
++        return self.tipe.genPy()
+ 
+ class EnumPyGen:
+     def genPy(self):
+Index: src/m3parser.py
+===================================================================
+--- src/m3parser.py	(revision 954)
++++ src/m3parser.py	(working copy)
+@@ -162,7 +162,7 @@
+                       |  Block/s |  CaseSt/s | ExitSt/s | EvalSt/s | ForSt/s | ForEachSt/s 
+                       |  IfSt/s | LockSt/s | LoopSt/s | RaiseSt/s | RepeatSt/s | ReturnSt/s
+                       |  TCaseSt/s | TryXptSt/s | TryFinSt/s | WhileSt/s | WithSt/s 
+-                      |  SendSt/s | PythonSt/s  | ResetSt/s | SynCallSt/s ;
++                      |  SendSt/s | PythonSt/s  | ResetSt/s | SynCallSt/s | AssertSt/s ;
+ 
+         S/ss          -> $ss=StatementsNode()$ (Stmt/s $ss.add(s)$ (tokSEMI/ts1 Stmt/s $ss.add(ts1); ss.add(s)$)* (tokSEMI/ts2 $ss.add(ts2)$)? )? ;
+ 
+@@ -172,6 +172,7 @@
+ 
+         SendSt/ss     -> kwSEND/kws Expr/e $ss=SendStNode(kws,e)$ ;
+         SynCallSt/ss  -> kwCALL/kwc Expr/e $ss=SynCallStNode(kwc,e)$ ;
++        AssertSt/as   -> kwASSERT/kwa Expr/e $as=AssertStNode(kwa,e)$;
+         PythonSt/ps   -> kwPYTHON/kwp TextLiteral/l $ps=PythonStNode(kwp,l)$ ;
+         ResetSt/ps    -> kwRESET/kwr ( Expr/level | $level=NullNode()$ ) $ps=ResetStNode(kwr,level)$ ;
+ 
+@@ -458,6 +459,7 @@
+         kwRESET/k -> $m=self.mark()$ 'RESET' $k=KeyWordNode('RESET',m.start)$ ;
+         kwCALL/k -> $m=self.mark()$ 'CALL' $k=KeyWordNode('CALL',m.start)$ ;
+         kwSCALED/k -> $m=self.mark()$ 'SCALED' $k=KeyWordNode('SCALED',m.start)$ ;
++        kwASSERT/k -> $m=self.mark()$ 'ASSERT' $k=KeyWordNode('ASSERT',m.start)$ ;
+         kwAtoB/k -> $m=self.mark()$ '\-\>' $k=KeyWordNode('->',m.start)$ ;
+         kwPortToPort/k -> $m=self.mark()$ '\<\=\>' $k=KeyWordNode('<=>',m.start)$ ;
+         kwARROW/k -> $m=self.mark()$ '\=\>' $k=KeyWordNode('=>',m.start)$ ;
+Index: src/M3Predefined.py
+===================================================================
+--- src/M3Predefined.py	(revision 908)
++++ src/M3Predefined.py	(working copy)
+@@ -458,3 +458,10 @@
+ M3DivideByZeroError = M3Types.M3ExceptionType("DivideByZeroError")
+ M3UninitialisedError = M3Types.M3ExceptionType(name="UninitialisedError")
+ M3NullPointerError = M3Types.M3ExceptionType(name="NullPointerError")
++M3AssertError = M3Types.M3ExceptionType(name="AssertError")
++
++def M3Assert(cond):
++    if cond.toBool():
++        return
++    else:
++        raise M3AssertError
+Index: src/Lexis.py
+===================================================================
+--- src/Lexis.py	(revision 964)
++++ src/Lexis.py	(working copy)
+@@ -9,7 +9,7 @@
+             'PORT','MESSAGE','INCOMING','OUTGOING','HANDLER','ACTIVITY','SEND','STATE',
+             'NEXT','TRIGGER','ON','START','WHEN','CHANGEABLE','FIXED','ONESHOT','PERIODIC','TIMER','DELAY','USECAPSULE',
+             'PYTHON','READS','WRITES','SENDS','LIST','FOREACH', 'DICT', 'PROTOCOL', 'IMPLEMENTS', 'SYNCHRONOUS',
+-            'RESET', 'CALL', 'SCALED']
++            'RESET', 'CALL', 'SCALED', 'ASSERT']
+ 
+ 
+ reservedWords = [
+Index: bin/modula3.el
+===================================================================
+--- bin/modula3.el	(revision 938)
++++ bin/modula3.el	(working copy)
+@@ -351,7 +351,7 @@
+ 	      "OVERRIDES" "RECORD" "UNTRACED" "REF" "SET" "BRANDED" "OR" "AND" "NOT" "IN" "DIV" "MOD" "ROOT"
+ 	      "CAPSULE" "INCOMING" "OUTGOING" "MESSAGE" "PORT" "ACTIVITY" "SEND" "SENDS" "CONNECT" "WHEN"
+               "TRIGGER" "ON" "CHANGEABLE" "PERIODIC" "ONESHOT" "FIXED" "TIMER" "DELAY" "STATE" "NEXT" "USECAPSULE"
+-	      "PYTHON" "READS" "WRITES" "LIST" "DICT" "FOREACH" "IMPLEMENTS" "PROTOCOL" "SYNCHRONOUS" "RESET" "CALL" "SCALED") 'words) 	   
++	      "PYTHON" "READS" "WRITES" "LIST" "DICT" "FOREACH" "IMPLEMENTS" "PROTOCOL" "SYNCHRONOUS" "RESET" "CALL" "SCALED" "ASSERT") 'words) 	   
+ 	   'font-lock-keyword-face)))
+   "Expressions to highlight in module")
+ 

@@ -1,0 +1,30 @@
+usage: 
+usage: runcap.py [options] model [testscenario [outputfilebasename]]
+        
+
+options:
+  -h, --help            show this help message and exit
+  -a, --ignore-assertfailures
+                        Do not raise exception when assert fails
+  -cTXTSRC, --console-output=TXTSRC
+                        output protocol (pro) or results (res) to console
+  -d, --debug           enter debugger
+  -D, --dump-connectors
+                        dump connector tables
+  --debug-port=DEBUGPORT
+                        port for graphical debug messages to server
+  --gi=GLOBALIMPLEMENT  set global implementations for capsule interfaces
+  --ii=INSTANCEIMPLEMENT
+                        set instance implementations for capsule interfaces
+  -i, --trace-invocations
+                        trace all activity and transition invocations
+  -p, --preprocess-only
+                        stop after preprocessing
+  -P, --profile         generate profile information
+  -sSTATISTICS, --statistics=STATISTICS
+                        dump statistics in protocol
+                        0=none;1=basic;2=detailed;3=gory
+  -rRESULTS, --results=RESULTS
+                        path for results subdirectory (defaults to res)
+  --raw-python          use raw python types
+  -t, --trace           dump trace buffer

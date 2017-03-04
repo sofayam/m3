@@ -1,0 +1,4019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-06-28T12:22:13.203674Z"
+   url="svn://titch/m3/test"
+   last-author="gfr2fr"
+   kind="dir"
+   uuid="5d76ada3-2bd0-0310-b486-ec14cee89a57"
+   repos="svn://titch"
+   prop-time="2006-09-08T19:32:49.000000Z"
+   revision="109"/>
+<entry
+   committed-rev="1"
+   name="Overrides.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="86d80da03d089bdcd09fc43d441f5ced"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapScale.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eaa924bc8e04f543e9bf72c383e3f913"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTriggerNest1.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b695afded57ecb2b414c2506bd9f96c5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSynch.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="666cf4546f64a4f295a947e3bba9d7a3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSpecialInst.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="58af7b86b042f6ae3bae6e02299299dc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAmbig.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="02262ecb6295b2ad05e9f40948a6c605"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTriggerNest1.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f82da40372b509a585ef3f5abc82067c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="EnumInt.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b48e67b0ac8c81576f509265321b63e7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TypeCode.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="76a9687077726c895aa9a6766171c6d7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Random.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="383740c9c668fcf4980f8629df68dd69"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ModConst.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bea8abe26544bd52a9a891dfec8bf19c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ExcModUser.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a4ac223913de6074e6b175d87748591c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:43.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapEdit.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="aa3b0c3ac4dfdecf6a741c9cdb200ece"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Partial.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ab35070273421db36f5f8ba32cb87dc3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Everything.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9e07b8a83683a4dd587b85de1800c8b6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerExtreme.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e31eb2910f02af806e4437cf8954c5e8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTypeNest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fe52773e86457d6e671f3d5099ffa2e0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="BoolTest.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="685e21e4b5416d5a19c85f82e80d17b4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapExp.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="622a9214c123487086a1c3b01421c7c7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Part1.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c92ced13b8f6412f2c407cb7c5b91ede"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapParTwoProc.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fa701c55f093e20ae076851d491ef9d4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="DerefInt.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="dc0567dcf9d97d14afce0fd84767752d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RefRec.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7caa221a1a65dbd6e650f402bddc4594"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC222.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5706ecc38a20246f3864dfe271d83e52"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Tree.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d49d9cae91c70b62bdf7af03986ff2dc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReply3.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="20fe1f0c492ba1b2df2c7d168ae9e5df"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="testall.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ebcebe884d699790a260aaf2ed82aaa8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReply.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9c8fd912b18e8eb1ac2e9281e34fa941"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Multi3.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="aafe4cae4982460d8099f5cedec34cf0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC221.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="cc4e4cc1b3b06db15357b1bd249efa9f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReply3.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="57a36fdb6a8e5c91afcdf61a395536a3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerNest1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="21bc7e3e603a2031bf34ef12a0caabcd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Log.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="99dbc250a9d1733e299386d1d9ee1be2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTypeNestTypes.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c9697ac40565d5682f113d14fbeb4075"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SubType.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e8382f2d6a38bbfa640620d664e742e8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAmbigTrans.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3f8e72e99ed76d223ce497c2414db158"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapStandard.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e2c88bf046a81d2eb14459aba7f366c2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConjKid2.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="12d4832d6a117ca00a19d925a76992df"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="110"
+   name="PingPong.rsc"
+   text-time="2006-09-08T19:54:14.000000Z"
+   committed-date="2006-09-08T19:57:00.846582Z"
+   checksum="e1cee79d4018bc5a6ae7607af546f177"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"
+   revision="110"/>
+<entry
+   committed-rev="1"
+   name="testcap.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a416f6ea60c177579ee1f65c7cff367c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Methods.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="919eb6c51ed6c8e566b022cf940e4e24"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapCmdReset.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fe394a28a78c948389a4e8f3681ae3eb"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTypeNest.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7741085f2c970722b09d00b55c853ae1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="MixUser.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b8255bf36ed106da32d4f412e8bddf14"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Exception.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e6e2337691ef04622d3d680b4981952f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="EverythingSub.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d1ea357e7deafd2dedabcac866b961c2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapProto.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2ba7874f9682196d376387d810290452"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAmbig.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1282b864281529335fe048c6bdf20eb8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RecTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5e4309b3ecbbc27de793516bfae8cbb6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReplyTypes.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="916f257062d9736104de9c8e7466d539"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTestValueChild.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b308b3ead5633ffb7a3cf292db4cca63"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTriggerNest3.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6143ece8daa6e5bcad291f0bb6154cc8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC221.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ff140660dfd14b6664dc56f558e64db4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="With.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f37954245f5233b0c1d805364a6fccc1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapPar.map"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="aa86c63471ac4de1d47fbd2e0b253569"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSpecial.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e579b489a2b01cfd470eea817e9a5e51"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapStrictState.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="901a93bcbc6d8fe24b5206c948a631e5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgr.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="98b4dcdff52193736078bbd51d4a7724"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapBroad2.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1e53d74fb595f422703aa990cbc1bd72"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSwapper.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6a868ff48ffdf688cb36b79ce8256320"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReply1.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d36224d8327e2d1bae1fe4a9aeb54f4a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTestValue.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="cec80451e67f1dbda5f67331bf85b95e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Exit.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="aca14f4f77ecbcd8c0740ecb98131e3f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ExprTest.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9d7e491dc0489d53b0325e53f2f40c87"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RefTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9021cfb80f21bf31e19710863ca5a71c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Eval.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5e7a70b2cf25bc624db4c3533649d5c2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="WithC.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bde95d530ee16759cd0b508889c3cc39"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Mixin.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6a80b3a7f78a523b7b899a4b396fe200"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ForTest.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="51d2fccc22d6f14db1340a90186ae615"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PingPong.m3"
+   text-time="2006-09-08T19:54:14.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ac66c909e599bff87dd28978518a610d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapScale.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8bbd22c644db4316c10bf52e8b2ceae3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapProc.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2345e59dcb0f1bf85890d0e4f1649995"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapBig.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="58904d795e60d8add58959184fd9c6a2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAssert.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5f04c6f89ef8f95db726dee811db3f75"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SubType.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e9130b171781b3990d9e226661de9e7b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerNest1.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f9d5e6825d032b199c2c04eddbadce0f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapBroad2.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5f2d33adba1a5f0f33f0de740e6aa698"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgr.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5d5a244f731aac7a94f9abdf1fef01fa"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerExtreme.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8cc2264a66bede48198ef46db1cafbea"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSwapper.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f186825c4a880836503179e2b4153556"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Everything.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9308b8b5cbc8193ea179997c6b9efff8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC1.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d3e137dd32bbc39180ef91f7135ed224"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSynchChild2.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d3e5c256c43e3161edd7343d91a4a832"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConjKid1.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fde6d561941673235afeafb871636265"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Proc.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8ee5472f84461d83eccd9cd2987520b5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ElabSub2.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2861720c5a3886981e7442b3a44ab823"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IOTest.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9d4c27cc9eadbb52995268bf76221ff5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTypeNestChild.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ef14c5e7eca9f81671ef57ba631b3745"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTriggerNest2.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="60369e9b4854b1435da67aabcf216eb0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapParChild1.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e90b3f7597ca6c7808c6c59f1bf86dcc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="genpicts.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7fb5a8d6332673318de03a09e8fe1edf"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConj.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a0de59fa038c58fa96ab6b2ab1d3ac01"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerExtreme.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f6a17e63d7a94b926ad23536253e33a9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTypeNest.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f5202a74365850dce488e4a323f7a50a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="OpRef.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="526c9866984111b1ce3de19664a28d0c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="genpicts.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9dce93b17764d7dcb0de0b9dd28e429e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapBroad.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="30411a5fb58b3f7065fb4ef3d1e5455b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="FirstLast.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="04f6dd43e96046a0a138679c3ab0dcd5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAssert.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ba85dbd52df2d019ac8a2c384ab7bfc7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSynch.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="cbf5caa43358a1c329d728f41f44b1c6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgrKid2.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2ab475b9a121c4eecd96fb15e8aa2f0a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SubArray.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5e61d953e55f4fac3bff52f9572907cf"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RecInt.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="365411cdf1d9123bc743b91d8705e486"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ArrayCTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5d0b7c7600c00e51a3070c41c28bc549"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTrigger.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0860a25cacce5a79c2a2f6008826a7ea"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:44.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TextTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c1559a6220d58aae378637aa8f43a2d7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapIntState.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f27a3c27701336798df6ee5ccd9af2e7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapProto.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1f102f774124e57fb5751e839b047c7e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RecNasty.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="137122ced4664bac61edaf8cca1e8fb7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="AnonTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6e36c663c38e6376057d0fb01ac60e6f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapStandard.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ceb6aeea56d25a070943f0fbaeeee410"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ObjectFields.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="beba15f8703d285e8e57a2f58e3be919"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTestValue.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4801f89e3eac8aafdda2525f031aa524"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Case.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="70e2029c029724c1347de0666b81bdba"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapDataportChild.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fa29e609331663b0de1ac2f49f076624"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapMain.i3"
+   text-time="2006-09-08T19:54:13.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eeba45aa7e061655ad36305764376114"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ExprTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7f2ddbcba8ca5c1cdcb498f53d5159d2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAmbigTrans.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eb8d71919801a7ee9905bb08c203d93a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Ctor.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b0b02531c1801bc98dceb370500b4272"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSynch.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9667a29fc3e7a1079cb7c45d53be9321"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTypeNestChild.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b1e6f261c25ae06eb58e2da877d09632"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTriggerNest2.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a3191305d251de24a93d22ec3353d920"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerNest2.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3017cd1f16a3e920517003c24527958a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="EnumInt.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="271590eeb808c231c9c152ec45880072"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Random.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="edd01bd1e3c044d8bbbb490bf5e938f9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Const.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6c9b7cd1fa60e54bd7f59cae7c867d3d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SetTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7299a6e616edeec9b0cfc14d71d339e1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Opaque.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d714c821c39ccf0ec4fb9b7dbbd72268"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IfTest.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="977082f8995fd4e6db796455f9d2340e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="VariantRecord.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9892d77d5ba7490464b1037e93d75d9a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAmbig.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c6c5b536af57aad673fd0995f994141c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="EnumTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9c97c31c28de26258781cd6ad9d0b606"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapProc.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0f372edbdb3bbb53166638363a9bdfd0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ExitTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f297cb1edfc3e5b74628df9822fd699b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC222.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6372ae7714cba24a4896a9795953f49c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ElabTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3e9482544b8927ed5aec5f44f13b41bf"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RecTest.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bc41173698ae671811ee0f7073e50dec"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="EnumTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d28a82c04a68b0ecf9b2703644e4d1f2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PartUser.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8199e1b8380c9193b2bfacac719a7899"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapEdit.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6b32fc64eb1bf105c944501e61a600d4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Int1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d7a25d9a7859c8695a69e3e888f275d3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapExp.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2d24c3f6c5e45d62061c8dbd85e922fd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapScale.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a74db87878f26e64003417019c4a3f54"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapDataport.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="76f76ef588ff6b26a942366eb60179a3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ArrayTest.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9d6cbf345f9155621c33e8c5bc090cc4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC222.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2b47fe565613224ff979ad8fa153b824"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC21.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3ac4ab061efa96e574559946f9fdaa25"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapExp.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="29d63306debd21bf4bb6becfa8e5b632"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Multi3.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="dfccaee745a75ba97732f61590a367e1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSwapper.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="753396f2b53f66f7b9d5c1532a4debdc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerNest1.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7df32cbeafda2c90770a8a6b2d8abfc5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Multi.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="aa4f6bae71a366f507727c2337304848"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Log.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c9f01d0293c4ace26257606cb4797a0a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimeReset.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f65065486e92d0583265a79c34be4d27"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapBroad.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="097e591ead90a2ad7a22731aaa445d4a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TryFinally.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b0d39b7bd7916f5f43bf784d6d68a90d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapNest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8f702dc43154bca4c944be316a1c9a95"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConj.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f8d6c538ab4cd338d08e15f7d3373016"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Int.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4a7e466a50e371ab72faf5d5a14b1d2a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="OpenArray.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6ff986c0801800b8a7b5f0e57d576bdd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapParChild1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b8351f5a23fff4d96597add44dec69b9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="UseOpRef.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1c23d12123f3da6cbaf29dcd6f638351"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="VarType.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4d0ae1a4292a1cde848f3a105c466bfb"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAssert.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="cf289924b1c4c678ea037a3ac9b2b77f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapBig.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0edb9380b0bdc7a4c4010a59969abf8e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="InitTest.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7e78e5e387137a68a756533762d8c56d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTrigger.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="db8886cbe36fe36a9c01cd3153653719"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTypeNest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d3f62e932ec15c27ac31ce77c5b9b5ae"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ListTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0d816b7733b3cef14fd2161db77ce443"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapPar.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e69e920afa2e7cad6e63da5033727a23"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReset.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2b1fdfcaae93d85e3d507c15fd99384b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="VariantRecord.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="317db1eee07e7a41a327cc1c8d5d3a92"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAmbig.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="98c07a4b4e429f72195eda276f933409"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTestValueChild.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9cae040239bfb04d3326832a8329dcdd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTriggerNest3.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="61126c9fcde8f7893abe63df837b51a1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RecRef.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8d5f1666bd2a5204115c42037fb7cde8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTriggerNest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9a3f62b4253d9e7b12fbd7f1e9b6529d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="NilTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="de6a1f2770a11c0cf7e319b36fc76389"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConj.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="62bd43421b46f32b754a9be2589ecb5f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapProto.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2655310bd419e4271716a69e29fc1b99"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RefCTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="99b0b0d62964f7509b1b79089760887c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapDataportTypes.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9291f329b1e458fee62119d039f252ff"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Mixin.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a719a4574d8b07c64ee91dd567b90a27"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapStrictState.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="962ed2d4ef7962ad8d8c20dc2861db66"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:45.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IfTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1a9f50840adc8f992aa20c6493469a85"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TCase.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8f594c31278ca10102820016fd3f7b39"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ComplExp.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="15a88f7947c502c2f70caa7e6b0e8d46"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapProc.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1504f0ef5627e0eb22de0046fa3f26dc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC21.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="35d387dee141d451f5dee6b62d532bd1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerNest2.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="06cdde0ff92fc4743585edb614ba13e9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReply1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ccf544e68acacd14c2ebff76e7154cc0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgr.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="85086ebfe53df7e045cec75e55c69401"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapBroad2.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fda3b555f6e19cf1fa6fe0314ee53b98"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Ctor.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0b18ec72cc83f98c61670744c43c8b71"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerExtreme.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f31d16dbe154ff6c12e3b95fb40034c6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConjKid2.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c8b88bcfe5e4a01cbb7775f3b2c3745a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapIntStateSub.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5baa6657bea66b1975ebbb70a4b5b86c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgrKid1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="72a81e892716e84466e84ea19f61e759"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC1.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e703d4da20d8b579eb8f394604719b91"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapParChild2.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c961287be8af4104951a5827d5a3cf80"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapPar.sys"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ffb0f894029aa71e75bb58354732b9aa"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ArrayTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eabf29c7fd51c286f9945af84ff8d1b7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ForEach.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fb33edb2ec479df0db4e6f4a9dfdc794"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="OpRef.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5751a2d662e190e9b01a1061cd6a5e9c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAmbig.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="231b4649ff877071e2cda06a56a38890"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimer.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e2dd6ccca68982449e6b34a4b678701d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapPar.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5e983da68269ac633ba5ed7e2e7389c8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReset.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="517be16a5abe1e141cd7d9993595b857"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerNest3.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bbc3657b6f1e981d5e4d485497cdee91"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="cleanup.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="21b228e447249adf215094e690b518a8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RecNasty.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5f334c88be7e6f09072d7168da046ec1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapMain.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4d5678f01fad05e1939f31f7294b0a72"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Multi.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a1d0e70118a16ef3386f1aeb1557d902"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTrigger.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="75416a0fb6ade288ecb5421e3524f04a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapExp.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="65778374d2f6974ebe6a34e46074c890"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Set.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="379b3c6db1f85ba30f9a069d8b59ae76"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RecRef.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="152d308c364bab9b08f82e67c480ff9b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ConstInt.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9576e8ff06949f5b6b46e53439938760"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapDataport.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="641479b2c297f4b6f40e7bafdc8108a9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSynch.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8c419d12a06e581c8ee3bab9a688f8b1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimer.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="cbec6c59ddfff875b2d400b9856f43b0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapType.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1de7a31e5f58b0570eb0b3a01d7bb1e6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TypeCode.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="728a13589bc11176e48d56776747fbf3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Char.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="baf4fe3ef2ad1bc26b4a7bd978d81b07"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Predef.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="58a3e590cf92b550b2818356fed7b5d2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapIntState.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="298389b5425a2294833779295fb7903d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapDataportChild.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c402a748c4e51c2d73f89900febaae57"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ccode.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fd951d84ec77480af2e260950fde753f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapMain.m3"
+   text-time="2006-09-08T19:54:13.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d9cd6e210098b27cd103dae2cb349dec"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ImpAs.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ca8825c3e5c9a3da6dc6d8bdc390387d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ExcMod.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4d046a92a145e0b658e01c13e36d7769"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAmbigTrans.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bb8a541d488cadaafe9d49c1a2fae465"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC22.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1578beaaa30c8069f4d505485de0338c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTestValueChild.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b55ff7a593d7adaeaf38dff0c5fbbb53"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTriggerNest3.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f3f3c2680026a540e4c5d6fbfd940e38"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapType.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bf713b44d39cb2f283001255fdaea657"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgrTypes.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eb46262c02bfc9f753678307324021cc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerNest2.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e78e2f0dc1fc5332a6ca2a8ee321f081"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="NilTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d39d2628231f6875e353f82e8c41ba1d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Deref.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eb6199800f653b9ed60c125ae94dc8ec"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapParTypes.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ec53bdbfe4f22efc58eb42746c19541a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Format.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="49fdcf556c136f425478ef5869cd66d9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapParChild2.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="44e2fea4e7159b79b6ea4f86c52d99e6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="OpaqueUser.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e2c40450b8c02f6d9d55fc4dc07dca21"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Opaque.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f0b0c0fc00506fc2916026d625381b48"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="BoolTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b2e7b21a4f649df3c11fb4676eca860e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Predef.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e12d13770a1bed0382941ddd2a4cdf45"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapProto.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="45881fc0778e296874f0f06e21806104"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="69345b800bedba9a0f744f05767b416d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ccode.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d5596d0e8a2956a2b0946cdc8e39a1d2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapStrictState.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c2d5caa2b9312f668f66d5f201ab83bf"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="MethodInh.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a1c013d90632a45acef0496dc476a767"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReply1.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fc3915dd095e31d61d9d46d6144d2a6f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTriggerNest1.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="01679f579462dec1744d72bca6f26e8c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapEdit.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f5ac373699ec23d9cb06b2ee7e4885a4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapScale.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3e3f8793478d94e5c31a251d606d1f1c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapIntState.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="017ffa25ec960d3493d8a90408bc8cde"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Deref.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="639f4fd90edf6b3bd8e155c72c7f7d60"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapProc.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="73e876f85d078415bfde73cec5c2f13a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSpecialGlob.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f678a4494eefc46baa2ed0b64aea2fa4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC21.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4919ebca6e094acba52be24f9c746a7d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapExp.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6fc1ecd285bf7f1ea6909c4409706bf8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimeReset.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a4b108a4592e09dbeae747c65a20c063"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Scale.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8979e41a64ae833af281beba052614ad"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapStrictState.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1ba14687365290a99ea63a09be4f4425"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapDataport.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ddea0707fa7ef05413c80b0ac5ca476c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Integer.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4ac69ff71003784a41affce5b6a62f02"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ObjectMethods.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="16499c448f721ee323b5093f186effe1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Proc.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="dfa94336147ec5b553d0e65cb8b85f9a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapParChild1.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2b2f72803f4cbcce42f4cf218366e4b5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReply2.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="009423ad3a55080d6012db929f4f154e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ForEach.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b2cca2177f7ac288b7bb7592cdd37520"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="OpenArray.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7d8e22120c3fd4de83be1b8f0466ec5d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapExpTypes.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1a70bab15490256d9fc0caf8ebcabf3b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Stack.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2cf4349e4b7433239aa5e4ddfd5927de"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapCmdReset.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8949924bec3f593e92b52cd4ce9b17cd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapBroad.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e40478412f8047f212637392a0cc8539"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="FirstLast.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5aea77c20cfa9882fd48d921dd63169a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgrKid2.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c412c5341e2f53129f17162a53de4ca0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RefTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f871cbf0f96a82fbfcd3a8b108ae4939"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="StackUser.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="330ff3792f9a42c8de2c40936cf7cea1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ExcModUser.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bb09d7e433558ccc8a3faa8e453e2014"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReset.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e1e6615b5824ec013bb053b445d1ccb6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapPar.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="404c69b6181f516490d6a94d539c6d6d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConj.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5870b705437167bf5aa37b0a5b578653"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTrigger.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bf439dc7f0b3cb742aa92526c12fe74b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:46.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Complexp.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="61f42667e599a6911a134963aee992e2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ExprTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5d8455fec8188517ecf5745bbc01305f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSynch.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="13b235aa37063b38086120274d9b2bc1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConjKid1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b10aee0e6f3310c600bea3f7862a9f93"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="AnonTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f95920cfea205fb1e6486e0aef03ed41"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAmbigTrans.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="02262ecb6295b2ad05e9f40948a6c605"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTypes.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="367a2d790328dc09a83deae311599399"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ForTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6f42c4e7ebd2ee6ff4da03a78092add3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapIntState.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="dc80a9026f40cc734b35304b76711fa3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC22.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9d901a069a5ce07a6787e009f91f4c61"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerNest3.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="50fd5b542928a74df10e454b0b0b8e6e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SubType.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="56247bb1e10a0e19523652fb4b14609f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="testcap.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="031aafdf2270d56d1c7133fe187ba39a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReply1.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4a40c30fbc62578eb305b8288cc06c03"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Generic.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d874ad65a3421286e4fcafc807ef9375"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Proc.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="df698442e46b6eb4d52270ba5c43950c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgr.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="01679f579462dec1744d72bca6f26e8c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RTC.prj"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f3b804acd436048a794997c4ce5928c5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSynchChild1.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="31818489f174faba41f45efe23636169"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgrKid1.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a725289d74150ae180fb5a115d9ed0f9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTestValue.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d10b554d53f9188f1479b52e5ef28c87"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IOTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9740d570b1a2f398be6f079f9a020156"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Multi1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ff280dfceb78cd9fee514914efaae83e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="With.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a818a6e9dee902b7e939732234af1f48"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IntStack.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a0a625250af0a29e84af92ea5ffb8951"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerNest3.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0ef5a0d840bec724a4b714bb4a353637"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="VarType.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="84d63a67af3326e6bb61d29cd12c5128"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapScale.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d659ce19462553ac106033a5742b794a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerNest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9dddeb2f81284ce12acc82716c5da109"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapIntStateSub.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5bccdc26da26ca48fc12562ea01e3a5b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Exception.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="22e353076aa33010b7f58b330c4e81ed"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Numerics.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4ae8b994fa08e037a331e6b4d955d6de"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerNest1.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f27a3c27701336798df6ee5ccd9af2e7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="AnonTest.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5bd67234f9c1056d447e5f963b71f9b0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Tree.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2aa8a91589fdc0482c3b97cf6097cbb8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTypeChoice.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="54522fd08a2cd31b193174615eab98af"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSynchChild1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="742917e1518344d076945e907b22199a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ElabSub1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="72c1a0a0e75be21d2134849ec9886908"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimer.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bcae7ba46a67b50a30af5191b9de7bd1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReset.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3c93cc5ab3ed38ff07a467da671935f9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapPar.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4aaa95222ec022593dfd64563c542913"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IntegerTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f503e4a492b5d76e6ca554329e0b92d5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   name="errors"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="CapTriggerNest1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3dd449850c8606e407933c9e4565f388"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="BoolCTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e654da12d628c1fe1154d32dce086f5c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConjTypes.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c6cd6dd09fbb1a7a659bb9cdf79bd4b6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapProc.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b0b666b4af0b13ba37e0a4556718a815"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TCase.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9d5f0e5966dbb50b90612ee544738d6d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapDataport.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e73a137560e342234c56bfdc29df691a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Ctor.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b6c1b07a288f9f25bb8c721a3f528157"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:47.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimer.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5ec3283295334031507dc5ad92400979"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapType.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e88aa1c6ed7167cad33ba584cb8e0002"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimerExtreme.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ab71139db81eb77019edb90623c359e4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ProcType.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2405f9299c01c054204857fa28d24fc5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTypeNest.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="43c47938125f3ad197d793a35505612c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapDataport.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f0affb8ef194923b44a8b24e0e894b48"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Numerics.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e51de13d776cc8efd5663b91562e6946"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ForTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="913b39d5de9d20bc5a5290a0fb62803c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapDataportChild.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="79b8df08ca42f22299f83c29126fb221"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Scale.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="255758a039ecc373378938e80bf35171"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ExcMod.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="39a0afe575c944dbe4c92fe83e5a8ebc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Format.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bb2e78190d77bc16b5c0feb83351902a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC22.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5927af44262729263c5e79f3cda012dc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Everything.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fb387ad427f62596f4969066734b3339"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="cleanup.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="edf0175584f59ab81c31c223f5886ebe"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapBroad.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6792625f427f860f8cc82b645f0c307f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Part1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="18098f69ff1c50f08c6a0b5e2ce64ef5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ObjectFields.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="224257f6b4bc4c8dc6e78c8e68f5cc4d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Const.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9c4d6f5b61e1fabe0717b43a8d94661f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="InitTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ab937571080b138066a096fd8428e5b4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapStandard.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b5346236d4d1aa081a36ba2095bc29ae"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Tree.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bed454c450ac057b5a164b2232a7cbc2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapType.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8268597121484b472d8efe576486fc95"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapParChild2.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b8f5c0f223303743477d92a335900235"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ProcType.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="16096ada820ac2eb45833a2ea25ac5e5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimeReset.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ed1498353c3e47e71a883520b6c7956a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TryFinally.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="be31239875f66d2d65a8184c5a9720db"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReply3.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9f895efae7554c9362f79b02e5b44288"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IfTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9589978551cc8ad0277d4120d86f95b3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTrigger.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="76a55549b57ff7f9bff34489a9124eb6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="EnumTest.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1f651c58cee0ea07e07cd3ed3063b5e4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="testall.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4d40a810f9140205cffd7d969272ab2d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ImpAs.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7bb0586329ae13576abb204edda45781"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapParOneProc.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bf0dccc11f6e1c7a85c2150095a87356"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Dispose.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="71891788e723386d5d25d177d845eb49"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ScaleTypes.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1cd144812ab29977342ba7f53e89e071"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReply2.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fe9fe2f52a98fef00e17de8a237fc74f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RecTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c4d2e70d5e8c78695095da61b3c30779"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="DictTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0d5405e01bb2a9351ddd9c02ab51250f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Case.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="27f92861a3a5964f536d33b906ee4cce"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="addActs.py"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="cd78d6448179451974a761ce3d50072d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ArrayTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="53df2d52a6fa531e8e53fb02fc98dced"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapIntState.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="012a478a4fb50bdd05f4e8ca5c8ce717"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapStandard.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="779db82f21accbe9c47309d0b1d37f7e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConjKid2.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1e512f32c1ea6b207987fbf23d10b327"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapExpFail.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4a3299f68994497fb2360c64da87dd73"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="VarType.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2e1ec11470a160bc458e0aa944785cab"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapCmdReset.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0cae5c7e4271e5035da98ee3c73831ab"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="MixUser.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b17b97f62bc04a7ec981562fd14a4743"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   name="IO"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="Overrides.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="508d8218c7d66fe1f06dded3543b86cd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="EverythingSub.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b385cd278e303529db24c0465cdef2ee"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapStrictState.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1b604581bdd7c7ba55022fb9928a6797"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC221.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ece4bc78d21ea197dc6f0aad63e24d1e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IOTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="cc08bf195f4a4cd380bcdf4a65a916c9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSwapper.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b40e5cacc41703f2b95cd7684d1e9826"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReply2.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="44335a70c74e9c5d3e421e7df857c9e3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="InitTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="88d897e8ee8ec2a4524cbb3455372ef0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC1.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f3ef08a4e6763363b4ce6aca06991845"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Stack.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b7168a5b16aae56dedd8f65ef3714155"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="EverythingSub.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4032e46fc081d2b3d2977d19bb772d4a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgrKid2.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a88de7de3afa15b1db33e810b96aec4f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Multi2.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="faa0966adfc2b3033e2a6a68fb46f0ed"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTimer.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a323c49e39284a51630feef24d12da39"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="AlgolNasty.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7bdc1b0c72ccb29c648ae34c58f5c0ba"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Const.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="134f152a27fabbb4ec655bf10e445550"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PingPong.i3"
+   text-time="2006-09-08T19:54:14.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="abf08de9bf5c74fcfc171bba7e79f089"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapReset.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="53855d35d598b9ac673e33f054c38a1d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:48.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapPar.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4cbde5775012b6fba0bf27f5e976e656"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="MethodInh.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="50f06de911e69349272f669de8344768"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="110"
+   name="CapMain.rsc"
+   text-time="2006-09-08T19:54:13.000000Z"
+   committed-date="2006-09-08T19:57:00.846582Z"
+   checksum="54e877057cc43b8e8d2e68a52daa370e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"
+   revision="110"/>
+<entry
+   committed-rev="1"
+   name="CapBig.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eb306467145c44add903da264d412118"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAssert.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f4808aeae51759723e31c610dd3f5d48"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Opaque.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8f038fb4d50123df1abdc45c065d4d75"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="testall.py"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4d95bcce9477cb660a5cdc3f2c4d6a30"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="DictTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bc90e73e61520742a5f8efe8fdd51b2c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConj.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a836bdb3cb18b6833ef824a583a04a73"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapConjKid1.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="41f11dcbb1e1c6303dad698f5e8d1a1f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ModConst.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="67e450838cd80eac689cd1963a975423"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapRTC1.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5231f076ec92b715250e1b52dac8faa4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSynchChild2.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="01f2a7810bd865a619b7c2cc00861c04"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ElabSub2.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="99dc9898af5a51f4122e7a3701027e79"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAssert.inp"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9fe4c9648abd14f4cdc7d40503aa7302"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Dispose.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="665ab09edcd39fd435df8be3c81d731f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTypeNestChild.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="992c7ab8d182e4254eaa7e68e7bf58ed"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTriggerNest2.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="cb974c3a786a5c5c52999710a4dca9c9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAmbigTrans.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="701acf4b1105082db3f0a3375c784bfc"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSynchChild2.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a3268e1b96250352c63362ae47053aae"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RefRec.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="16b52bb5a98087549d99132f11b17167"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapBroad.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f47751acf1ba4446b0ec918a4e39e97d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SortTree.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c9e8e406c2a203f804c13c281183b6e3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ListTest.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8d52a9b3683bd2f71e0c63bd94ef27b4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapType.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a02879eda19ff592052894bdfd436b67"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Char.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="93c5f43152981b82378b7f1fe01f51ee"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgrKid1.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="15b94dc53cf36b2d1e251fa71096d8e8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="IntStack.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6b602fb0d49ffb8ce44b1481bf6a48b7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="BoolTest.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="830d3fda6a85cfef411e04003a0898bb"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Complexp.sh"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c3d223573a74fc5859b9fc66d4b1ca58"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapProto.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2717d31fc1a51b693ac64058aaee4670"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapAgr.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bd053069540bf39e57c55e5f155fafd6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="HybridInner.rsc"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f78c885d3c6d5162e6cb515e2dd16df4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTestValue.bat"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1835a046bcdda8c15a9a75ffd799ef42"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Eval.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e17b665534af4375d4540c3f5b4c2a7f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SubArray.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ffbb3ec00c1e2eaa3e3a57ac5869f868"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapIntStateSub.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2717f1f47e5388adea39489ac974af19"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Multi.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1959f45573ac3b6e6ab67584f90f87f2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapTestValue.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a42e2802014b9be6032738339b11f442"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapSynchChild1.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1dd1fbbb0ef00899e4502b80f0659f21"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ElabSub1.m3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="977cb0e8aa8483c8687368aa33d8682c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Proto.i3"
+   text-time="2006-09-08T19:32:49.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f8a28ce42f9128dff9da1172a8f31a08"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:32:49.000000Z"/>
+</wc-entries>

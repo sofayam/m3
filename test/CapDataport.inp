@@ -1,0 +1,8 @@
+> init
+: set x 99
+> expectx ex = 99
+: set r {col: green, flag: FALSE}
+> expectr er = {col: green, flag: FALSE}
+: set child.inner 101
+> expectInner einner = 101
+> summary

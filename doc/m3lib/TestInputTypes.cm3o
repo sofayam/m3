@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Capsule source="/home/mark/m3/doc/TestInputTypes.m3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <Id idname="TestInputTypes" startCol="8" leadChars=" " refid="3" slot="modname"/>
+ <Null refid="4" slot="kwi"/>
+ <Null refid="5" slot="implId"/>
+ <Sep token=";" startCol="23" leadChars=" " refid="6" slot="ts"/>
+ <ImportList refid="7" slot="imports">
+  <AsImport refid="8" slot="anon">
+   <KeyWord token="IMPORT" startCol="26" leadChars="%0A" refid="9" slot="kwi"/>
+   <AsImportList refid="10" slot="importList">
+    <ImportItem refid="11" slot="anon">
+     <Id idname="InputTypes" startCol="33" leadChars=" " refid="12" slot="id"/>
+    </ImportItem>
+    <Sep token="," startCol="43" leadChars="" refid="13" slot="anon"/>
+    <ImportItem refid="14" slot="anon">
+     <Id idname="IO" startCol="45" leadChars=" " refid="15" slot="id"/>
+    </ImportItem>
+   </AsImportList>
+   <Sep token=";" startCol="47" leadChars="" refid="16" slot="ts"/>
+  </AsImport>
+ </ImportList>
+ <UseCapsuleList refid="17" slot="usedCapsules"/>
+ <CapsuleBlock refid="18" slot="block">
+  <DeclList refid="19" slot="decList">
+   <ActivityDecl refid="20" slot="anon">
+    <ActivityHead refid="21" slot="activityHead">
+     <KeyWord token="ACTIVITY" startCol="52" leadChars="%0A  " refid="22" slot="kwh"/>
+     <Id idname="testInput" startCol="61" leadChars=" " refid="23" slot="name"/>
+     <Signature refid="24" slot="signature">
+      <Tok token="(" startCol="71" leadChars=" " refid="25" slot="lbr"/>
+      <Formals refid="26" slot="formals">
+       <Formal refid="27" slot="anon">
+        <Null refid="28" slot="mode"/>
+        <IdList refid="29" slot="idList">
+         <Id idname="myRec" startCol="72" leadChars="" refid="30" slot="anon"/>
+        </IdList>
+        <Tok token=":" startCol="78" leadChars=" " refid="31" slot="col"/>
+        <TypeName refid="32" slot="tipe">
+         <QualId refid="33" slot="qualId">
+          <Id idname="InputTypes" startCol="80" leadChars=" " refid="34" slot="anon"/>
+          <Sep token="." startCol="90" leadChars="" refid="35" slot="anon"/>
+          <Id idname="MyRecType" startCol="91" leadChars="" refid="36" slot="anon"/>
+         </QualId>
+        </TypeName>
+        <Null refid="37" slot="ass"/>
+        <Null refid="38" slot="constExpr"/>
+       </Formal>
+      </Formals>
+      <Tok token=")" startCol="100" leadChars="" refid="39" slot="rbr"/>
+      <Null refid="40" slot="col"/>
+      <Null refid="41" slot="tipe"/>
+      <Null refid="42" slot="kwr"/>
+      <Null refid="43" slot="raises"/>
+     </Signature>
+    </ActivityHead>
+    <Op token="=" startCol="102" leadChars=" " refid="44" slot="kweq"/>
+    <Block refid="45" slot="handlerBlock">
+     <DeclList refid="46" slot="decList"/>
+     <KeyWord token="BEGIN" startCol="108" leadChars=" %0A  " refid="47" slot="kwb"/>
+     <Statements refid="48" slot="statements">
+      <CallSt refid="49" slot="anon">
+       <Expr refid="50" slot="expr">
+        <SelectorExpr refid="51" slot="expr">
+         <TypeName refid="52" slot="expr">
+          <QualId refid="53" slot="qualId">
+           <Id idname="IO" startCol="121" leadChars=" %0A     " refid="54" slot="anon"/>
+           <Sep token="." startCol="123" leadChars="" refid="55" slot="anon"/>
+           <Id idname="Put" startCol="124" leadChars="" refid="56" slot="anon"/>
+          </QualId>
+         </TypeName>
+         <SelectorList refid="57" slot="selectorList">
+          <ProcCallSelector refid="58" slot="anon">
+           <Tok token="(" startCol="127" leadChars="" refid="59" slot="lbr"/>
+           <ActualList refid="60" slot="actualList">
+            <ActualExpr refid="61" slot="anon">
+             <Null refid="62" slot="id"/>
+             <Null refid="63" slot="ass"/>
+             <Expr refid="64" slot="expr">
+              <SelectorExpr refid="65" slot="expr">
+               <TypeName refid="66" slot="expr">
+                <QualId refid="67" slot="qualId">
+                 <Id idname="IMAGE" startCol="128" leadChars="" refid="68" slot="anon"/>
+                </QualId>
+               </TypeName>
+               <SelectorList refid="69" slot="selectorList">
+                <ProcCallSelector refid="70" slot="anon">
+                 <Tok token="(" startCol="133" leadChars="" refid="71" slot="lbr"/>
+                 <ActualList refid="72" slot="actualList">
+                  <ActualExpr refid="73" slot="anon">
+                   <Null refid="74" slot="id"/>
+                   <Null refid="75" slot="ass"/>
+                   <Expr refid="76" slot="expr">
+                    <TypeName refid="77" slot="expr">
+                     <QualId refid="78" slot="qualId">
+                      <Id idname="myRec" startCol="134" leadChars="" refid="79" slot="anon"/>
+                     </QualId>
+                    </TypeName>
+                   </Expr>
+                  </ActualExpr>
+                 </ActualList>
+                 <Tok token=")" startCol="139" leadChars="" refid="80" slot="rbr"/>
+                </ProcCallSelector>
+               </SelectorList>
+              </SelectorExpr>
+             </Expr>
+            </ActualExpr>
+           </ActualList>
+           <Tok token=")" startCol="140" leadChars="" refid="81" slot="rbr"/>
+          </ProcCallSelector>
+         </SelectorList>
+        </SelectorExpr>
+       </Expr>
+      </CallSt>
+      <Sep token=";" startCol="141" leadChars="" refid="82" slot="anon"/>
+     </Statements>
+     <KeyWord token="END" startCol="146" leadChars="%0A  " refid="83" slot="kwe"/>
+    </Block>
+    <Id idname="testInput" startCol="150" leadChars=" " refid="84" slot="endId"/>
+    <AfterClause refid="85" slot="after">
+     <Null refid="86" slot="kwa"/>
+     <Null refid="87" slot="afterExpr"/>
+    </AfterClause>
+    <Sep token=";" startCol="160" leadChars=" " refid="88" slot="ts"/>
+   </ActivityDecl>
+  </DeclList>
+  <Null refid="89" slot="connections"/>
+  <KeyWord token="BEGIN" startCol="163" leadChars="%0A" refid="90" slot="kwb"/>
+  <Statements refid="91" slot="statements"/>
+  <KeyWord token="END" startCol="172" leadChars="%0A%0A" refid="92" slot="kwe"/>
+ </CapsuleBlock>
+ <Id idname="TestInputTypes" startCol="176" leadChars=" " refid="93" slot="endId"/>
+ <Sep token="." startCol="190" leadChars="" refid="94" slot="td"/>
+</Capsule>

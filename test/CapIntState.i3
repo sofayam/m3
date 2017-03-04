@@ -1,0 +1,7 @@
+
+CAPSULE INTERFACE CapIntState ;
+PORT p1 : PROTOCOL
+    INCOMING MESSAGE start() ;
+    INCOMING MESSAGE summary() ;
+END;
+END CapIntState.

@@ -1,0 +1,59 @@
+RTMX (Realtime Modelling Extensions) Restrictions
+-------------------------------------------------
+
+Capsule Messages don't make proper use of default params
+
+
+
+M3 Restrictions 
+---------------
+
+(i.e. standard M3 functionality not yet implemented, but not needed for tool demonstrator) 
+
+
+Consistency checking of multiple reveals in the same scope
+
+Link time checking of opaques
+
+Library (the proper M3 one and not the current mini-interfaces)
+
+Constant/Readonly checks
+
+Constant values for compounds  (VAR a : [1 .. conrec.conarr[conval]])
+
+Structural equivalence and brands
+
+Fancy floating point notations
+
+Anonymous objects
+
+pseudo-multiple inheritance (TYPE o1 is O2 O3 OBJECT ... END)
+
+
+TODOs
+-----
+
+(i.e. stuff I need to make this tool useful)
+
+debug/lineno info
+
+
+
+POTENTIAL QUALITY IMPROVEMENTS 
+------------------------------
+
+
+
+object access via offset 
+
+regression test for errors
+
+
+C Code Generation
+-----------------
+
+Nested procedures
+
+Exceptions
+
+Objects

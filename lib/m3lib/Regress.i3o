@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<Interface source="/home/mark/m3/lib/Regress.i3" refid="1" slot="anon">
+ <KeyWord token="INTERFACE" startCol="0" leadChars="" refid="2" slot="kwi"/>
+ <Id idname="Regress" startCol="10" leadChars=" " refid="3" slot="modname"/>
+ <Sep token=";" startCol="17" leadChars="" refid="4" slot="ts"/>
+ <ImportList refid="5" slot="imports"/>
+ <InterfaceDeclList refid="6" slot="decls">
+  <ProcedureDecl refid="7" slot="anon">
+   <ProcedureHead refid="8" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="22" leadChars="%0A%0A" refid="9" slot="kwp"/>
+    <Id idname="init" startCol="32" leadChars=" " refid="10" slot="name"/>
+    <Signature refid="11" slot="signature">
+     <Tok token="(" startCol="36" leadChars="" refid="12" slot="lbr"/>
+     <Formals refid="13" slot="formals">
+      <Formal refid="14" slot="anon">
+       <Null refid="15" slot="mode"/>
+       <IdList refid="16" slot="idList">
+        <Id idname="name" startCol="37" leadChars="" refid="17" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="42" leadChars=" " refid="18" slot="col"/>
+       <TypeName refid="19" slot="tipe">
+        <QualId refid="20" slot="qualId">
+         <Id idname="TEXT" startCol="44" leadChars=" " refid="21" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Null refid="22" slot="ass"/>
+       <Null refid="23" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="48" leadChars="" refid="24" slot="rbr"/>
+     <Null refid="25" slot="col"/>
+     <Null refid="26" slot="tipe"/>
+     <Null refid="27" slot="kwr"/>
+     <Null refid="28" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="29" slot="kweq"/>
+   <Null refid="30" slot="procBlock"/>
+   <Null refid="31" slot="endId"/>
+   <Sep token=";" startCol="49" leadChars="" refid="32" slot="ts"/>
+  </ProcedureDecl>
+  <ProcedureDecl refid="33" slot="anon">
+   <ProcedureHead refid="34" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="54" leadChars="%0A%0A" refid="35" slot="kwp"/>
+    <Id idname="assertPass" startCol="64" leadChars=" " refid="36" slot="name"/>
+    <Signature refid="37" slot="signature">
+     <Tok token="(" startCol="74" leadChars="" refid="38" slot="lbr"/>
+     <Formals refid="39" slot="formals">
+      <Formal refid="40" slot="anon">
+       <Null refid="41" slot="mode"/>
+       <IdList refid="42" slot="idList">
+        <Id idname="cond" startCol="75" leadChars="" refid="43" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="79" leadChars="" refid="44" slot="col"/>
+       <TypeName refid="45" slot="tipe">
+        <QualId refid="46" slot="qualId">
+         <Id idname="BOOLEAN" startCol="81" leadChars=" " refid="47" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Null refid="48" slot="ass"/>
+       <Null refid="49" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="88" leadChars="" refid="50" slot="rbr"/>
+     <Null refid="51" slot="col"/>
+     <Null refid="52" slot="tipe"/>
+     <Null refid="53" slot="kwr"/>
+     <Null refid="54" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="55" slot="kweq"/>
+   <Null refid="56" slot="procBlock"/>
+   <Null refid="57" slot="endId"/>
+   <Sep token=";" startCol="89" leadChars="" refid="58" slot="ts"/>
+  </ProcedureDecl>
+  <ProcedureDecl refid="59" slot="anon">
+   <ProcedureHead refid="60" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="94" leadChars="%0A%0A" refid="61" slot="kwp"/>
+    <Id idname="summary" startCol="104" leadChars=" " refid="62" slot="name"/>
+    <Signature refid="63" slot="signature">
+     <Tok token="(" startCol="111" leadChars="" refid="64" slot="lbr"/>
+     <Formals refid="65" slot="formals"/>
+     <Tok token=")" startCol="112" leadChars="" refid="66" slot="rbr"/>
+     <Null refid="67" slot="col"/>
+     <Null refid="68" slot="tipe"/>
+     <Null refid="69" slot="kwr"/>
+     <Null refid="70" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="71" slot="kweq"/>
+   <Null refid="72" slot="procBlock"/>
+   <Null refid="73" slot="endId"/>
+   <Sep token=";" startCol="113" leadChars="" refid="74" slot="ts"/>
+  </ProcedureDecl>
+ </InterfaceDeclList>
+ <KeyWord token="END" startCol="118" leadChars="%0A%0A" refid="75" slot="kwe"/>
+ <Id idname="Regress" startCol="122" leadChars=" " refid="76" slot="endId"/>
+ <Sep token="." startCol="129" leadChars="" refid="77" slot="td"/>
+</Interface>

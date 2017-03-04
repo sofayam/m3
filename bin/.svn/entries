@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-06-28T12:22:13.203674Z"
+   url="svn://titch/m3/bin"
+   last-author="gfr2fr"
+   kind="dir"
+   uuid="5d76ada3-2bd0-0310-b486-ec14cee89a57"
+   repos="svn://titch"
+   revision="109"/>
+<entry
+   committed-rev="1"
+   name="tst.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e95580221ba674c7ff5fff7920baddd0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pyrun.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9105d35317f9001b46fa9b158c946733"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="m3.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="92f3ca874ff667b658eb270513c5a28a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="stoptiming.py"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5dbbcc0acafe2faa4f5f86a549b4cfe1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="newlib.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="df8794731b2115f3ef05a07d0c1de5b2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="setcaprunpath.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="792414fb4ddebafcbafe42b640089154"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="setcomppath.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="79a6e81b0bf4d25bc3d65b7181fa2308"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="src.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="24b783755d33af0c6d465461e1a2248b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="setppath.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="86e0808366e496a81bb64c42302efd3e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="reload.py"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2da0e7d4536f0d53a1ddd0bef17b4344"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ce.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="45f5e0b49b61d6d9382b909c554c4b45"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="setrunpath.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d9450f11c168ae28d0c44e707a7ee049"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="modula3.el"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bf24e91ee93c9bf47bd05d20890f9695"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="reload.el"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="92f37515b5333746c12bea17f8607b64"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ccomp.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="91805418e8d6c5dfdacbbc22e41f2943"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pyruncap.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ab20f9fbadc8b08748756b2571c80f35"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="elab.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b144e6e7cedb718503f612033c8dae25"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="err0.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3d50b80aa16b8267419b6eda0a9e23f1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="bin.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4ce189179adf1070e086eae0fc65331c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="clib.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b55cd66b639514c33197fb1d5cb25085"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="closure.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8baf00e6e7326087b157cb849520f4e9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pyrun.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1e4daa15be06ef7e3e6448945c3c8eb1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="setcaprunpath.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="abe1454c890da97c6f1c5cdb0227cf5c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="clean.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eabe7ade52030d4f7bf921772ff10000"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="m3.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a13778c45495148a74fbf3e5f24ae0bd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="clean.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d59d75ba2434c20fd7509132db606fb8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="sesis.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0254e66c35cf87ea9ea45bbc49b4f199"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="starttiming.py"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5ffd6b5d974c62bdb50b0816131bf14d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ce.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b91f91f0358ab716d86a114669c5a5b2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="runcap.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1ca90c032732326b110d2c3151def5e8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="setcomppath.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="df61041dfa91e5d240ad8f7b1d9796dd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="runcap.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e6935b434972986ffbf9e10610ccfd38"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="setrunpath.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="18df2c812249251ce9ba56e557dc1174"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="run.bat"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1190c64263a95b93ef9fcbf75ebfb8a4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="pyruncap.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="edc15c96cdca32f9b95836adf2baa76e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ccomp.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d712a70a1761158beb0f590757a85529"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="elab.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a750ac53e9bc15a56dd6276453970ede"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+<entry
+   committed-rev="1"
+   name="run.sh"
+   text-time="2006-09-08T19:33:08.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a148105f0591fceb6c00fb59e5bed610"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:08.000000Z"/>
+</wc-entries>

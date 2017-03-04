@@ -1,0 +1,12 @@
+Design warts or YAGNIs which I actually should have implemented
+----------------------------------------------------------------
+
+path handling (should I just honestly kill this and say - "all user code in one directory" ?)
+
+access to child capsule node
+
+lexing : move to Context sensitive to avoid 100 Named groups limitation (else you need a patched python) 
+         Update 5.01.2004: latest version of TPG can deal with more than 100 but its slower
+
+
+

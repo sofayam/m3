@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-06-28T12:22:13.203674Z"
+   url="svn://titch/m3/src/Pmw/Pmw_1_2/lib"
+   last-author="gfr2fr"
+   kind="dir"
+   uuid="5d76ada3-2bd0-0310-b486-ec14cee89a57"
+   repos="svn://titch"
+   prop-time="2006-09-08T19:33:05.000000Z"
+   revision="109"/>
+<entry
+   committed-rev="1"
+   name="PmwMessageDialog.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="63f1d7eff46dd700c0230fc50e78cc57"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwTextDialog.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b97e62ec44be63acb1761c47432c3130"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwEntryField.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d7381587f6d700af261c3f3424a66471"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwSelectionDialog.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="34fac7d4b6c3960b53af03025f910184"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwHistoryText.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bc4b598ca3c269c342118480468140ba"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="__init__.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bf85c3e6c4167c994e53e83fc869d5ec"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwScrolledListBox.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6c348bd6a975195cf1fc8c9178a2e99d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwColor.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3d609a7bc8e294d5fe83f0c85565be57"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwCounter.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a8a011862915d40d0820ef9eb75bb0ca"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwNoteBook.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="37606a49a64694c7509522550af3edd7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwBlt.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="847ceab7f62d2e71cdc83034c99e2813"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwScrolledFrame.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="67231c68647d68b885c13b236fbb5328"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Pmw.def"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="da949c013da65a0fcefa47b5d02f6225"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwBalloon.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="93959cca47c7c80676b4761889a3ac46"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwOptionMenu.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ce00a8a06ece90a48eca5a08d75d2d0a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwRadioSelect.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7221bb97ab843d2d4b607a245ac731d0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwCounterDialog.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ebd5fd4400615009120085a2d2dfcda9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwLogicalFont.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="daad30f0a064b0db209d54748e68d652"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwPromptDialog.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d8ca31e0258c582d3ab381aa04ec036f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwLoader.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="eb369591854ed9b186a23b93bd7f1792"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwComboBox.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="99ce66824aa4c50f1b5d6dd9a2e8a8a3"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwMessageBar.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="15e12e36a31ea44f27a99c6c90300754"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwBase.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="477b90b415ef78fc4515519d06c7fbaa"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwScrolledField.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b7f623cc57e048fd797f80297c57541a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwScrolledText.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d67baa58f2df1806cc6b55e8cc53463a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwButtonBox.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ba832ba0beb218dc2fc5ef5f63ffaf08"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwComboBoxDialog.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="96f43860766d4ebd58dc8cb2ff7cf097"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwMenuBar.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0dcaccfddd631759909c78f1122a71d8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwAboutDialog.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5b414702c250540ef35379ef954c4f74"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwPanedWidget.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="36f6a5c2852fb8e7b8b159caf0c1704a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwGroup.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e6f3b896120d746ba00802153eb71822"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwLabeledWidget.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="10b465f4d45b7bb8d1737450ff12a3a2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwTimeFuncs.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3447f905ba03af3932a67781ee28760e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwMainMenuBar.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bd8e2b802309f6c24fd440d751c3cdde"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwTimeCounter.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c920f75f0c61fd2282d0c6d78e8354a8"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwDialog.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3431f2113daaed8fb40f57aa4acb5190"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PmwScrolledCanvas.py"
+   text-time="2006-09-08T19:33:05.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="115d09d3b8816b165a67dbbad3d1b5a9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+</wc-entries>

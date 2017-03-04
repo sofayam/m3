@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Capsule source="/home/mark/m3/doc/ConjParent.m3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <Id idname="ConjParent" startCol="8" leadChars=" " refid="3" slot="modname"/>
+ <Null refid="4" slot="kwi"/>
+ <Null refid="5" slot="implId"/>
+ <Sep token=";" startCol="19" leadChars=" " refid="6" slot="ts"/>
+ <ImportList refid="7" slot="imports">
+  <AsImport refid="8" slot="anon">
+   <KeyWord token="IMPORT" startCol="21" leadChars="%0A" refid="9" slot="kwi"/>
+   <AsImportList refid="10" slot="importList">
+    <ImportItem refid="11" slot="anon">
+     <Id idname="Timer" startCol="28" leadChars=" " refid="12" slot="id"/>
+    </ImportItem>
+   </AsImportList>
+   <Sep token=";" startCol="33" leadChars="" refid="13" slot="ts"/>
+  </AsImport>
+ </ImportList>
+ <UseCapsuleList refid="14" slot="usedCapsules">
+  <UseCapsule refid="15" slot="anon">
+   <KeyWord token="USECAPSULE" startCol="37" leadChars="%0A  " refid="16" slot="kwu"/>
+   <IdList refid="17" slot="idList">
+    <Id idname="ConjC1" startCol="48" leadChars=" " refid="18" slot="anon"/>
+   </IdList>
+   <Sep token=";" startCol="55" leadChars=" " refid="19" slot="ts"/>
+  </UseCapsule>
+  <UseCapsule refid="20" slot="anon">
+   <KeyWord token="USECAPSULE" startCol="59" leadChars="%0A  " refid="21" slot="kwu"/>
+   <IdList refid="22" slot="idList">
+    <Id idname="ConjC2" startCol="70" leadChars=" " refid="23" slot="anon"/>
+   </IdList>
+   <Sep token=";" startCol="77" leadChars=" " refid="24" slot="ts"/>
+  </UseCapsule>
+ </UseCapsuleList>
+ <CapsuleBlock refid="25" slot="block">
+  <DeclList refid="26" slot="decList">
+   <VariableDecls refid="27" slot="anon">
+    <KeyWord token="VAR" startCol="81" leadChars="%0A  " refid="28" slot="kwv"/>
+    <VariableDeclsList refid="29" slot="variables">
+     <VariableDecl refid="30" slot="anon">
+      <IdList refid="31" slot="idlist">
+       <Id idname="c1" startCol="85" leadChars=" " refid="32" slot="anon"/>
+      </IdList>
+      <Tok token=":" startCol="88" leadChars=" " refid="33" slot="col"/>
+      <TypeName refid="34" slot="tipe">
+       <QualId refid="35" slot="qualId">
+        <Id idname="ConjC1" startCol="90" leadChars=" " refid="36" slot="anon"/>
+       </QualId>
+      </TypeName>
+      <Null refid="37" slot="ass"/>
+      <Null refid="38" slot="expr"/>
+     </VariableDecl>
+     <Sep token=";" startCol="97" leadChars=" " refid="39" slot="anon"/>
+    </VariableDeclsList>
+   </VariableDecls>
+   <VariableDecls refid="40" slot="anon">
+    <KeyWord token="VAR" startCol="101" leadChars="%0A  " refid="41" slot="kwv"/>
+    <VariableDeclsList refid="42" slot="variables">
+     <VariableDecl refid="43" slot="anon">
+      <IdList refid="44" slot="idlist">
+       <Id idname="c2" startCol="105" leadChars=" " refid="45" slot="anon"/>
+      </IdList>
+      <Tok token=":" startCol="108" leadChars=" " refid="46" slot="col"/>
+      <TypeName refid="47" slot="tipe">
+       <QualId refid="48" slot="qualId">
+        <Id idname="ConjC2" startCol="110" leadChars=" " refid="49" slot="anon"/>
+       </QualId>
+      </TypeName>
+      <Null refid="50" slot="ass"/>
+      <Null refid="51" slot="expr"/>
+     </VariableDecl>
+     <Sep token=";" startCol="117" leadChars=" " refid="52" slot="anon"/>
+    </VariableDeclsList>
+   </VariableDecls>
+  </DeclList>
+  <Connections refid="53" slot="connections">
+   <KeyWord token="CONNECT" startCol="121" leadChars="%0A  " refid="54" slot="kwc"/>
+   <ConnectionList refid="55" slot="connectionList">
+    <PortConnection refid="56" slot="anon">
+     <QualId refid="57" slot="end1">
+      <Id idname="c2" startCol="133" leadChars="%0A    " refid="58" slot="anon"/>
+      <Sep token="." startCol="135" leadChars="" refid="59" slot="anon"/>
+      <Id idname="p1" startCol="136" leadChars="" refid="60" slot="anon"/>
+     </QualId>
+     <KeyWord token="&lt;=&gt;" startCol="139" leadChars=" " refid="61" slot="kwc"/>
+     <QualId refid="62" slot="end2">
+      <Id idname="c1" startCol="143" leadChars=" " refid="63" slot="anon"/>
+      <Sep token="." startCol="145" leadChars="" refid="64" slot="anon"/>
+      <Id idname="p1" startCol="146" leadChars="" refid="65" slot="anon"/>
+     </QualId>
+    </PortConnection>
+   </ConnectionList>
+   <Sep token=";" startCol="148" leadChars="" refid="66" slot="ts"/>
+  </Connections>
+  <KeyWord token="BEGIN" startCol="150" leadChars="%0A" refid="67" slot="kwb"/>
+  <Statements refid="68" slot="statements"/>
+  <KeyWord token="END" startCol="157" leadChars="%0A%0A" refid="69" slot="kwe"/>
+ </CapsuleBlock>
+ <Id idname="ConjParent" startCol="161" leadChars=" " refid="70" slot="endId"/>
+ <Sep token="." startCol="171" leadChars="" refid="71" slot="td"/>
+</Capsule>

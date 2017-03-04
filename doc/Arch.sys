@@ -1,0 +1,5 @@
+SYSTEM ARCHITECTURE Arch IS 
+  PROCESSOR proca SPEED 1.0;
+  PROCESSOR procb SPEED 2.0;
+  LINK proca -> procb COST  2 s;
+END

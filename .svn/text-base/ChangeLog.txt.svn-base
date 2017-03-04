@@ -1,0 +1,29 @@
+2005/03/03 08:00:00 : Moved to new repository
+2004/12/03 17:00:00 : *REPLY
+2004/11/01 13:00:00 : Support for raw_python expected value testing
+2004/07/27 10:41:09 : *Value testing with ==
+2004/07/20 08:41:00 : ***Poor Mans Parallelism
+2004/07/08 14:29:08 : *Input files management under ce
+2004/07/06 17:02:32 : Better behaved arrows (and duplication fixed)
+2004/07/02 11:30:57 : *Variant Records added to language (not in standard modula-3)
+2004/07/01 10:42:36 : Fixed conflict btw arrow option and explain mode. Global list of connections no longer used.
+2004/06/30 16:08:48 : *Explain mode introduced (selective display of connections)
+2004/06/28 11:25:16 : Errors in input files no longer cause scary stack dumps
+2004/06/24 17:17:38 : *Labels and arrows for all imaginable dataflows
+2004/06/24 17:17:15 : png now has a better bounding box
+2004/06/22 12:01:05 : *pdf manual is now hyperlinked
+2004/06/22 09:45:45 : Automatic library update
+2004/06/21 17:15:19 : *Dataflow arrows in diagrams are now VAR sensitive
+2004/06/18 15:54:23 : ***Expected output specification with time and param value constraints
+2004/06/15 17:34:20 : *Complete postscript/png output with cameos and color
+2004/06/15 11:21:04 : Fixed aggregration grammar bug : now use @ instead of +
+2004/06/15 10:59:36 : *Time now uses scaled types
+2004/06/14 17:30:53 : *Postscript color support
+2004/06/14 15:14:14 : Fixed postscript for ovals
+2004/06/14 15:13:32 : *png files created on print
+2004/06/09 17:32:33 : SEND and RECEIVE now Rittel-conformant in trace
+2004/06/09 14:56:30 : *User access to results files
+2004/06/09 13:19:40 : *Tracing now included in res and pro files
+2004/06/09 12:35:46 : Added check for mismatch filename <-> unitname
+2004/06/09 12:06:56 : Fixed ASSERT multiline expression bug
+2004/06/09 12:06:27 : Created

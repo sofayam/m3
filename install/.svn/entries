@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-06-28T12:22:13.203674Z"
+   url="svn://titch/m3/install"
+   last-author="gfr2fr"
+   kind="dir"
+   uuid="5d76ada3-2bd0-0310-b486-ec14cee89a57"
+   repos="svn://titch"
+   revision="109"/>
+<entry
+   committed-rev="1"
+   name="sesis.iss"
+   text-time="2006-09-08T19:33:00.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="26f04ceabe71700fcf1cf30f042cfe66"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:00.000000Z"/>
+</wc-entries>

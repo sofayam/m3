@@ -1,0 +1,1 @@
+gcc -I../lib $1.c $1__main.c ../lib/Regress.o $2 $3 $4 -o $1.exe

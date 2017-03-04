@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<CapsuleInterface source="/home/mark/m3/doc/ConjParent.i3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <KeyWord token="INTERFACE" startCol="8" leadChars=" " refid="3" slot="kwi"/>
+ <Id idname="ConjParent" startCol="18" leadChars=" " refid="4" slot="modname"/>
+ <Sep token=";" startCol="29" leadChars=" " refid="5" slot="ts"/>
+ <ImportList refid="6" slot="imports"/>
+ <PortList refid="7" slot="portList"/>
+ <KeyWord token="END" startCol="32" leadChars="%0A%0A" refid="8" slot="kwe"/>
+ <Id idname="ConjParent" startCol="36" leadChars=" " refid="9" slot="endId"/>
+ <Sep token="." startCol="46" leadChars="" refid="10" slot="td"/>
+</CapsuleInterface>

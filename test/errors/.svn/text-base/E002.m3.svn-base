@@ -1,0 +1,12 @@
+MODULE E002;
+
+PROCEDURE foo () = 
+BEGIN
+END foo;
+PROCEDURE foo () = <*ERROR 002*>
+BEGIN
+END foo;
+
+
+BEGIN
+END E002.

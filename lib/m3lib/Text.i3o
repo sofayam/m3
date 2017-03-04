@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<Interface source="/home/mark/m3/lib/Text.i3" refid="1" slot="anon">
+ <KeyWord token="INTERFACE" startCol="0" leadChars="" refid="2" slot="kwi"/>
+ <Id idname="Text" startCol="10" leadChars=" " refid="3" slot="modname"/>
+ <Sep token=";" startCol="14" leadChars="" refid="4" slot="ts"/>
+ <ImportList refid="5" slot="imports"/>
+ <InterfaceDeclList refid="6" slot="decls">
+  <TypeDecls refid="7" slot="anon">
+   <KeyWord token="TYPE" startCol="58" leadChars="%0A%0A(* Basic operations on TEXT type *)%0A%0A" refid="8" slot="kwt"/>
+   <TypeDeclsList refid="9" slot="typeList">
+    <TypeDecl refid="10" slot="anon">
+     <Id idname="T" startCol="63" leadChars=" " refid="11" slot="id"/>
+     <Op token="=" startCol="65" leadChars=" " refid="12" slot="sign"/>
+     <TypeName refid="13" slot="tipe">
+      <QualId refid="14" slot="qualId">
+       <Id idname="TEXT" startCol="67" leadChars=" " refid="15" slot="anon"/>
+      </QualId>
+     </TypeName>
+    </TypeDecl>
+    <Sep token=";" startCol="71" leadChars="" refid="16" slot="anon"/>
+   </TypeDeclsList>
+  </TypeDecls>
+  <ProcedureDecl refid="17" slot="anon">
+   <ProcedureHead refid="18" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="76" leadChars="%0A%0A" refid="19" slot="kwp"/>
+    <Id idname="Equal" startCol="86" leadChars=" " refid="20" slot="name"/>
+    <Signature refid="21" slot="signature">
+     <Tok token="(" startCol="91" leadChars="" refid="22" slot="lbr"/>
+     <Formals refid="23" slot="formals">
+      <Formal refid="24" slot="anon">
+       <Null refid="25" slot="mode"/>
+       <IdList refid="26" slot="idList">
+        <Id idname="t" startCol="92" leadChars="" refid="27" slot="anon"/>
+        <Sep token="," startCol="93" leadChars="" refid="28" slot="anon"/>
+        <Id idname="u" startCol="94" leadChars="" refid="29" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="96" leadChars=" " refid="30" slot="col"/>
+       <TypeName refid="31" slot="tipe">
+        <QualId refid="32" slot="qualId">
+         <Id idname="T" startCol="98" leadChars=" " refid="33" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Null refid="34" slot="ass"/>
+       <Null refid="35" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="99" leadChars="" refid="36" slot="rbr"/>
+     <Tok token=":" startCol="101" leadChars=" " refid="37" slot="col"/>
+     <TypeName refid="38" slot="tipe">
+      <QualId refid="39" slot="qualId">
+       <Id idname="BOOLEAN" startCol="103" leadChars=" " refid="40" slot="anon"/>
+      </QualId>
+     </TypeName>
+     <Null refid="41" slot="kwr"/>
+     <Null refid="42" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="43" slot="kweq"/>
+   <Null refid="44" slot="procBlock"/>
+   <Null refid="45" slot="endId"/>
+   <Sep token=";" startCol="110" leadChars="" refid="46" slot="ts"/>
+  </ProcedureDecl>
+  <ProcedureDecl refid="47" slot="anon">
+   <ProcedureHead refid="48" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="115" leadChars="%0A%0A" refid="49" slot="kwp"/>
+    <Id idname="FromChars" startCol="125" leadChars=" " refid="50" slot="name"/>
+    <Signature refid="51" slot="signature">
+     <Tok token="(" startCol="135" leadChars=" " refid="52" slot="lbr"/>
+     <Formals refid="53" slot="formals">
+      <Formal refid="54" slot="anon">
+       <KeyWord token="READONLY" startCol="136" leadChars="" refid="55" slot="mode"/>
+       <IdList refid="56" slot="idList">
+        <Id idname="a" startCol="145" leadChars=" " refid="57" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="147" leadChars=" " refid="58" slot="col"/>
+       <Array refid="59" slot="tipe">
+        <KeyWord token="ARRAY" startCol="149" leadChars=" " refid="60" slot="kwa"/>
+        <TypeList refid="61" slot="typeList"/>
+        <KeyWord token="OF" startCol="155" leadChars=" " refid="62" slot="kwo"/>
+        <TypeName refid="63" slot="tipe">
+         <QualId refid="64" slot="qualId">
+          <Id idname="CHAR" startCol="158" leadChars=" " refid="65" slot="anon"/>
+         </QualId>
+        </TypeName>
+       </Array>
+       <Null refid="66" slot="ass"/>
+       <Null refid="67" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="162" leadChars="" refid="68" slot="rbr"/>
+     <Tok token=":" startCol="164" leadChars=" " refid="69" slot="col"/>
+     <TypeName refid="70" slot="tipe">
+      <QualId refid="71" slot="qualId">
+       <Id idname="T" startCol="166" leadChars=" " refid="72" slot="anon"/>
+      </QualId>
+     </TypeName>
+     <Null refid="73" slot="kwr"/>
+     <Null refid="74" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="75" slot="kweq"/>
+   <Null refid="76" slot="procBlock"/>
+   <Null refid="77" slot="endId"/>
+   <Sep token=";" startCol="168" leadChars=" " refid="78" slot="ts"/>
+  </ProcedureDecl>
+ </InterfaceDeclList>
+ <KeyWord token="END" startCol="173" leadChars="%0A%0A" refid="79" slot="kwe"/>
+ <Id idname="Text" startCol="177" leadChars=" " refid="80" slot="endId"/>
+ <Sep token="." startCol="181" leadChars="" refid="81" slot="td"/>
+</Interface>

@@ -1,0 +1,32 @@
+\rail@p{-t}
+\rail@t{lbr}
+\rail@t{rbr}
+\rail@t{at}
+\rail@t{tilde}
+\rail@i{1}{ Compilation : CapsuleInterface | Capsule | Interface | Module | GenericInterface | GenericModule ; }
+\rail@i{2}{ CapsuleInterface : 'CAPSULE' 'INTERFACE' id ';' (Import *) (Port *) 'END' id '.'; Port : 'PORT' id ':' Protocol ; Protocol : ( tilde )? (TypeName | 'PROTOCOL' (MessageGroup *) 'END' ); MessageGroup : ( 'SYNCHRONOUS' )? ( 'INCOMING' | 'OUTGOING' ) ( Message + ); Message : 'MESSAGE' id '(' Formals ')' ; }
+\rail@i{3}{ Capsule : 'CAPSULE' id ( 'IMPLEMENTS' id )? ';' \\ ( Import * ) ( UseCapsule * ) CapsuleBlock id '.'; CapsuleBlock : ( Declaration * ) ( Connections ? ) 'BEGIN' Statements 'END' ; UseCapsule : 'USECAPSULE' id ';' ; Connections : 'CONNECT' ( id ( '->' | '<=>' ) id ';' + ) ; }
+\rail@i{4}{ Declaration : 'Standard Modula-3 Declaration' | Trigger ';' | Activity ';' | State ';' | Start ';' | Intention ';' ; \par
+Type : 'Standard Modula-3 Type' | TimerType | ModelingContainerType | ProtocolType ; Statement : 'Standard Modula-3 Statement' | SendSt | NextSt | ForEachSt ; }
+\rail@i{5}{ Intention : 'READS' id ';' | 'WRITES'id ';' | 'SENDS' id ';' ; }
+\rail@i{6}{ Activity : 'ACTIVITY' id '(' Formals ')' '=' Block id ('AFTER' TimeExpr )? ';' ; }
+\rail@i{7}{ State : 'STATE' id ( TransitionDecl + ) ';' ; Start : 'START' '=' 'BEGIN' Statements 'END' ';' ; TransitionDecl: 'ON' id '(' Formals ')' '=' Block id ('AFTER' TimeExpr )? ';' ; NextSt : 'NEXT' id ; }
+\rail@i{8}{ SendSt : 'SEND' id '(' Actuals ')' ('AFTER' TimeExpr)? ; SendSt : 'REPLY' id '(' Actuals ')' ('AFTER' TimeExpr)? ; CallSt : 'CALL' id '(' Actuals ')' ; }
+\rail@i{9}{ Trigger : 'TRIGGER' id 'ON' Expr ';' ; }
+\rail@i{10}{ TimerType : ( 'ONESHOT' | 'PERIODIC' ) ( 'CHANGEABLE' | 'FIXED' ) 'TIMER' ( 'DELAY' Expr )? ; }
+\rail@i{11}{ ResetStatement : 'RESET' ( Integer ) ? ; }
+\rail@i{12}{ AssertStatement : 'ASSERT' BooleanExpression ; }
+\rail@i{13}{ AssertStatement : 'ASSERT' BooleanExpression ; }
+\rail@i{14}{ ScaledType : 'SCALED' 'INTEGER' lbr Unit ('*' Value '=' Unit *) rbr ; Unit : id ; Value : int ; }
+\rail@i{15}{ ModelingContainerType : 'DICT' ( IndexType )? 'OF' ElementType | 'LIST' 'OF' ElementType ; }
+\rail@i{16}{ ForEachSt : 'FOREACH' id 'IN' Expr 'DO' Statements 'END' ; }
+\rail@i{17}{ VariantRecordDecl : 'RECORD' 'CASE' tagDecl 'OF' \\ (CaseAlt *) (ElseAlt ?) 'END' (Fields ?) 'END' ; CaseAlt : Labels (',' Labels *) Fields ; ElseAlt : 'ELSE' Fields ; }
+\rail@i{18}{ Command : InputCommand | ElapseCommand | TestValueCommand | MacroCommand ; InputCommand : '>' messageName ( CommandParam ',' + ) ; CommandParam : formalName '=' CommandValue ; CommandValue : integer ( scalingId ? ) | real | id | ListValue | DictValue ; DictValue : lbr ( id ':' CommandValue ',' + ) rbr ; ListValue : '[' ( CommandValue ',' + ) ']' ; \par
+ElapseCommand : '?' ( integer | real ) ( 'ps' | 'ns' | AnyValuesInBetween | 'day' | 'year' ) ; TestValueCommand : '==' id ( CommandValue ? ) ; MacroCommand : at id ( id '=' id + ) ; DataPortCommand : ':' 'set' id CommandValue ; }
+\rail@i{19}{ SystemArchitecture : 'SYSTEM' 'ARCHITECTURE' id 'IS' Processors Links 'END' ; Processors : ( 'PROCESSOR' id ('SPEED' floatval)? + ) ; Links : ( 'LINK' id ( '->' | '<=>' ) id ('COST' timeval)? * ) ; }
+\rail@i{20}{ Mapping : 'SYSTEM' id 'USING' architectureFileName 'IS' Allocations 'END' ; Allocations : ( 'CAPSULE' capsuleName 'ON' 'PROCESSOR' processorName + ) }
+\rail@i{21}{ Compilation : CapsuleInterface | Capsule | Interface | Module | GenericInterface | GenericModule ; CapsuleInterface : 'CAPSULE' 'INTERFACE' id ';' ( Import + ) ( Port + ) 'END' id '.'; Port : 'PORT' id ':' Protocol ; Capsule : 'CAPSULE' id ( 'IMPLEMENTS' id )? ';' \\ ( Import * ) ( UseCapsule * ) CapsuleBlock id '.'; CapsuleBlock : ( Declaration * ) ( Connections ? ) 'BEGIN' Statements 'END' ; UseCapsule : 'USECAPSULE' id ';' ; Connections : 'CONNECT' ( id ( '->' | '<=>' ) id ';' + ) ; Declaration : 'Standard Modula-3 Declaration' | 'TRIGGER' id 'ON' Expr ';' | 'ACTIVITY' id '(' Formals ')' '=' Block id ('AFTER' TimeExpr )? ';' | 'STATE' id ( TransitionDecl + ) ';' | 'START' '=' 'BEGIN' Statements 'END' ';' | 'READS' id ';' | 'WRITES'id ';' | 'SENDS' id ';' ; TransitionDecl : 'ON' id '(' Formals ')' '=' Block id ';' ; Type : 'Standard Modula-3 Type' | TimerType | ModelingContainerType | Protocol ; \par
+TimerType : ( 'ONESHOT' | 'PERIODIC' ) ( 'CHANGEABLE' | 'FIXED' ) 'TIMER' ( 'DELAY' TimeExpr ) ; \par
+Protocol : ( tilde )? (TypeName | 'PROTOCOL' (MessageGroup *) 'END' ); MessageGroup : ( 'SYNCHRONOUS' )? ( 'INCOMING' | 'OUTGOING' ) ( Message + ); Message : 'MESSAGE' id '(' Formals ')' ; \par
+ModelingContainerType : 'DICT' ( IndexType )? 'OF' ElementType | 'LIST' 'OF' ElementType ; Statement : 'Standard Modula-3 Statement' | 'SEND' id '(' ( ActualParameter + ) ')' ('AFTER' TimeExpr)? | 'CALL' id '(' ( ActualParameter + ) ')' | 'NEXT' id | 'FOREACH' id 'IN' Expr 'DO' Statements 'END' ; \par
+}

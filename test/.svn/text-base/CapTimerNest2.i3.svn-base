@@ -1,0 +1,7 @@
+
+CAPSULE INTERFACE CapTimerNest2 ;
+PORT p1 : PROTOCOL
+   INCOMING MESSAGE startInner();
+   OUTGOING MESSAGE reply();
+END;
+END CapTimerNest2.

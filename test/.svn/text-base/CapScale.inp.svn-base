@@ -1,0 +1,2 @@
+> set v=100 V, t=1 years
+> expect v=100000, t=31536000

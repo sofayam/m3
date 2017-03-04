@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="1"
+   name=""
+   committed-date="2005-06-28T12:22:13.203674Z"
+   url="svn://titch/m3/src"
+   last-author="gfr2fr"
+   kind="dir"
+   uuid="5d76ada3-2bd0-0310-b486-ec14cee89a57"
+   repos="svn://titch"
+   prop-time="2006-09-08T19:33:07.000000Z"
+   revision="109"/>
+<entry
+   committed-rev="1"
+   name="newrulenodes.bat"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3d88febb9a5372458ff4b986c9c4985c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapsuleEntity.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0b67a68d4a13540d4bf881c689e75fac"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TkWorkaround.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4a54a4a4d27c46f41a82719b1583bf0f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ScriptRecorder.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="46c16dbf0679022f6a5c672162114673"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CompOrder.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="287841f5bb14d871e27400a1ce260917"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="M3ProcLib.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c6fb6e9826a6a0166b4446daec7c3950"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="tpg.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="efa15560e508292acceb6e282feaa5ca"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="reseterror.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b29f67377671bcdddb2c7f5c8b24b18a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Connection.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b516d8d93e44c033880ee7521a02c18a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="InputFile.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4891076672f9175f3de6dbaf516d5bc6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="LibraryManager.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7371e7d36d46ef817b6d1f348a19bdf9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ZoomDrawing.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e1f5062610bcd98a158b50032a5c6fbf"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="LUT.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b49097b6226e6c760fec147fec846f07"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="TestScript.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c90c28e66ce9290de7b986947030e36f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:01.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CGenNodes.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="45bbdc29dcbc39c83ad8450aa25c9dda"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="FakeFile.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="2cb83fb40749ed572ce0602b8c46715c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="UserNodes.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b77a0eb676eb95176efe655a0c72e5c1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapsuleDrawing.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="517893193faa392e70e4f6fa4fd98a3e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="MessageWindow.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d5701ef7df7d5937c670d21e8b0a4fae"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="m3.g"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="626f3585b5c1e6cbb618e9fc83a4b587"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="LoadSrc.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="e266e0562d43715adc22f03271a65f71"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="showlibs.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f6286a9bbc067667c3b86f9fcb097d0a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Options.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b26e4b03d74ca559f0efa082b3383495"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="NodeGenerator.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8d8cfd0834e971041f179dd9ee5932fd"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="compro.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bc49efb15eca5418c188bd63f4edc888"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="DiagMaths.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7575d3f1b18aa22754ba2dfdcb089358"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Colors.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="14391373c2bcea5b285360685d03447e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:02.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Avatars.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0cc75258c71a095657fdcca78786ef92"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CapsuleEditor.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0d7a28a73a009cdb503972107a1045d2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="UnitCache.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="6b542399aef64e107ec955d6751091f2"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="elab.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="13ac95e74b84c9c66b58a7dfd4a9f811"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="M3Types.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="fb893cfbc51d1a29eae539f1d1da3a8f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Project.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="a710cf2a63fa6633c3fd3066bd25aaf5"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="SourceEditor.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="30ff8564f6d4445aed7ca7410871e9c4"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Nodes.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5168ac980dcf7328e061b76ce46b54a1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="LoadObj.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="735b3d1c7210226853755a1732b983df"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="compm3parser.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5bf5aac1e13fdbb6f5adc6dc5178e94c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="EditNodes.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="9d003d2a9d7768d1716f2d0a870f5859"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="M3Reserved.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="11388d0e9621107ac99e4d675509c5c9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Dialogs.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="54a2aaaed086a657c733138af3dae71c"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="newrulenodes.sh"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="79a7a42ad00a86b2923681d289d51689"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="build.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="daf36c3c8520fb935f4efbb7d3375461"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="RuleNodes.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3b9d28bd508b791ccc5011cf1e7bb80a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="FileUtils.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="4890ee70487f9499b401ab1430250ea1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:03.000000Z"/>
+<entry
+   committed-rev="1"
+   name="M3GenNodes.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="15315ee86b0cd2819d69b15e5b7cfbee"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="generateTerminals.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="1607c2bafe3f31fea5f92e62ba1b3604"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PyGenNodes.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="5fa15a4f261c5496ac66b23c8added4e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   name="Pmw"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="SetUtils.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7c8bb1ccb0190300d35de9714e397118"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:04.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Errors.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7ffee9ca91df17fd6e6690f3992c986b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="depDB.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c5a4d17d88983201c5b3db3d8c8bd68d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="CompilationUnit.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="02fe3add329213f09dd2621949940968"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="newg.bat"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f9ee021862f793d72d14f96e9289e774"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="110"
+   name="m3.py"
+   text-time="2006-09-08T19:41:07.000000Z"
+   committed-date="2006-09-08T19:57:00.846582Z"
+   checksum="e580becc0d24703f5da19a1bdf799f6d"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"
+   revision="110"/>
+<entry
+   committed-rev="1"
+   name="Scaling.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="979183853c9f1a56c0e1e15627325fe6"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   name="rts"
+   kind="dir"/>
+<entry
+   committed-rev="1"
+   name="Exceptions.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f4fbc3ed24ded3ff618bee938d3ec215"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:05.000000Z"/>
+<entry
+   committed-rev="1"
+   name="allm3s.txt"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ff167b5f23ced169919dfd78d474fae1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="newg.sh"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="214a9c9e01e5f5c79dc18d588328084f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="DbgServer.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="86a2a706412f7adc10db3044899a2d88"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Message.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7caecf46ef91de4d85dacbe7fbf7d5ae"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ScaledCanvas.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="963da27962b8edd9e8f4b28f008e824f"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="runcap.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="b15b9ddfe0f222d16e359eeb183a8751"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="M3Objects.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="ff46c70d4f07e9e04a069e6830b55a51"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Statistics.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="624ad7a2b220479dcfaa1ea28ed679c0"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="DbgStub.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="0db6ac9dee25f2d209303724165ae8a7"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="m3parser.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="10313203bd8dca500f697f81a846f883"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="relpath.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="bc4ef4e35e29d0ed3d971b7338328083"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Global.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="aee042ddc300ff44515dd0bf5aa3b599"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="PSUtils.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="c53f48fb250191afde0cfc68c7caab0a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="M3Predefined.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="128885e7823b58f68ab0f1b6ad48aa7b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="DocuDumper.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="f0fb1f75df1b2bf039dfbf7e0fc9dec1"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="M3TypeLib.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="3444a5714faebd2c6f8bf838bce5122b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="shutdown.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="7fc220983fef4bf454ad73dd42d3ed7a"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="DeclTable.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="8e3a97b181dd0a53e10d639ec3b94ba9"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="countall.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="39707fbc3f117aa5c39586323f42469e"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="compileall.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="d8b91c6b4797c38baf69c5eee0a7c56b"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="Lexis.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="dd0a17cfc1595e777105a8f841325c27"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+<entry
+   committed-rev="1"
+   name="ResourceFile.py"
+   text-time="2006-09-08T19:33:07.000000Z"
+   committed-date="2005-06-28T12:22:13.203674Z"
+   checksum="25c60b69793567784600e07785153e88"
+   last-author="gfr2fr"
+   kind="file"
+   prop-time="2006-09-08T19:33:07.000000Z"/>
+</wc-entries>

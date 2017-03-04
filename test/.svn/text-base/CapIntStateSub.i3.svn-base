@@ -1,0 +1,8 @@
+CAPSULE INTERFACE CapIntStateSub ;
+PORT p1 : PROTOCOL
+    INCOMING MESSAGE windup() ;
+END;
+PORT p2 : PROTOCOL
+    OUTGOING MESSAGE alarm() ;
+END;
+END CapIntStateSub.

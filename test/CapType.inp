@@ -1,0 +1,24 @@
+> p1.init 
+> p1.actRec rec = {x: 99,b: TRUE}
+< p1.resRec rec = {x: 100,b: FALSE}
+> p1.actRec rec = {x: 999,b: FALSE}
+< p1.resRec rec = {x: 1000,b: TRUE}
+> p1.actInt i = 99
+< p1.resInt i = 100
+> p1.actInt i = 999
+< p1.resInt i = 1000
+> p1.actArr arr = [Blue,Green,Red,Blue]
+< p1.resArr arr = [Red,Blue,Green,Red]
+> p1.actSet set = [Red,Blue]
+< p1.resSet set = [Green]
+> p1.actOpen open = [{x: 5,b: TRUE}, \ % comment
+                     {x: 4,b: FALSE}, \ % and another comment
+                     {x: 6,b: TRUE}]
+< p1.resOpen sum = 15
+> p1.actReal real = 2.0
+< p1.resReal real = [[ 0.66666666666 .. 0.7 ]]
+> p1.actDict dict = {bar : {x: 4,b: FALSE},foo : {x: 5,b: TRUE},baz : {x: 4,b: FALSE}}
+< p1.resDict dict = {baz : {x: 4,b: FALSE},foo : {x: 5,b: TRUE},bar : {x: 4,b: FALSE}}
+> p1.actList list = [{x: 5,b: TRUE},{x: 4,b: FALSE},{x: 6,b: TRUE}]
+< p1.resList list = [{x: 5,b: TRUE},{x: 4,b: FALSE},{x: 6,b: TRUE}]
+> p1.summary 

@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Interface source="/home/mark/m3/doc/ConjTypes.i3" refid="1" slot="anon">
+ <KeyWord token="INTERFACE" startCol="0" leadChars="" refid="2" slot="kwi"/>
+ <Id idname="ConjTypes" startCol="10" leadChars=" " refid="3" slot="modname"/>
+ <Sep token=";" startCol="20" leadChars=" " refid="4" slot="ts"/>
+ <ImportList refid="5" slot="imports"/>
+ <InterfaceDeclList refid="6" slot="decls">
+  <TypeDecls refid="7" slot="anon">
+   <KeyWord token="TYPE" startCol="23" leadChars="%0A%0A" refid="8" slot="kwt"/>
+   <TypeDeclsList refid="9" slot="typeList">
+    <TypeDecl refid="10" slot="anon">
+     <Id idname="aInbOut" startCol="28" leadChars=" " refid="11" slot="id"/>
+     <Op token="=" startCol="36" leadChars=" " refid="12" slot="sign"/>
+     <Protocol refid="13" slot="tipe">
+      <KeyWord token="PROTOCOL" startCol="38" leadChars=" " refid="14" slot="kwp"/>
+      <MessageGroupList refid="15" slot="mgl">
+       <MessageGroup refid="16" slot="anon">
+        <Null refid="17" slot="kwsyn"/>
+        <KeyWord token="INCOMING" startCol="49" leadChars="%0A  " refid="18" slot="kwdir"/>
+        <MessageList refid="19" slot="msgList">
+         <Message refid="20" slot="anon">
+          <KeyWord token="MESSAGE" startCol="58" leadChars=" " refid="21" slot="kwm"/>
+          <Id idname="a" startCol="66" leadChars=" " refid="22" slot="name"/>
+          <Signature refid="23" slot="signature">
+           <Tok token="(" startCol="68" leadChars=" " refid="24" slot="lbr"/>
+           <Formals refid="25" slot="formals"/>
+           <Tok token=")" startCol="69" leadChars="" refid="26" slot="rbr"/>
+           <Null refid="27" slot="col"/>
+           <Null refid="28" slot="tipe"/>
+           <Null refid="29" slot="kwr"/>
+           <Null refid="30" slot="raises"/>
+          </Signature>
+         </Message>
+         <Sep token=";" startCol="70" leadChars="" refid="31" slot="anon"/>
+        </MessageList>
+       </MessageGroup>
+       <MessageGroup refid="32" slot="anon">
+        <Null refid="33" slot="kwsyn"/>
+        <KeyWord token="OUTGOING" startCol="74" leadChars="%0A  " refid="34" slot="kwdir"/>
+        <MessageList refid="35" slot="msgList">
+         <Message refid="36" slot="anon">
+          <KeyWord token="MESSAGE" startCol="83" leadChars=" " refid="37" slot="kwm"/>
+          <Id idname="b" startCol="91" leadChars=" " refid="38" slot="name"/>
+          <Signature refid="39" slot="signature">
+           <Tok token="(" startCol="93" leadChars=" " refid="40" slot="lbr"/>
+           <Formals refid="41" slot="formals"/>
+           <Tok token=")" startCol="94" leadChars="" refid="42" slot="rbr"/>
+           <Null refid="43" slot="col"/>
+           <Null refid="44" slot="tipe"/>
+           <Null refid="45" slot="kwr"/>
+           <Null refid="46" slot="raises"/>
+          </Signature>
+         </Message>
+         <Sep token=";" startCol="95" leadChars="" refid="47" slot="anon"/>
+        </MessageList>
+       </MessageGroup>
+      </MessageGroupList>
+      <KeyWord token="END" startCol="97" leadChars="%0A" refid="48" slot="kwe"/>
+     </Protocol>
+    </TypeDecl>
+    <Sep token=";" startCol="100" leadChars="" refid="49" slot="anon"/>
+   </TypeDeclsList>
+  </TypeDecls>
+  <TypeDecls refid="50" slot="anon">
+   <KeyWord token="TYPE" startCol="103" leadChars="%0A%0A" refid="51" slot="kwt"/>
+   <TypeDeclsList refid="52" slot="typeList">
+    <TypeDecl refid="53" slot="anon">
+     <Id idname="aOutbIn" startCol="108" leadChars=" " refid="54" slot="id"/>
+     <Op token="=" startCol="116" leadChars=" " refid="55" slot="sign"/>
+     <ConjugatedProtocol refid="56" slot="tipe">
+      <Tok token="~" startCol="118" leadChars=" " refid="57" slot="tokt"/>
+      <TypeName refid="58" slot="pro">
+       <QualId refid="59" slot="qualId">
+        <Id idname="aInbOut" startCol="120" leadChars=" " refid="60" slot="anon"/>
+       </QualId>
+      </TypeName>
+     </ConjugatedProtocol>
+    </TypeDecl>
+    <Sep token=";" startCol="127" leadChars="" refid="61" slot="anon"/>
+   </TypeDeclsList>
+  </TypeDecls>
+ </InterfaceDeclList>
+ <KeyWord token="END" startCol="130" leadChars="%0A%0A" refid="62" slot="kwe"/>
+ <Id idname="ConjTypes" startCol="134" leadChars=" " refid="63" slot="endId"/>
+ <Sep token="." startCol="143" leadChars="" refid="64" slot="td"/>
+</Interface>

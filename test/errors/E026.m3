@@ -1,0 +1,10 @@
+MODULE E026;
+
+TYPE O  = OBJECT
+   i : INTEGER;
+END;
+
+VAR i := ABS(O) ; <*ERROR 026*>
+BEGIN
+  
+END E026.

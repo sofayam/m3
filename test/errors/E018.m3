@@ -1,0 +1,9 @@
+MODULE E018;
+
+
+
+VAR a := VAL(1,FLOAT); <*ERROR 018*>
+
+BEGIN
+
+END E018.

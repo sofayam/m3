@@ -1,0 +1,7 @@
+> setup
+> act1 % this shouldn't cause a problem
+% or this
+> act1
+> act1
+> act1
+> summary

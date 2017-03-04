@@ -1,0 +1,5 @@
+CAPSULE INTERFACE pytimer ;
+PORT p1 : PROTOCOL
+   OUTGOING MESSAGE foo (i : INTEGER);
+END;
+END pytimer.

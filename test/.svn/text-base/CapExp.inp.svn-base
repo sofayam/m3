@@ -1,0 +1,9 @@
+> question x = 100
+? 1 s
+!  11 ps 
+< p1.reply z = 200 byte
+!  1 s 
+> question x = 1010101
+? 1 s
+!  1 s + 11 ps 
+< p1.reply z = 1 Mbyte + 948 Kbyte + 874 byte

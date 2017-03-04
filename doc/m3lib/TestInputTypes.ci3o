@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<CapsuleInterface source="/home/mark/m3/doc/TestInputTypes.i3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <KeyWord token="INTERFACE" startCol="8" leadChars=" " refid="3" slot="kwi"/>
+ <Id idname="TestInputTypes" startCol="18" leadChars=" " refid="4" slot="modname"/>
+ <Sep token=";" startCol="33" leadChars=" " refid="5" slot="ts"/>
+ <ImportList refid="6" slot="imports">
+  <AsImport refid="7" slot="anon">
+   <KeyWord token="IMPORT" startCol="36" leadChars="%0A" refid="8" slot="kwi"/>
+   <AsImportList refid="9" slot="importList">
+    <ImportItem refid="10" slot="anon">
+     <Id idname="InputTypes" startCol="43" leadChars=" " refid="11" slot="id"/>
+    </ImportItem>
+   </AsImportList>
+   <Sep token=";" startCol="53" leadChars="" refid="12" slot="ts"/>
+  </AsImport>
+ </ImportList>
+ <PortList refid="13" slot="portList">
+  <Port refid="14" slot="anon">
+   <KeyWord token="PORT" startCol="56" leadChars="%0A" refid="15" slot="kwp"/>
+   <Id idname="p1" startCol="61" leadChars=" " refid="16" slot="id"/>
+   <Tok token=":" startCol="64" leadChars=" " refid="17" slot="col"/>
+   <Protocol refid="18" slot="protocol">
+    <KeyWord token="PROTOCOL" startCol="66" leadChars=" " refid="19" slot="kwp"/>
+    <MessageGroupList refid="20" slot="mgl">
+     <MessageGroup refid="21" slot="anon">
+      <Null refid="22" slot="kwsyn"/>
+      <KeyWord token="INCOMING" startCol="80" leadChars="%0A    " refid="23" slot="kwdir"/>
+      <MessageList refid="24" slot="msgList">
+       <Message refid="25" slot="anon">
+        <KeyWord token="MESSAGE" startCol="89" leadChars=" " refid="26" slot="kwm"/>
+        <Id idname="testInput" startCol="97" leadChars=" " refid="27" slot="name"/>
+        <Signature refid="28" slot="signature">
+         <Tok token="(" startCol="106" leadChars="" refid="29" slot="lbr"/>
+         <Formals refid="30" slot="formals">
+          <Formal refid="31" slot="anon">
+           <Null refid="32" slot="mode"/>
+           <IdList refid="33" slot="idList">
+            <Id idname="myRec" startCol="107" leadChars="" refid="34" slot="anon"/>
+           </IdList>
+           <Tok token=":" startCol="113" leadChars=" " refid="35" slot="col"/>
+           <TypeName refid="36" slot="tipe">
+            <QualId refid="37" slot="qualId">
+             <Id idname="InputTypes" startCol="115" leadChars=" " refid="38" slot="anon"/>
+             <Sep token="." startCol="125" leadChars="" refid="39" slot="anon"/>
+             <Id idname="MyRecType" startCol="126" leadChars="" refid="40" slot="anon"/>
+            </QualId>
+           </TypeName>
+           <Null refid="41" slot="ass"/>
+           <Null refid="42" slot="constExpr"/>
+          </Formal>
+         </Formals>
+         <Tok token=")" startCol="135" leadChars="" refid="43" slot="rbr"/>
+         <Null refid="44" slot="col"/>
+         <Null refid="45" slot="tipe"/>
+         <Null refid="46" slot="kwr"/>
+         <Null refid="47" slot="raises"/>
+        </Signature>
+       </Message>
+       <Sep token=";" startCol="137" leadChars=" " refid="48" slot="anon"/>
+      </MessageList>
+     </MessageGroup>
+    </MessageGroupList>
+    <KeyWord token="END" startCol="140" leadChars="%0A" refid="49" slot="kwe"/>
+   </Protocol>
+  </Port>
+  <Sep token=";" startCol="143" leadChars="" refid="50" slot="anon"/>
+ </PortList>
+ <KeyWord token="END" startCol="146" leadChars="%0A" refid="51" slot="kwe"/>
+ <Id idname="TestInputTypes" startCol="150" leadChars=" " refid="52" slot="endId"/>
+ <Sep token="." startCol="164" leadChars="" refid="53" slot="td"/>
+</CapsuleInterface>

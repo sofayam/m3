@@ -1,0 +1,1 @@
+cl /I..\lib %1.c %1__main.c ..\lib\Regress.obj %2 %3 %4

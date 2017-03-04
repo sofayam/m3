@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<Capsule source="/home/mark/m3/doc/C1.m3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <Id idname="C1" startCol="8" leadChars=" " refid="3" slot="modname"/>
+ <Null refid="4" slot="kwi"/>
+ <Null refid="5" slot="implId"/>
+ <Sep token=";" startCol="11" leadChars=" " refid="6" slot="ts"/>
+ <ImportList refid="7" slot="imports">
+  <AsImport refid="8" slot="anon">
+   <KeyWord token="IMPORT" startCol="14" leadChars="%0A" refid="9" slot="kwi"/>
+   <AsImportList refid="10" slot="importList">
+    <ImportItem refid="11" slot="anon">
+     <Id idname="Timer" startCol="21" leadChars=" " refid="12" slot="id"/>
+    </ImportItem>
+   </AsImportList>
+   <Sep token=";" startCol="26" leadChars="" refid="13" slot="ts"/>
+  </AsImport>
+ </ImportList>
+ <UseCapsuleList refid="14" slot="usedCapsules">
+  <UseCapsule refid="15" slot="anon">
+   <KeyWord token="USECAPSULE" startCol="31" leadChars="%0A  " refid="16" slot="kwu"/>
+   <IdList refid="17" slot="idList">
+    <Id idname="C2" startCol="42" leadChars=" " refid="18" slot="anon"/>
+   </IdList>
+   <Sep token=";" startCol="45" leadChars=" " refid="19" slot="ts"/>
+  </UseCapsule>
+  <UseCapsule refid="20" slot="anon">
+   <KeyWord token="USECAPSULE" startCol="50" leadChars="%0A  " refid="21" slot="kwu"/>
+   <IdList refid="22" slot="idList">
+    <Id idname="C3" startCol="61" leadChars=" " refid="23" slot="anon"/>
+   </IdList>
+   <Sep token=";" startCol="64" leadChars=" " refid="24" slot="ts"/>
+  </UseCapsule>
+ </UseCapsuleList>
+ <CapsuleBlock refid="25" slot="block">
+  <DeclList refid="26" slot="decList">
+   <VariableDecls refid="27" slot="anon">
+    <KeyWord token="VAR" startCol="69" leadChars="%0A  " refid="28" slot="kwv"/>
+    <VariableDeclsList refid="29" slot="variables">
+     <VariableDecl refid="30" slot="anon">
+      <IdList refid="31" slot="idlist">
+       <Id idname="c2" startCol="73" leadChars=" " refid="32" slot="anon"/>
+      </IdList>
+      <Tok token=":" startCol="76" leadChars=" " refid="33" slot="col"/>
+      <TypeName refid="34" slot="tipe">
+       <QualId refid="35" slot="qualId">
+        <Id idname="C2" startCol="78" leadChars=" " refid="36" slot="anon"/>
+       </QualId>
+      </TypeName>
+      <Null refid="37" slot="ass"/>
+      <Null refid="38" slot="expr"/>
+     </VariableDecl>
+     <Sep token=";" startCol="81" leadChars=" " refid="39" slot="anon"/>
+    </VariableDeclsList>
+   </VariableDecls>
+   <VariableDecls refid="40" slot="anon">
+    <KeyWord token="VAR" startCol="86" leadChars="%0A  " refid="41" slot="kwv"/>
+    <VariableDeclsList refid="42" slot="variables">
+     <VariableDecl refid="43" slot="anon">
+      <IdList refid="44" slot="idlist">
+       <Id idname="c3" startCol="90" leadChars=" " refid="45" slot="anon"/>
+      </IdList>
+      <Tok token=":" startCol="93" leadChars=" " refid="46" slot="col"/>
+      <TypeName refid="47" slot="tipe">
+       <QualId refid="48" slot="qualId">
+        <Id idname="C3" startCol="95" leadChars=" " refid="49" slot="anon"/>
+       </QualId>
+      </TypeName>
+      <Null refid="50" slot="ass"/>
+      <Null refid="51" slot="expr"/>
+     </VariableDecl>
+     <Sep token=";" startCol="98" leadChars=" " refid="52" slot="anon"/>
+    </VariableDeclsList>
+   </VariableDecls>
+  </DeclList>
+  <Connections refid="53" slot="connections">
+   <KeyWord token="CONNECT" startCol="103" leadChars="%0A  " refid="54" slot="kwc"/>
+   <ConnectionList refid="55" slot="connectionList">
+    <Connection refid="56" slot="anon">
+     <QualId refid="57" slot="end1">
+      <Id idname="input" startCol="116" leadChars="%0A    " refid="58" slot="anon"/>
+     </QualId>
+     <KeyWord token="-&gt;" startCol="122" leadChars=" " refid="59" slot="kwc"/>
+     <QualId refid="60" slot="end2">
+      <Id idname="c2" startCol="125" leadChars=" " refid="61" slot="anon"/>
+      <Sep token="." startCol="127" leadChars="" refid="62" slot="anon"/>
+      <Id idname="c2act" startCol="128" leadChars="" refid="63" slot="anon"/>
+     </QualId>
+    </Connection>
+    <Sep token=";" startCol="133" leadChars="" refid="64" slot="anon"/>
+    <Connection refid="65" slot="anon">
+     <QualId refid="66" slot="end1">
+      <Id idname="c2" startCol="140" leadChars="%0A    " refid="67" slot="anon"/>
+      <Sep token="." startCol="142" leadChars="" refid="68" slot="anon"/>
+      <Id idname="messageFromC2" startCol="143" leadChars="" refid="69" slot="anon"/>
+     </QualId>
+     <KeyWord token="-&gt;" startCol="157" leadChars=" " refid="70" slot="kwc"/>
+     <QualId refid="71" slot="end2">
+      <Id idname="c3" startCol="160" leadChars=" " refid="72" slot="anon"/>
+      <Sep token="." startCol="162" leadChars="" refid="73" slot="anon"/>
+      <Id idname="c3act" startCol="163" leadChars="" refid="74" slot="anon"/>
+     </QualId>
+    </Connection>
+    <Sep token=";" startCol="168" leadChars="" refid="75" slot="anon"/>
+    <PortConnection refid="76" slot="anon">
+     <QualId refid="77" slot="end1">
+      <Id idname="c3" startCol="175" leadChars="%0A    " refid="78" slot="anon"/>
+      <Sep token="." startCol="177" leadChars="" refid="79" slot="anon"/>
+      <Id idname="p2" startCol="178" leadChars="" refid="80" slot="anon"/>
+     </QualId>
+     <KeyWord token="&lt;=&gt;" startCol="181" leadChars=" " refid="81" slot="kwc"/>
+     <QualId refid="82" slot="end2">
+      <Id idname="p2" startCol="185" leadChars=" " refid="83" slot="anon"/>
+     </QualId>
+    </PortConnection>
+   </ConnectionList>
+   <Sep token=";" startCol="187" leadChars="" refid="84" slot="ts"/>
+  </Connections>
+  <KeyWord token="BEGIN" startCol="190" leadChars="%0A" refid="85" slot="kwb"/>
+  <Statements refid="86" slot="statements"/>
+  <KeyWord token="END" startCol="199" leadChars="%0A%0A" refid="87" slot="kwe"/>
+ </CapsuleBlock>
+ <Id idname="C1" startCol="203" leadChars=" " refid="88" slot="endId"/>
+ <Sep token="." startCol="205" leadChars="" refid="89" slot="td"/>
+</Capsule>

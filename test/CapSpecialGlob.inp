@@ -1,0 +1,3 @@
+> init testName=SwapGlobal
+> ask expected=special
+> summary

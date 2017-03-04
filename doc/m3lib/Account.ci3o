@@ -1,0 +1,162 @@
+<?xml version="1.0"?>
+<CapsuleInterface source="/home/mark/m3/doc/Account.i3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <KeyWord token="INTERFACE" startCol="8" leadChars=" " refid="3" slot="kwi"/>
+ <Id idname="Account" startCol="18" leadChars=" " refid="4" slot="modname"/>
+ <Sep token=";" startCol="26" leadChars=" " refid="5" slot="ts"/>
+ <ImportList refid="6" slot="imports"/>
+ <PortList refid="7" slot="portList">
+  <Port refid="8" slot="anon">
+   <KeyWord token="PORT" startCol="28" leadChars="%0A" refid="9" slot="kwp"/>
+   <Id idname="movement" startCol="33" leadChars=" " refid="10" slot="id"/>
+   <Tok token=":" startCol="42" leadChars=" " refid="11" slot="col"/>
+   <Protocol refid="12" slot="protocol">
+    <KeyWord token="PROTOCOL" startCol="44" leadChars=" " refid="13" slot="kwp"/>
+    <MessageGroupList refid="14" slot="mgl">
+     <MessageGroup refid="15" slot="anon">
+      <Null refid="16" slot="kwsyn"/>
+      <KeyWord token="INCOMING" startCol="57" leadChars="%0A    " refid="17" slot="kwdir"/>
+      <MessageList refid="18" slot="msgList">
+       <Message refid="19" slot="anon">
+        <KeyWord token="MESSAGE" startCol="66" leadChars=" " refid="20" slot="kwm"/>
+        <Id idname="deposit" startCol="74" leadChars=" " refid="21" slot="name"/>
+        <Signature refid="22" slot="signature">
+         <Tok token="(" startCol="81" leadChars="" refid="23" slot="lbr"/>
+         <Formals refid="24" slot="formals">
+          <Formal refid="25" slot="anon">
+           <Null refid="26" slot="mode"/>
+           <IdList refid="27" slot="idList">
+            <Id idname="sum" startCol="82" leadChars="" refid="28" slot="anon"/>
+           </IdList>
+           <Tok token=":" startCol="86" leadChars=" " refid="29" slot="col"/>
+           <TypeName refid="30" slot="tipe">
+            <QualId refid="31" slot="qualId">
+             <Id idname="INTEGER" startCol="88" leadChars=" " refid="32" slot="anon"/>
+            </QualId>
+           </TypeName>
+           <Null refid="33" slot="ass"/>
+           <Null refid="34" slot="constExpr"/>
+          </Formal>
+         </Formals>
+         <Tok token=")" startCol="95" leadChars="" refid="35" slot="rbr"/>
+         <Null refid="36" slot="col"/>
+         <Null refid="37" slot="tipe"/>
+         <Null refid="38" slot="kwr"/>
+         <Null refid="39" slot="raises"/>
+        </Signature>
+       </Message>
+       <Sep token=";" startCol="97" leadChars=" " refid="40" slot="anon"/>
+      </MessageList>
+     </MessageGroup>
+     <MessageGroup refid="41" slot="anon">
+      <Null refid="42" slot="kwsyn"/>
+      <KeyWord token="INCOMING" startCol="103" leadChars="%0A    " refid="43" slot="kwdir"/>
+      <MessageList refid="44" slot="msgList">
+       <Message refid="45" slot="anon">
+        <KeyWord token="MESSAGE" startCol="112" leadChars=" " refid="46" slot="kwm"/>
+        <Id idname="withdraw" startCol="120" leadChars=" " refid="47" slot="name"/>
+        <Signature refid="48" slot="signature">
+         <Tok token="(" startCol="128" leadChars="" refid="49" slot="lbr"/>
+         <Formals refid="50" slot="formals">
+          <Formal refid="51" slot="anon">
+           <Null refid="52" slot="mode"/>
+           <IdList refid="53" slot="idList">
+            <Id idname="sum" startCol="129" leadChars="" refid="54" slot="anon"/>
+           </IdList>
+           <Tok token=":" startCol="133" leadChars=" " refid="55" slot="col"/>
+           <TypeName refid="56" slot="tipe">
+            <QualId refid="57" slot="qualId">
+             <Id idname="INTEGER" startCol="135" leadChars=" " refid="58" slot="anon"/>
+            </QualId>
+           </TypeName>
+           <Null refid="59" slot="ass"/>
+           <Null refid="60" slot="constExpr"/>
+          </Formal>
+         </Formals>
+         <Tok token=")" startCol="142" leadChars="" refid="61" slot="rbr"/>
+         <Null refid="62" slot="col"/>
+         <Null refid="63" slot="tipe"/>
+         <Null refid="64" slot="kwr"/>
+         <Null refid="65" slot="raises"/>
+        </Signature>
+       </Message>
+       <Sep token=";" startCol="144" leadChars=" " refid="66" slot="anon"/>
+      </MessageList>
+     </MessageGroup>
+    </MessageGroupList>
+    <KeyWord token="END" startCol="146" leadChars="%0A" refid="67" slot="kwe"/>
+   </Protocol>
+  </Port>
+  <Sep token=";" startCol="149" leadChars="" refid="68" slot="anon"/>
+  <Port refid="69" slot="anon">
+   <KeyWord token="PORT" startCol="151" leadChars="%0A" refid="70" slot="kwp"/>
+   <Id idname="information" startCol="156" leadChars=" " refid="71" slot="id"/>
+   <Tok token=":" startCol="168" leadChars=" " refid="72" slot="col"/>
+   <Protocol refid="73" slot="protocol">
+    <KeyWord token="PROTOCOL" startCol="170" leadChars=" " refid="74" slot="kwp"/>
+    <MessageGroupList refid="75" slot="mgl">
+     <MessageGroup refid="76" slot="anon">
+      <Null refid="77" slot="kwsyn"/>
+      <KeyWord token="INCOMING" startCol="183" leadChars="%0A    " refid="78" slot="kwdir"/>
+      <MessageList refid="79" slot="msgList">
+       <Message refid="80" slot="anon">
+        <KeyWord token="MESSAGE" startCol="192" leadChars=" " refid="81" slot="kwm"/>
+        <Id idname="requestBalance" startCol="200" leadChars=" " refid="82" slot="name"/>
+        <Signature refid="83" slot="signature">
+         <Tok token="(" startCol="214" leadChars="" refid="84" slot="lbr"/>
+         <Formals refid="85" slot="formals"/>
+         <Tok token=")" startCol="215" leadChars="" refid="86" slot="rbr"/>
+         <Null refid="87" slot="col"/>
+         <Null refid="88" slot="tipe"/>
+         <Null refid="89" slot="kwr"/>
+         <Null refid="90" slot="raises"/>
+        </Signature>
+       </Message>
+       <Sep token=";" startCol="217" leadChars=" " refid="91" slot="anon"/>
+      </MessageList>
+     </MessageGroup>
+     <MessageGroup refid="92" slot="anon">
+      <Null refid="93" slot="kwsyn"/>
+      <KeyWord token="OUTGOING" startCol="223" leadChars="%0A    " refid="94" slot="kwdir"/>
+      <MessageList refid="95" slot="msgList">
+       <Message refid="96" slot="anon">
+        <KeyWord token="MESSAGE" startCol="232" leadChars=" " refid="97" slot="kwm"/>
+        <Id idname="balance" startCol="240" leadChars=" " refid="98" slot="name"/>
+        <Signature refid="99" slot="signature">
+         <Tok token="(" startCol="247" leadChars="" refid="100" slot="lbr"/>
+         <Formals refid="101" slot="formals">
+          <Formal refid="102" slot="anon">
+           <Null refid="103" slot="mode"/>
+           <IdList refid="104" slot="idList">
+            <Id idname="sum" startCol="248" leadChars="" refid="105" slot="anon"/>
+           </IdList>
+           <Tok token=":" startCol="252" leadChars=" " refid="106" slot="col"/>
+           <TypeName refid="107" slot="tipe">
+            <QualId refid="108" slot="qualId">
+             <Id idname="INTEGER" startCol="254" leadChars=" " refid="109" slot="anon"/>
+            </QualId>
+           </TypeName>
+           <Null refid="110" slot="ass"/>
+           <Null refid="111" slot="constExpr"/>
+          </Formal>
+         </Formals>
+         <Tok token=")" startCol="261" leadChars="" refid="112" slot="rbr"/>
+         <Null refid="113" slot="col"/>
+         <Null refid="114" slot="tipe"/>
+         <Null refid="115" slot="kwr"/>
+         <Null refid="116" slot="raises"/>
+        </Signature>
+       </Message>
+       <Sep token=";" startCol="263" leadChars=" " refid="117" slot="anon"/>
+      </MessageList>
+     </MessageGroup>
+    </MessageGroupList>
+    <KeyWord token="END" startCol="265" leadChars="%0A" refid="118" slot="kwe"/>
+   </Protocol>
+  </Port>
+  <Sep token=";" startCol="268" leadChars="" refid="119" slot="anon"/>
+ </PortList>
+ <KeyWord token="END" startCol="270" leadChars="%0A" refid="120" slot="kwe"/>
+ <Id idname="Account" startCol="274" leadChars=" " refid="121" slot="endId"/>
+ <Sep token="." startCol="281" leadChars="" refid="122" slot="td"/>
+</CapsuleInterface>

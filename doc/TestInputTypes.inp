@@ -1,0 +1,1 @@
+> testInput myRec = {color: red, vector: [6,3,1]}

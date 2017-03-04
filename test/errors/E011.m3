@@ -1,0 +1,8 @@
+MODULE E011;
+
+TYPE aref = REF ARRAY OF INTEGER;
+
+VAR a := NEW(aref); <*ERROR 011*>
+BEGIN
+
+END E011.

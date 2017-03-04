@@ -1,0 +1,13 @@
+call ce Account --print -G --no-XML-server
+call ce ATM --print -G --no-XML-server
+call ce Bank --print -G --no-XML-server
+call ce ATMState --print -G --no-XML-server
+call ce Interest --print -G --no-XML-server
+call ce BankInterest --print -G --no-XML-server
+call ce ATMTimeout --print -G --no-XML-server
+call ce ATMSafe --print -G --no-XML-server
+call ce C1 --print -G --no-XML-server
+call ce ConjParent --print -G --no-XML-server
+call ce pytimer --print -G --no-XML-server
+call ce pytrigger --print -G --no-XML-server
+call ce pyact --print -G --no-XML-server

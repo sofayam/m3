@@ -1,0 +1,16 @@
+> init
+> startTimeDeep
+? 20 s
+> failTimeDeep
+? 40 s
+> checkTimeDeep
+> startTimeShallow
+? 20 s
+> failTimeShallow
+? 40 s
+> checkTimeShallow
+> doCmdDeep
+> checkCmdDeep
+> doCmdShallow
+> checkCmdShallow
+> summary

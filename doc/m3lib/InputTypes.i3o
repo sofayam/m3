@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Interface source="/home/mark/m3/doc/InputTypes.i3" refid="1" slot="anon">
+ <KeyWord token="INTERFACE" startCol="0" leadChars="" refid="2" slot="kwi"/>
+ <Id idname="InputTypes" startCol="10" leadChars=" " refid="3" slot="modname"/>
+ <Sep token=";" startCol="21" leadChars=" " refid="4" slot="ts"/>
+ <ImportList refid="5" slot="imports"/>
+ <InterfaceDeclList refid="6" slot="decls">
+  <TypeDecls refid="7" slot="anon">
+   <KeyWord token="TYPE" startCol="29" leadChars="%0A     " refid="8" slot="kwt"/>
+   <TypeDeclsList refid="9" slot="typeList">
+    <TypeDecl refid="10" slot="anon">
+     <Id idname="Color" startCol="34" leadChars=" " refid="11" slot="id"/>
+     <Op token="=" startCol="40" leadChars=" " refid="12" slot="sign"/>
+     <Enum refid="13" slot="tipe">
+      <Tok token="{" startCol="42" leadChars=" " refid="14" slot="lcr"/>
+      <IdList refid="15" slot="idlist">
+       <Id idname="red" startCol="43" leadChars="" refid="16" slot="anon"/>
+       <Sep token="," startCol="46" leadChars="" refid="17" slot="anon"/>
+       <Id idname="blue" startCol="48" leadChars=" " refid="18" slot="anon"/>
+       <Sep token="," startCol="52" leadChars="" refid="19" slot="anon"/>
+       <Id idname="green" startCol="54" leadChars=" " refid="20" slot="anon"/>
+      </IdList>
+      <Tok token="}" startCol="59" leadChars="" refid="21" slot="rcr"/>
+     </Enum>
+    </TypeDecl>
+    <Sep token=";" startCol="61" leadChars=" " refid="22" slot="anon"/>
+   </TypeDeclsList>
+  </TypeDecls>
+  <TypeDecls refid="23" slot="anon">
+   <KeyWord token="TYPE" startCol="69" leadChars="%0A     " refid="24" slot="kwt"/>
+   <TypeDeclsList refid="25" slot="typeList">
+    <TypeDecl refid="26" slot="anon">
+     <Id idname="Vector" startCol="74" leadChars=" " refid="27" slot="id"/>
+     <Op token="=" startCol="81" leadChars=" " refid="28" slot="sign"/>
+     <Array refid="29" slot="tipe">
+      <KeyWord token="ARRAY" startCol="83" leadChars=" " refid="30" slot="kwa"/>
+      <TypeList refid="31" slot="typeList"/>
+      <KeyWord token="OF" startCol="89" leadChars=" " refid="32" slot="kwo"/>
+      <TypeName refid="33" slot="tipe">
+       <QualId refid="34" slot="qualId">
+        <Id idname="INTEGER" startCol="92" leadChars=" " refid="35" slot="anon"/>
+       </QualId>
+      </TypeName>
+     </Array>
+    </TypeDecl>
+    <Sep token=";" startCol="100" leadChars=" " refid="36" slot="anon"/>
+   </TypeDeclsList>
+  </TypeDecls>
+  <TypeDecls refid="37" slot="anon">
+   <KeyWord token="TYPE" startCol="108" leadChars="%0A     " refid="38" slot="kwt"/>
+   <TypeDeclsList refid="39" slot="typeList">
+    <TypeDecl refid="40" slot="anon">
+     <Id idname="MyRecType" startCol="113" leadChars=" " refid="41" slot="id"/>
+     <Op token="=" startCol="123" leadChars=" " refid="42" slot="sign"/>
+     <Record refid="43" slot="tipe">
+      <KeyWord token="RECORD" startCol="125" leadChars=" " refid="44" slot="kwr"/>
+      <FieldList refid="45" slot="fields">
+       <Field refid="46" slot="anon">
+        <IdList refid="47" slot="idlist">
+         <Id idname="color" startCol="141" leadChars="%0A        " refid="48" slot="anon"/>
+        </IdList>
+        <Tok token=":" startCol="147" leadChars=" " refid="49" slot="col"/>
+        <TypeName refid="50" slot="tipe">
+         <QualId refid="51" slot="qualId">
+          <Id idname="Color" startCol="149" leadChars=" " refid="52" slot="anon"/>
+         </QualId>
+        </TypeName>
+        <Null refid="53" slot="ass"/>
+        <Null refid="54" slot="constExpr"/>
+       </Field>
+       <Sep token=";" startCol="155" leadChars=" " refid="55" slot="anon"/>
+       <Field refid="56" slot="anon">
+        <IdList refid="57" slot="idlist">
+         <Id idname="vector" startCol="166" leadChars="%0A        " refid="58" slot="anon"/>
+        </IdList>
+        <Tok token=":" startCol="173" leadChars=" " refid="59" slot="col"/>
+        <TypeName refid="60" slot="tipe">
+         <QualId refid="61" slot="qualId">
+          <Id idname="Vector" startCol="175" leadChars=" " refid="62" slot="anon"/>
+         </QualId>
+        </TypeName>
+        <Null refid="63" slot="ass"/>
+        <Null refid="64" slot="constExpr"/>
+       </Field>
+       <Sep token=";" startCol="182" leadChars=" " refid="65" slot="anon"/>
+      </FieldList>
+      <KeyWord token="END" startCol="190" leadChars="%0A     " refid="66" slot="kwe"/>
+     </Record>
+    </TypeDecl>
+    <Sep token=";" startCol="194" leadChars=" " refid="67" slot="anon"/>
+   </TypeDeclsList>
+  </TypeDecls>
+ </InterfaceDeclList>
+ <KeyWord token="END" startCol="197" leadChars="%0A" refid="68" slot="kwe"/>
+ <Id idname="InputTypes" startCol="201" leadChars=" " refid="69" slot="endId"/>
+ <Sep token="." startCol="211" leadChars="" refid="70" slot="td"/>
+</Interface>

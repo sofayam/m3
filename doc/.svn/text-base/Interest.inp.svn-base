@@ -1,0 +1,6 @@
+> setInterestRate rate=5.0
+? 1 year
+> updateAccount sum = 100
+> setInterestRate rate=10.0
+? 1 year
+> updateAccount sum = 105

@@ -1,0 +1,10 @@
+MODULE E023;
+
+TYPE O  = OBJECT
+   i : INTEGER;
+END;
+
+VAR i := NUMBER(O) ; <*ERROR 023*>
+BEGIN
+  
+END E023.

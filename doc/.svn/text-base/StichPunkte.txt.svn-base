@@ -1,0 +1,71 @@
+
+
+Sprachbasiert :      
+        Textdarstellung ist eine "Verenuenftige" Sprache und kein XMI Spielereie
+        Projectverwaltung "outsourced" als KM Aufgabe (kein zentrale Datenbank)
+	      
+Sprache :
+        Vollständige unterstützung für Algorithmen, Daten, Struktur und Echtzeit Bedürfnisse in EINE Sprache 
+mit durchgehende Typisierung.
+
+Skalierbar nach Benutzer-kompetenz :
+        Einfache Systeme sind leicht zu definieren, komplexe Systeme sind aber auch möglich.
+
+Robust gegen interne Fehler:
+       Auch unstabile Versionen dürfen nicht zu Datenverlust führen
+
+Fehler-meldung:
+	Fehler im Model möglichst früh entdecken und möglichst klar beschreiben
+
+Tool interne Operation nachvollziehbar:
+	Zwischen-ergebnisse (resource files, object code) sollen Menschlich lesbar, verständlich und änderbar sein.
+
+Diagnose/Debugging
+	Beobachtbarkeit vom Modell
+	Modell-orientierte break und watch-points
+	Selection von Beobachtungspunkte ueber queries
+
+Dokumentation :
+        Aufgaben-orientiert, mit Beispiele
+
+Graphik-Text zusammenspiel :
+        Graphik als implizit in der Sprache - Kein reverse/forward "engineering"
+
+Offen :
+        Sprache ist mit verhältnismässigen Aufwand erweiterbar.
+	Tool ist als Framework bzw. "metamodel construction set" aufgebaut
+	
+Laufzeitsystem :
+        Zeitsimulation
+        Run To Completion
+        TBD Zeitbehaftung/simulation von Nebenlaeufigkeit
+
+Multimodellfähig:
+        1 : Ein Testsuite für DM und DA testet Modelkonformität 
+	TBD 2 : Mapping von DA über SA an SWA und HWA
+        TBD 3 : Input und Ergebnis-verfeinerung bei ausimplementierten Systeme. 
+
+
+Testumgebung :
+        Variante 1 : Testskripts mit Input und Delay Befehle, outputs in Mensch- und Maschinenlesbare Format
+        TBD Variante 2 : Ausgeprägte Testsprache mit erwartete Ergebnisse a la TTCN3
+        
+Minimale Abhängigkeit auf externe Tools für Basis-funktionalität. 
+
+Maximale Leverage von externe Tools für Zusatz-funktionalität.
+
+Skalierbar nach Modell-größe:
+        Kein Resourcen-explosion
+        Übersichtlichkeit auch bei Grosse Modellen.
+
+Variantenunterstützung:
+	Sprachlich (mechanismen)
+	Im Tool (refactoring browser, ???)
+
+Aspektorientierung:
+	????
+
+
+
+
+

@@ -1,0 +1,5 @@
+CAPSULE INTERFACE CapAssert ;
+PORT p1 : PROTOCOL
+ INCOMING MESSAGE start() ;
+END;
+END CapAssert.

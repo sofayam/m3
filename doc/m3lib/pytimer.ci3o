@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<CapsuleInterface source="/home/mark/m3/doc/pytimer.i3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <KeyWord token="INTERFACE" startCol="8" leadChars=" " refid="3" slot="kwi"/>
+ <Id idname="pytimer" startCol="18" leadChars=" " refid="4" slot="modname"/>
+ <Sep token=";" startCol="26" leadChars=" " refid="5" slot="ts"/>
+ <ImportList refid="6" slot="imports"/>
+ <PortList refid="7" slot="portList">
+  <Port refid="8" slot="anon">
+   <KeyWord token="PORT" startCol="29" leadChars="%0A" refid="9" slot="kwp"/>
+   <Id idname="p1" startCol="34" leadChars=" " refid="10" slot="id"/>
+   <Tok token=":" startCol="37" leadChars=" " refid="11" slot="col"/>
+   <Protocol refid="12" slot="protocol">
+    <KeyWord token="PROTOCOL" startCol="39" leadChars=" " refid="13" slot="kwp"/>
+    <MessageGroupList refid="14" slot="mgl">
+     <MessageGroup refid="15" slot="anon">
+      <Null refid="16" slot="kwsyn"/>
+      <KeyWord token="OUTGOING" startCol="52" leadChars="%0A   " refid="17" slot="kwdir"/>
+      <MessageList refid="18" slot="msgList">
+       <Message refid="19" slot="anon">
+        <KeyWord token="MESSAGE" startCol="61" leadChars=" " refid="20" slot="kwm"/>
+        <Id idname="foo" startCol="69" leadChars=" " refid="21" slot="name"/>
+        <Signature refid="22" slot="signature">
+         <Tok token="(" startCol="73" leadChars=" " refid="23" slot="lbr"/>
+         <Formals refid="24" slot="formals">
+          <Formal refid="25" slot="anon">
+           <Null refid="26" slot="mode"/>
+           <IdList refid="27" slot="idList">
+            <Id idname="i" startCol="74" leadChars="" refid="28" slot="anon"/>
+           </IdList>
+           <Tok token=":" startCol="76" leadChars=" " refid="29" slot="col"/>
+           <TypeName refid="30" slot="tipe">
+            <QualId refid="31" slot="qualId">
+             <Id idname="INTEGER" startCol="78" leadChars=" " refid="32" slot="anon"/>
+            </QualId>
+           </TypeName>
+           <Null refid="33" slot="ass"/>
+           <Null refid="34" slot="constExpr"/>
+          </Formal>
+         </Formals>
+         <Tok token=")" startCol="85" leadChars="" refid="35" slot="rbr"/>
+         <Null refid="36" slot="col"/>
+         <Null refid="37" slot="tipe"/>
+         <Null refid="38" slot="kwr"/>
+         <Null refid="39" slot="raises"/>
+        </Signature>
+       </Message>
+       <Sep token=";" startCol="86" leadChars="" refid="40" slot="anon"/>
+      </MessageList>
+     </MessageGroup>
+    </MessageGroupList>
+    <KeyWord token="END" startCol="89" leadChars="%0A" refid="41" slot="kwe"/>
+   </Protocol>
+  </Port>
+  <Sep token=";" startCol="92" leadChars="" refid="42" slot="anon"/>
+ </PortList>
+ <KeyWord token="END" startCol="95" leadChars="%0A" refid="43" slot="kwe"/>
+ <Id idname="pytimer" startCol="99" leadChars=" " refid="44" slot="endId"/>
+ <Sep token="." startCol="106" leadChars="" refid="45" slot="td"/>
+</CapsuleInterface>

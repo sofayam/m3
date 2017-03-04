@@ -1,0 +1,2129 @@
+\documentclass{article}
+\pagestyle{headings}
+\makeindex
+\usepackage{rail}
+\usepackage{verbatim}
+\usepackage{epsfig}
+
+\railoptions{-t}
+
+\relax
+
+\title {Computer Support for SESIS: A User Manual}
+\author{
+       Mark Andrew\\
+       mark.andrew@de.bosch.com 
+}
+\usepackage[dvips]{hyperref} 
+\begin{document}
+
+
+\railalias{lbr}{\{}
+\railalias{rbr}{\}}
+\railalias{at}{@}
+\railalias{tilde}{\tt \char126}
+\railterm{lbr,rbr,at,tilde}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\section{Introduction}
+
+This document describes the various forms of computer support for
+SESIS (Systems Engineering for Software Intensive Systems) \cite{sesiswp}
+
+Support is offered in three main areas:
+\begin{itemize}
+\item language : the integration of the Real Time Modeling Extensions (RTMX) into a core 
+language.
+\item graphics : support for graphically creating and editing models using these extensions.
+\item simulation : support for the execution, observation and testing of these models using a simulation 
+framework embodying the concepts of Perfect Technology \cite{perfect}. 
+\end{itemize}
+
+This development of this software is driven by the following qualities:
+\begin{itemize}
+\item Simplicity of Installation
+\item Portability
+\item Flexibility
+\item Robustness (against internal errors)
+\item Openness 
+\item Problem and User Scalability (simple things are simple, hard things are possible)
+\end{itemize}
+
+\section{A Gentle Introduction to the Main Features}
+
+The SESIS Modeling Language is a superset of Modula-3 \cite{sysmodula3} \cite{arbmodula3}. 
+In the following sections we will look at some simple models to
+get a feel for the extent of the language. Note that the following examples 
+are purely intended to give you a feel for the features of the language and do \emph{not} correspond
+in any way to specific SESIS artefacts (domain models, domain architectures etc.) For further
+guidance here the reader is refered to \cite{modeling}. 
+
+\subsection{Our First Capsule}
+
+Here is a simple example of a Capsule Interface, modeling a bank account:
+
+\verbatiminput{Account.i3}
+
+
+This text tells us that instances of this capsule understand two groups of messages, one group
+concerning \texttt{movement} and the other concerning account \texttt{information}.
+
+The \texttt{movement} group specifies two messages, one each to withdraw and deposit sums of money. We see that
+the messages themselves can have associated parameters in fact, at first glance
+they look pretty much like procedure specifications. We will learn about the differences later.
+
+The \texttt{information} group specifies one message - \texttt{requestBalance} - which it will expect to receive from the 
+outside world and one message \texttt{balance} which it transmits to the outside world. Note that the order is not
+explicitly defined here.
+
+
+\subsubsection{So What Does It Do?}
+
+All we have done so far is to show the capsule from the outside. If we are to understand what it
+does then we have to look inside. Here is the body for that capsule.
+
+\verbatiminput{Account.m3}
+
+
+The capsule body contains four entities, the variable \texttt{money} and three activities 
+corresponding to the incoming messages listed in the interface.
+We should intuitively be able to read that the text is telling us how the incoming messages 
+described in the interface are handled and how the outgoing
+message is generated. The simplest way to handle an incoming message is to define an \texttt{activity} with
+the same name as that message. Any parameters must match those in the interface.
+
+The variable \texttt{money} is declared in the outermost scope of the capsule and is visible
+to all other elements. On the other hand the two variables named \texttt{newtotal} are local to the activities 
+\texttt{withdraw} and \texttt{deposit} and are therefore only visible in those activities. Note also that, 
+unlike \texttt{sum}, they do not survive from one invocation to the next.
+
+Similarities to the procedures of conventional programming languages stop here however. The
+parameters of activities are always passed by value and activities cannot have a return value.
+Information is passed only via messages, so if we want to communicate our results in any way we
+have to send a message. This is done using the \texttt{SEND} construct, in which that keyword precedes the procedure-like 
+invocation of a specified outgoing message, in this case \texttt{balance}
+
+\subsubsection{A Graphical Equivalent}
+In parallel with the textual form, we can also display our capsule graphically. If we load 
+the text shown above into the capsule editor (see Section \ref{sec:caped} below) we should see (possibly after
+moving and resizing some of the objects) something like Figure \ref{fig:Accountshot}.
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=Account.ps, height=2.5in}
+\end{center}
+\caption{The Account Capsule \label{fig:Accountshot}}
+\end{figure}
+
+The Interface details are represented by the port and message components at the edge of the capsule 
+on the left, and the activities have become circles. The capsule-level variable \texttt{sum} is 
+represented by two parallel bars; any resemblance to nearly 20-year-old DeMarco SADT graphical notation is
+entirely intentional!! Although these variables require no additional syntax, we may refer to them as
+\emph{datastores} rather than simply variables to strengthen this association.
+Note that, apart from the position and size information (which is stored in a separate file) all 
+features of the diagram are derived directly from the text of the model. For example, the arrows 
+connecting the activities with the datastores have been derived by doing a simple dataflow analysis across
+the capsule text. Note also the two different colors for the arrows, grey for data and black for messages.
+
+\subsubsection{Executing the Model}
+
+When we execute a model, we feed it with a set of test inputs and we can record or observe the outputs 
+generated. First of all we need to compile the model text as follows:
+
+
+\texttt{m3 Account.i3}
+
+\texttt{m3 Account.m3}
+
+
+Then we need some inputs to test the model. We will start with the following in the file 
+\texttt{Account.inp}:
+
+\verbatiminput{Account.inp}
+
+If this text is stored in the file \texttt{Account.inp} then the following invocation
+
+\texttt{runcap Account}
+
+\index{runcap}
+will run the capsule, feeding it with the inputs and storing the results of the test 
+in two files, a results file \texttt{Account.res} showing only the inputs and
+outputs, and a protocol file \texttt{Account.pro} which contains more detailed 
+contextual information. These are stored by default  
+in the \texttt{res} subdirectory. In the protocol file we might see something like
+the following:
+
+\verbatiminput{res/Account.pro}
+
+The results file makes less interesting reading for us, but is more useful in comparing
+different models which should exhibit the same behaviour.
+
+\verbatiminput{res/Account.res}
+
+We can also echo the protocol straight to the console as part of the run by using the following
+command
+
+\texttt{runcap Account -cpro}
+
+\subsection{Nesting and Instantiation of Capsules}
+\index{capsules}
+Capsules are the building blocks of systems. This involves the definition of new Capsule \emph{types}, 
+composed, amongst other things, from \emph{instances} of existing Capsule \emph{types}. 
+
+\subsubsection{A Second Component for the Bank}
+For our example we will use our Account capsule as one of the building blocks for a trivial virtual Bank.
+We first develop a second capsule \texttt{ATM} which models the behaviour of an Automatic Telling Machine.
+This has the following specification:
+
+\verbatiminput{ATM.i3}
+
+
+and the following body:
+
+\verbatiminput{ATM.m3}
+
+
+\subsubsection{ATM at a glance}
+
+Whereas the graphical representation of the account object was not strictly necessary to get an at-a-glance 
+comprehension of that capsule, we are now rapidly nearing the level of complexity where non-programmers
+will no longer be able to find their way through the text. That same text (with some positional adjustments)
+also reveals the more generally presentable diagram in Figure \ref{fig:ATMshot} when loaded into the capsule editor.
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=ATM.ps, width=\linewidth}
+\end{center}
+\caption{The ATM Capsule \label{fig:ATMshot}}
+\end{figure}
+
+\subsubsection{... and some more Testing}
+
+We can test the ATM Capsule by itself just as we tested the Account Capsule. In this case we could use
+an input file with the following contents:
+
+\verbatiminput{ATM.inp}
+
+and using this command:
+
+\texttt{runcap ATM}
+
+we would be rewarded with the following results in \texttt{res/ATM.res}
+
+\verbatiminput{res/ATM.res}
+
+
+\subsubsection{Building the Bank}
+
+We now have two components which could be sensibly joined together to give us a new level 
+of functionality. We create a parent Capsule \texttt{Bank} which contains one instance each
+of an \texttt{ATM} and an \texttt{Account} and connects them together so that withdrawals
+via the ATM influence the level of the Account. The structure is shown in Figure \ref{fig:Bankshot}
+
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=Bank.ps, width=\linewidth}
+\end{center}
+\caption{The Bank Capsule \label{fig:Bankshot}}
+\end{figure}
+
+
+The Bank itself has come to life as a kind of test harness for the components it contains.
+With respect to the ATM it is just passing through the calls from the hole in its own \texttt{wall}. The bank
+also has a \texttt{counter} where deposits can (and in real life must) be made.
+
+The interface of the Bank capsule simply reflects this partition.
+
+
+\verbatiminput{Bank.i3}
+
+
+and the capsule body shows the connections between the two child capsules and the parent in textual form.
+
+
+\verbatiminput{Bank.m3}
+
+
+\subsection{State Machines}
+\index{State Machines}
+In the implementation of the ATM above we structured our behaviour around three clearly identifiable states
+in which the card could be: either the card was not present at all, or it had just been inserted or 
+it was authorized. Support for this kind of algorithmic
+structure is included both in the language and in the graphical representation. Here is the original 
+behaviour implemented using this alternative notation:
+
+
+\verbatiminput{ATMState.m3}
+
+
+We can see here that code previously organized into activities is now divided up into states,
+and into the handlers those states provide for various \emph{transitions}. Just as the activities
+did, the transitions correspond to messages previously described in the capsule spec. However
+in the case of transitions the same message may be handled in many states. 
+The graphical equivalent can be seen in Figure \ref{fig:ATMStateshot}
+
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=ATMState.ps, width=\linewidth}
+\end{center}
+\caption{ATM using states \label{fig:ATMStateshot}}
+\end{figure}
+
+\subsection{Timers}
+\index{Timers}
+The run time system deals with time by simulating its passing. 
+This means you can deal with arbitrarily long or short delays without worrying about
+whether your results are ``realistic''.
+For this example we will consider the influence of time passing on
+a bank account. If we are lucky we will collect some interest from the bank. The following capsule
+uses a timer which elapses every year in order to add accrued interest to the account.
+
+\verbatiminput{Interest.m3}
+
+Graphically the timer can be seen in Figure \ref{fig:Interestshot} :
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=Interest.ps, width=\linewidth}
+\end{center}
+\caption{A Timer \label{fig:Interestshot}}
+\end{figure}
+
+
+The timer is started as soon as the capsule instance is created and, because it has been declared as
+\texttt{PERIODIC} times out once a year without any need for further intervention.
+The timer is connected directly to the outgoing message requestBalance and this capsule relies on the fact 
+that it will configured by its parent in such a way that sending that message will result 
+in the updateAccount message being
+subsequently sent back with the current amount of money in the account. For a better solution to this problem
+see the discussion of callbacks in section \ref{sec:callbacks}
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=BankInterest.ps, width=\linewidth}
+\end{center}
+\caption{Banking with Interest \label{fig:BankInterestshot}}
+\end{figure}
+
+If we feed this new system with the following test data
+
+\verbatiminput{BankInterest.inp}
+
+then we get the following output
+
+\verbatiminput{res/BankInterest.res}
+
+\subsection{Excursion: Time Granularity, a Smaller Interval and an Internal Message}
+\index{Time}
+We have just seen how to represent a wait of one year. The simulator
+supports time intervals ranging from 1 picosecond to 10E20 years,
+which should be adequate for most phenomena in the automotive
+domain. Any ``waiting'' is symbolic, there is no difference in
+overhead or simulator running time between 1 second and 1 year, the
+difference is simply that the first interval will elapse before the
+second if they have started at the same time.
+
+On the other hand, if you declare a periodic timer with a value of 1 second and 
+then submit an input script with a delay of 1 year then you
+should be prepared for a long wait while the simulator performs over 30 million 
+timeouts, not to mention the message handling code which has
+been connected to the timer
+
+In the following we refine the implementation of the ATM capsule so that if the 
+customer gives no input within 15 seconds his card is given
+back to him. This involves changing our state-based ATM to look as follows:
+
+\verbatiminput{ATMTimeout.m3}
+
+The following features have been added
+
+\begin{itemize}
+\item A \texttt{TIMER} named \texttt{inputTimeout} has been declared with the 
+required 15 second delay. This time we have chosen for it to be \texttt{ONESHOT}.
+\item Two new transitions for the message \texttt{giveUp} have been declared, 
+which eject the card and return us to the empty state.
+\item The timer has been connected to the new message.
+\end{itemize}
+
+Note that the specification, which we do not show, remains exactly as in the 
+previous example. This means that the new transitions are not visible
+to the world outside this capsule. Further consequences of this separation between
+specification and body are described in Section \ref{sec:altcap} below.
+
+We can test that this has the desired effect with the following input script
+
+\verbatiminput{ATMTimeout.inp}
+
+and we are rewarded with the following result
+
+\verbatiminput{res/ATMTimeout.res}
+
+the card has been returned after 15 seconds and the request for money has fallen on deaf ears.
+
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=ATMTimeout.ps, width=\linewidth}
+\end{center}
+\caption{ATM with timeout \label{fig:ATMTimeoutshot}}
+\end{figure}
+
+\index{Transition Proxy}
+The diagram for this capsule introduces a new issue. If we look at Figure \ref{fig:ATMTimeoutshot} we
+can see that the timer is connected to a free standing element labelled with the name of the transition
+we want to fire in the state machine. This element is a \emph{transition proxy}, it stands for all transitions
+of the same name belonging to the states contained within this capsule and is used as a docking point for 
+message connections to those transitions. 
+
+Externally visible transitions do not suffer from this problem because the message visible from the outside
+of the capsule is an unambiguous signifier for the possible multitude of transitions with that name within
+the capsule. 
+
+
+\subsection{Triggers}
+\index{Triggers}
+Now we want to make our ATM somewhat safer. We will do this by telling the machine to retain the card and
+not to give out any money if the user gets his PIN wrong three times in a row. To do this we first 
+record invalid PIN inputs in a new datastore. Then we define a trigger in terms of the value in that datastore
+and associate that trigger with a new transition which takes us straight back to the empty state, and resets
+the failure count on the way.
+
+This results in the following code.
+
+\verbatiminput{ATMSafe.m3}
+
+The corresponding diagram is visible in Figure \ref{fig:ATMSafeshot}.
+
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=ATMSafe.ps, width=\linewidth}
+\end{center}
+\caption{ATM with safety feature \label{fig:ATMSafeshot}}
+\end{figure}
+
+\subsection{How Triggers Work}
+Once defined, a trigger is entered into a global list of all triggers in the system. The test functions of 
+all triggers in this list list are evaluated after every event occurrence. 
+If the test function of any trigger evaluates to true (in the Python sense) 
+for the first time, then a corresponding message is dispatched to the system. Any trigger which has already
+evaluated to true must thereafter evaluate at least once to false before a subsequent value of true 
+results in a further message dispatch. See Section \ref{sec:triggers} below for details.
+
+
+% End of the examples 
+
+
+\section{Language Elements}
+
+There now follow the gory details on all of the new language constructs. Also included are 
+railroad-style syntax diagrams which, when taken together with the existing syntax for Modula-3, 
+completely specify the Sesis Modeling Language.
+
+\subsection{New Compilation Entities}
+
+Modula-3 allows separate compilation and partitioning of programs according to modules alone. 
+The \emph{generic} feature is nothing more than a factory  for creating new modules. As can be seen in 
+the following syntax diagram we introduce two new compilation entities. (Note generic capsules would be
+a possibility for a future enhancement)
+\begin{rail}
+Compilation : CapsuleInterface | Capsule | Interface | Module | GenericInterface | GenericModule ;
+\end{rail}
+
+\subsubsection{Capsule Interface}
+\index{Capsule Interface}
+The syntax is as follows
+
+
+\begin{rail}
+CapsuleInterface : 'CAPSULE' 'INTERFACE'  id  ';'  (Import *)   (Port *) 'END' id '.';
+Port : 'PORT' id ':' Protocol ;
+Protocol : ( tilde )? (TypeName | 'PROTOCOL' (MessageGroup *) 'END' );
+MessageGroup : ( 'SYNCHRONOUS' )? ( 'INCOMING' | 'OUTGOING' ) ( Message + ); 
+Message : 'MESSAGE' id '(' Formals ')' ;
+\end{rail}
+
+\subsubsection{Ports, Protocols and Messages}
+\index{SYNCHRONOUS}
+\index{PORT}
+\index{PROTOCOL}
+\index{Message}
+\index{CALL}
+\index{SEND}
+Ports are points of access to capsules. A \texttt{PORT} has an associated \texttt{PROTOCOL}, which is a 
+special type, similar to a record but containing only messages as elements,
+describing the messages which can travel over that port. 
+
+Messages use the syntax of procedure signatures along with a keyword, \texttt{INCOMING} or \texttt{OUTGOING},
+describing the direction in which the message
+is sent (from the point of view of the implementing capsule) and an optional keyword, \texttt{SYNCHRONOUS} 
+which, if present, specifies that the transmission
+of the message is carried out immediately rather than queued as a request, the latter being the default case.
+
+Synchronous messages correspond to procedures in the same way that asynchronous messages correspond
+to activities or transitions. 
+
+Synchronous message calls are distinguished by a leading \texttt{CALL} keyword as opposed to the \texttt{SEND} keyword
+used for asynchronous messages. 
+
+A protocol is a type which can be defined in one place - probably an INTERFACE - and used in several other places, 
+just like any other type. 
+It is also possible for a capsule to possess two ports of the same type. 
+
+\subsubsection{Operations on Protocol Types : Conjugation and Aggregation}
+\index{Conjugation}
+\index{Aggregation}
+
+If two connected ports correspond to each other completely, then every \texttt{INCOMING} message of the one will
+correspond exactly to an \texttt{OUTGOING} message of the other, and vice versa. The protocol types of these two
+ports are then refered to as \emph{conjugates.} Manual construction of such conjugated protocol types is repetetive
+and error prone, and violates the principle of defining everything once and only once. In such cases the conjugation
+operator {\tt \char126} (tilde) should be used to produce a conjugate from the protocol type which it precedes.
+
+As an example consider the following interface file which defines a protocol and its conjugate:
+
+\verbatiminput{ConjTypes.i3}
+
+This can now be imported and used in the definition of capsule specifications as follows:
+
+\verbatiminput{ConjC1.i3}
+\verbatiminput{ConjC2.i3}
+
+When instances of these two capsules are connected up, we know, by definition, that they must fit, giving us a picture
+as in Figure \ref{fig:ConjParentshot}. It is now possible for us to add a new message to the protocol between these two capsules 
+at the cost of a simple change to the interface ConjTypes. Of course this will not free us from the duty of implementing
+corresponding activities and send statements to make use of the protocol, but it does keep the description of the protocol
+itself in one place.
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=ConjParent.ps, height=2.5in}
+\end{center}
+\caption{Capsules communicating over ports with conjugated protocol type \label{fig:ConjParentshot}}
+\end{figure}
+
+It may be the case that we want to reuse a given protocol type, but that we also need to introduce more messages.
+To achieve this we use the protocol \emph{aggregation} operator {\tt @}. This operator allows us to combine an arbitrary
+set of protocol types, anonymous or otherwise, to form a new protocol. The only limitation is that no message name may
+occur more than once.
+
+Note that conjugation has a higher priority than aggregation. If we want to conjugate an aggregation with one operation 
+we must use brackets.
+
+If you make intensive use of these operators you must deal with the risk that the actual contents of a given protocol
+are not immediately visible to the reader of a model text at any given point. In practice, the capsule editor should
+be able to help you by telling you what is available at a given port, which connections use which messages and whether
+any messages may have been (intentionally or not) left unhandled or unused.
+
+
+\subsubsection{Capsules}
+\index{Capsule}
+The syntax is as follows:
+\begin{rail}
+Capsule : 'CAPSULE' id ( 'IMPLEMENTS' id )?  ';' \\ ( Import * ) ( UseCapsule * ) CapsuleBlock id '.';
+CapsuleBlock : ( Declaration * ) ( Connections ? ) 'BEGIN' Statements 'END' ;
+UseCapsule : 'USECAPSULE' id ';' ;
+Connections : 'CONNECT' ( id ( '->' | '<=>' ) id ';' + ) ;
+\end{rail}
+
+
+Anything that can be declared in a module can also be declared in a capsule. The difference
+is that the newly introduced types and declaration are \emph{only} allowed in a capsule declaration.
+
+The \texttt{USECAPSULE} statement introduces a second capsule into this capsule's namespace as a type. 
+Instances of this type constitute child capsules of this capsule.
+
+The \texttt{CONNECT} block uses the \texttt{->} notation to describe the \emph{explicit} connections between 
+\begin{itemize}
+\item Timers and their targets
+\item Triggers and their targets
+\item Parent and child messages
+\item Child messages of different children
+\end{itemize}
+The \texttt{<=>} notation is used to describe connections between ports as a whole. See Section \ref{sec:routing} 
+for details on connections in general and message routing in particular.
+ 
+Statements placed in the BEGIN .. END section are executed when a capsule instance is created.
+
+\subsubsection{Message Routing}
+\label{sec:routing} 
+\index{routing}
+Routing in this context means: which activity (transitions are the same but we will just say activity from now on) 
+is actually fired when a given \texttt{SEND} is executed.
+The simplest case of routing is both obvious and implicit, this is when an activity matches by name and signature to
+a message in the protocols of the specification. Here no explicit connection is needed.
+There are may however be cases where two messages of the same name are present in two different ports, where the message 
+and the associated activity have different names, where a particular
+message in one port is connected to a particular message in another port, or where a child port is connected directly to 
+a local activity. In these cases the connections must be specified explicitly.
+Finally, hopefully the standard case at least for capsules at the higher levels of a design, ports as a whole can be connected
+with each other. When such a connection exists, this means that all possible connections,
+based on identity of name and signature, are assumed. In combination with appropriate use of protocol type conjugation this
+can keep the textual descriptions for capsules brief.
+
+It is obvious that an incoming message may be connected to more than one outgoing message, this corresponds to multiple use
+of a single resource. The opposite case is more controversial: can a single outgoing message be connected to more than one
+incoming message? The answer here is yes. The result is a kind of broadcast, with the originating SEND (which may be many 
+capsules away and have no idea of the consequences of its actions) being replicated for each connected recipient.
+
+\subsubsection{Capsules, Types and Modules, similarities and differences}
+As a compilation entity a capsule has similarities to a Module. It is presented to the compiler 
+in two files, an interface, describing the Ports and Messages available, and a body, 
+containing the functionality of the capsule. 
+
+As a language entity a capsule has similarities to a Type in that many instantiations may be 
+made from the same capsule. It differs from a type however - and could not be simply modeled 
+as a Modula-3 object - because it can itself contain further type declarations.
+
+\subsubsection{Specifying and Using Alternative Capsule Implementations}
+\label{sec:altcap}
+\index{IMPLEMENTS}
+So far we have seen capsules and their specifications always in pairs. On the other hand we have emphasised that,
+from the point of view of any containing capsule, only their specification is ever visible. We can exploit this
+consequence by defining capsules which share a single specification. By default, a given capsule matches a specification
+with the same name, however we can use the \texttt{IMPLEMENTS} feature we can specify some other specification, which 
+may in turn be shared by several implementations.
+
+This gives us a variation point. At design time, when we describe the contents of a given capsule in terms of child capsules
+and the connections between them, we only list the specifications of those child capsules. Only at run time do we need to
+commit ourselves to the actual bodies to be used.
+
+The run time options to control implementation use are --gi (global implementation) and --ii (instance implementation).
+For global implementation we supply a comma separated list of capsule specification and capsule body name pairs. 
+
+\texttt{runcap Cap1 --gi=Cap2=Cap3,Cap4=Cap5}
+
+The preconditions are that Cap2 and Cap4 are capsules which are used in the tree of capsules descending from Cap1,
+and that Cap3 and Cap5 have been declared to IMPLEMENT Cap3 and Cap4.
+For instance implementation, instead of the specification in general we supply individual instances using their 
+hierarchical capsule names. 
+
+\texttt{runcap Cap1 --gi=top.child1.grandchild=Cap3,top.child2=Cap5}
+
+Here the elements in the capsule names are the names of the capsules as defined within their respective parents.
+A conventional name of \texttt{top} is given to the top capsule.
+
+
+\subsection{Types and Declarations}
+Several declarations, types and statements have been added to the language. 
+
+\begin{rail}
+Declaration :   'Standard Modula-3 Declaration' 
+              |  Trigger ';'
+              |  Activity ';'
+              |  State ';'
+              |  Start ';'
+              |  Intention ';' ;
+
+Type : 'Standard Modula-3 Type' | TimerType | ModelingContainerType | ProtocolType ;
+Statement : 'Standard Modula-3 Statement' | SendSt | NextSt | ForEachSt ;
+\end{rail}
+
+\subsection{Intentions}
+\index{Intentions}
+\label{sec:intentions}
+\begin{rail}
+Intention : 'READS' id ';'
+          | 'WRITES'id ';'
+          | 'SENDS' id ';' ;
+\end{rail}
+These declarations are added to activities and transitions by the capsule editor when
+the user creates a connection from one of those objects to some target datastore, message
+or port. They are regarded as general intentions which can only give a hint as to
+what the modeler wants to do. In this way they can be preserved in the model text
+but do not yet supply enough information for them to be executed. 
+
+We can also add such intentions textually ourselves.
+For example, if we know that two activities communicate over a given datastore x, then we can
+add \texttt{READS x} to the declarations of the one activity and \texttt{WRITES x} to the
+declarations of the other. The capsule editor renders this information with the appropriate
+arrows.
+
+We can remove these intentions at the latest when we have written code which specifies 
+this behaviour exactly in
+terms of assignments or specific \texttt{SEND} statements with actual parameters. This
+code is analysed by the model checker and the arrows are generated automatically.
+
+
+\subsection{Activities}
+\index{Activities}
+\begin{rail}
+Activity : 'ACTIVITY' id '(' Formals ')' '=' Block id ('AFTER' TimeExpr )? ';' ;
+\end{rail}
+An activity is a collection of statements which are executed asynchronously as a result of a previously occurring \texttt{SEND}
+of a message connected, explicitly or otherwise, to that activity. The sender does \emph{not} wait for the activity to complete.
+Use of the \texttt{AFTER} clause is described in Section \ref{sec:parallelism}
+\subsection{Datastores}
+\index{Datastores}
+The datastore concept is not an extension to the Modula-3 language. All variables
+declared a the top level of a capsule (apart from timers and triggers) are
+visualised by the capsule editor as datastores.
+
+\subsection{States and Transitions}
+\begin{rail}
+State : 'STATE' id ( TransitionDecl + ) ';' ;
+Start : 'START' '=' 'BEGIN' Statements 'END' ';' ;
+TransitionDecl: 'ON' id '(' Formals ')' '=' Block id ('AFTER' TimeExpr )? ';' ;
+NextSt : 'NEXT' id ;
+\end{rail}
+\index{States} \index{Transitions}
+Capsules may contain state machines.
+State machines are organised primarily by state, and under each state are listed the transitions which are
+possible from that state. The state is the highest level syntactic unit, and it is theoretically possible
+to mix up states, activities and other declarations, but it is probably better if the states are grouped
+together.
+
+Although transitions are defined at a lower syntactical level than activities, they are identical in every 
+other respect except for the ability to select a new state using \texttt{NEXT}. They also share with activities
+the option for an \texttt{AFTER} clause, which is described in Section \ref{sec:parallelism} 
+
+The state machine must have an initial state, this is defined by using the \texttt{START} pseudotransition
+and defining the initial state using \texttt{NEXT}.
+
+If any transition has been defined to handle a given message, then that message is ignored if it arrives in 
+any other state where no transition has been defined for it.
+
+Graphically we have the problem that more than one transition handling the same message may be present in 
+a diagram. If we want to show an internal connection (e.g. from a child capsule or a timer) 
+using that message then we need a way to reference that group of transitions as a whole. This is done
+using a so-called transition proxy, a small graphical element which ``catches'' all references to the
+transition group. For an example of use see Figure \ref{fig:ATMTimeoutshot}.
+
+
+\subsection{The SEND, CALL and REPLY Statements}
+\index{SEND}
+\begin{rail}
+SendSt : 'SEND' id '(' Actuals ')' ('AFTER' TimeExpr)? ;
+SendSt : 'REPLY' id '(' Actuals ')' ('AFTER' TimeExpr)? ;
+CallSt : 'CALL' id '(' Actuals ')' ;
+\end{rail}
+The \texttt{SEND} and \texttt{CALL} keywords are used to indicate access to asynchronous and synchronous message
+interfaces, otherwise syntactically identical to procedure calls. For the use of \texttt{AFTER} see Section \ref{sec:parallelism}. 
+
+\subsubsection{Callbacks using REPLY}
+\label{sec:callbacks}
+\index{Callbacks}
+In the normal case, the rules of message routing determine to whom we can send a message, or rather, who will
+receive a given message sent on a given port. There is however one particular case where this is not practicable.
+If a receiving activity wishes to reply to the
+sender of a given message, then it would normally do so using a \texttt{SEND} on a message which has been routed 
+in the opposite direction. If, however the original message could have come from more than one sender, via multiple 
+connections at some point on the inbound route, then the receiver will not know to which one it should reply.
+One alternative would be to broadcast a message in the reverse direction and let all potential senders work out
+which one was meant, but this is unlikely to be a general solution, and instead we can address this issue using
+callbacks. 
+
+This involves the original caller sending one of his own ports as a parameter in the first call. The receiver
+can then use a \texttt{REPLY} statement using any message available on this port to send a reply.
+
+\subsection{Triggers}
+\index{Triggers}
+\label{sec:triggers}
+\begin{rail}
+Trigger : 'TRIGGER' id 'ON' Expr ';' ;
+\end{rail}
+A trigger defines a signal \emph{id} which is generated when the boolean expression \emph{Expr} evaluates
+to TRUE for the first time or whenever it evaluates to TRUE having previously been false. The signal must
+be associated with an activity, transition or message using a CONNECT statement in order for it to have
+any effect. 
+
+Procedure calls returning values are also permitted in the \emph{Expr} and these may make it easier to read
+and maintain, however you should avoid the use of side effects in these procedures. This is because 
+the frequency with which the trigger is actually evaluated by the RTS 
+(e.g. every simulator cycle, or only when the datastores
+mentioned in \emph{Expr} are changed) is undefined. 
+\subsection{Timers}
+\index{Timers}
+\label{sec:timers}
+\begin{rail}
+TimerType : ( 'ONESHOT' | 'PERIODIC' ) ( 'CHANGEABLE' | 'FIXED' ) 'TIMER' ( 'DELAY' Expr )? ;
+\end{rail}
+
+\subsubsection{Timer Resolution}
+\label{sec:timerresolution}
+Timer resolution is measured in picoseconds, and values can be of arbitrary size. These values can be represented 
+by literals of type \texttt{Timer.Time}, which uses the scaling features described in section \ref{sec:scaledtypes} to 
+define the type as follows:
+
+\begin{verbatim}
+
+TYPE Time = SCALED INTEGER {ps * 1000 = ns  * 1000 = us 
+                               * 1000 = ms  * 1000 = s 
+                               * 60   = min * 60   = hour 
+                               * 24   = day * 365  = year};
+
+
+\end{verbatim}
+
+Note that in order for these literals to be used, the Timer interface must be imported, even if it is not being called explicitly
+to create objects of the \texttt{Timer.Time} type or to call procedures on timers offered by that interface. 
+If you use the capsule editor, it will do this for you automatically.
+
+
+\subsubsection{Library Functions}
+\begin{itemize}
+\item Start(T : TIMER) : starts the timer
+\item Stop(T : TIMER) : stops the timer
+\item Change(T : TIMER, newValue : INTEGER) : changes the timeout value of the timer. Has no effect on the current
+timeout if the timer is already running.
+\item GetElapsed() : INTEGER : returns the current elapsed time since the beginning of the simulation.
+\end{itemize}
+
+
+\subsection{The RESET Statement}
+\index{RESET}
+\begin{rail}
+ResetStatement : 'RESET'  ( Integer ) ? ;
+\end{rail}
+
+Although our simulation is based on the concept of perfect technology, it is important that we can also model
+failures within the system so that we can investigate and predict their effects. This is supported by the
+\texttt{RESET} statement. This statements resets either the current capsule (the default case) or one of its ancestors, according to the
+optional supplied value (1 = parent, 2 = grandparent, etc.)
+
+ 
+Resetting a capsule has the following effects
+\begin{itemize}
+\item delete all commands queued for that capsule its children
+\item delete all timers activated for that capsule and its children
+\end{itemize}
+
+\subsection{Additions to the core language}
+
+ 
+\subsubsection{Predefined Exceptions}
+\index{Exceptions}
+Existing implementations of Modula-3 did not support the handling of exceptions generated by the underlying runtime system.
+There was simply no way of referencing them in order to construct a handler. In this implementation the following exceptions
+are defined and can be referenced and handled by the user.
+\begin{itemize}
+\item ConstraintError : raised on attempt to violate array or subrange bounds.
+\item DivideByZeroError : raised on divide by zero.
+\item UninitialisedError : raised when an attempt is made to read a variable which has not been initialised.
+\item NullPointerError : raised on attempt to dereference a null pointer.
+\item AssertError : raised on failure of ASSERT (see below).
+\end{itemize}
+
+
+\subsubsection{Assertions}
+\index{ASSERT}
+\begin{rail}
+AssertStatement : 'ASSERT' BooleanExpression ;
+\end{rail}
+Using the \texttt{ASSERT} statement, expectations about the behaviour of the model can be included in the text without
+them being conflated with the algorithms of the model itself. The syntax is as follows:
+\begin{rail}
+AssertStatement : 'ASSERT' BooleanExpression ;
+\end{rail}
+If the boolean 
+expression evaluates to TRUE, then processing continues as normal. Otherwise the predefined exception \texttt{AssertError} is
+raised, unless the user invokes the model with the -a option, in which case an entry is made in the results and protocol files
+and processing continues.
+
+
+\subsubsection{Scaled types}
+\label{sec:scaledtypes}
+\index{SCALED}
+\index{Scalings}
+In engineering domains heavy use is made of integer types. Scaled types are provided to add additional meaning
+to such naked integer types without getting in the way. A Scaling is declared using the following syntax:
+
+A scaling is declared as follows
+\begin{rail}
+  ScaledType : 'SCALED' 'INTEGER' lbr Unit ('*' Value '=' Unit *) rbr ;
+  Unit : id ;
+  Value : int ; 
+\end{rail}
+
+For example:
+
+\verbatiminput{../test/ScaleTypes.i3}
+
+Scaling declarations have the side effect of adding new user-defined capabilities to integer literal recognition.
+In the case of the types above this means we can now write \texttt{10 V}, a \emph{scaled literal} which will produce the value 10000.
+
+
+Assignment, addition and subtraction of values derived from differing scaled types will produce compiler warnings.
+
+Scalings can also be used in input files (see Section \ref{sec:inputfiles} below. In this context they may only
+be used in combination with formal parameters for whose type the appropriate scaling has been declared.
+
+Similary the predefined function IMAGE (Section \ref{sec:image} below) uses an available scaling to display 
+an integer of a scaled type in a more readable manner. This is also used in the output of scaled values
+to results files.
+
+
+\subsubsection{Modeling Container Types and Iteration}
+Although Modula-3 provides a versatile and complete type system it leaves something to be
+desired in terms of the dynamic container types - lists and dictionaries - which we would expect to use when
+modeling a problem at a high level. Such data structures can be implemented in standard Modula-3
+but their application in a type safe environment presupposes the construction of a \texttt{GENERIC}
+module for every new type. The two types offered here are an attempt to combine the expressiveness
+and convenience of python container types with the compile-time type safety typical of Modula-3.
+\begin{rail}
+ModelingContainerType : 'DICT' ( IndexType )? 'OF' ElementType | 'LIST' 'OF' ElementType ;
+\end{rail}
+\subsubsection{LIST}
+\index{LIST}
+Lists are supported by the following built-in procedures:
+\begin{itemize}
+\item \texttt{APPEND(L,E)} : takes a list L and appends an element E to it 
+\item \texttt{POP(L)} : removes and returns the last element of the list L 
+\item \texttt{FIRST(L)} : returns the index of the first element (always 1)
+\item \texttt{LAST(L)} : returns the index of the last element (also corresponds to the length of the list)
+\item \texttt{DEL(L, index)} : deletes the item at the given index 
+\item \texttt{INDEX(L, element)} : returns the position in the list of the the first matching element 
+(raises ConstraintError if no element found)
+\end{itemize}
+Elements are accessed using the same notation as \texttt{ARRAY} objects. Note that the first element
+of the list always has an index of 1.
+Constructors for Lists are identical to those for Modula-3 ARRAYs, with the exception that the
+\texttt{..} feature is not supported (it makes no sense in the context of a list.)
+\index{List membership with IN}
+Membership of an object in a list can be tested using the \texttt{IN} operator in the same way as for
+\texttt{SET} types in standard Modula-3.
+
+\subsubsection{DICT}
+\index{DICT}
+Dictionaries are accessed in a similar manner to lists and arrays but use an index of any type for which equality
+can reasonably be tested, including RECORDs, LISTs and DICTs. If none is specified then TEXT is assumed.
+Dicts are supported by the following built-in procedures:
+\begin{itemize}
+\item \texttt{KEYS(D)} : returns a List of \texttt{TEXT} values representing all the  keys of the dictionary. 
+\item \texttt{DEL(D,key)} Deletes the item with this key from the dictionary.
+\item \texttt{INDEX(L, element)} : returns the key in the list for an arbitrary matching element 
+(raises ConstraintError if no element found)
+\end{itemize}
+\subsubsection{Iteration using FOREACH}
+\index{FOREACH}
+\begin{rail}
+ForEachSt : 'FOREACH' id 'IN' Expr 'DO' Statements 'END' ;
+\end{rail}
+The \texttt{FOREACH} statement iterates over the items in a LIST or ARRAY. The loop variable is automatically
+created within the scope of the statement and successively has the value of each item. Using \texttt{KEYS}
+in the expression you can also iterate over the items in a dictionary.
+
+\subsubsection{Variant Records}
+\index{Variant Records}
+Standard Modula-3 does not provide variant records, on the basis that they ``can be unsafe, and object types give you roughly
+the same benefits with absolute safety'' \cite[page 110]{arbmodula3}. However, we regard this construct as a valuable
+means of explicitly and declaratively modelling polymorphic data without having recourse to the indirections of objects
+and subclassing. The syntax is as follows (The \texttt{Labels} and \texttt{Fields} rules have been reused from the syntax for 
+\texttt{CASE} and \texttt{RECORD} constructs respectively) 
+\begin{rail}
+VariantRecordDecl : 'RECORD' 'CASE' tagDecl 'OF' \\ (CaseAlt *) (ElseAlt ?) 'END' (Fields ?) 'END' ;
+CaseAlt : Labels (',' Labels *) Fields ;
+ElseAlt : 'ELSE' Fields ;
+\end{rail}
+Constructors are the same as those for normal records, with the exception that the tag field is mandatory and that
+it must be statically defined (i.e. a literal or a constant.)
+In no sense do the alternatives overlay each other. The value of the tag is simply used to restrict access to the 
+fields which are allowed for that value. Field names must be unique across the record as a whole.
+Images of variant records only show those fields which are valid for the current tag value.
+Here is a simple example:
+\verbatiminput{Traffic.i3}
+\subsubsection{IMAGE}
+\label{sec:image}
+\index{IMAGE}
+This additional predefined function converts arbitrary values into \texttt{TEXT} objects. 
+Conversion rules are as follows:
+\begin{itemize}
+\item TEXT, CHAR, Integers, Floats : as expected
+\item Enums : the text of the enum value
+\item RECORD, DICT : ``\{'' ( key\_id ``:'' IMAGE(value) ``,'' )* ``\}''
+\item ARRAY, LIST : ``['' ( IMAGE(elt\_value) ``,'' )* ``]''
+\end{itemize}
+\subsubsection{PYTHON}
+\index{PYTHON}
+The \texttt{PYTHON} statement allows the user to insert an arbitrary piece of python into the generated code. 
+This is primarily of use in workarounds and tracking
+down of compiler bugs. 
+
+ 
+
+\subsection{Un(der)implemented Features of Modula-3}
+It was a declared goal to implement Modula-3 in full, such that users can refer to any textbook on
+the language for guidance on how to code algorithmic parts of their models. This has been
+by and large achieved. There are however still some restrictions:
+\begin{itemize}
+\item Threads : All issues of concurrency are covered by the concepts of capsules, asynchronous message calls
+and run to completion. Threads are not and will never be supported.
+\item Objects : The current implementation of Objects is primitive, see tests for examples. 
+\item Partial Revelation : some support, no cross-module type-checking.
+\item Persistence and pickling : No support.
+\item Type Equivalence and branding : No support
+\item Constants are not readonly and only simple numeric expressions are supported for
+constant values.
+\end{itemize}
+
+
+\section{The Capsule Editor}
+\label{sec:caped}
+\subsection{Windows used by the capsule editor}
+If you just start the capsule editor using the \texttt{ce} without any parameters you will see two windows. 
+One is the message window, in which all messages are displayed.
+The other is the central window, which contains a few buttons for some basic commands independent of any capsule. To do anything useful you need
+to open a capsule or two, which you can do either by using the ``OPEN'' button of the central window or by supplying the capsule name as a command
+line parameter when you invoke the tool. For each opened capsule, a source window and a graphical window is presented.
+
+\subsection{Graphical Editing}
+
+The most useful commands are hidden away in a menu which is popped up only when you press the right mouse button over any given graphical window.
+The commands are as follows.
+
+\input{rightMouse.inc}
+
+\subsection{Editing Modes}
+\index{editing modes}
+Amongst other things, the right mouse menu is used to change the current editing mode. The mode determines what happens when you press, drag
+or release the left mouse button. 
+
+\input{modeDetails.inc}
+
+\subsection{Working with source}
+
+The source window of the capsule editor provides a simple means of editing models at the source level. Once you have changed the code in
+one of these windows you will notice an asterisk appearing in the title field of the window to show that something needs to be done.
+A right button click in this editor brings up a menu allowing you to either \texttt{Accept}: commit your changes and recompile the capsule, or 
+\texttt{Abort}: throw away your changes and revert to state before you edited the text.
+
+\subsection{Emacs integration}
+\index{emacs}
+Although it is theoretically possible to do everything with the source editor, it is more likely that you already have a text editor with which you
+are more productive or can perform more complex operations. If you use emacs then you can put the following in your .emacs file.
+
+\begin{verbatim}
+(push (concat (getenv "M3_HOME") "/bin") load-path)
+(require 'modula3)
+(require 'reload)
+(setq auto-mode-alist 
+   (cons '("\\.m3$" . modula-3-mode) auto-mode-alist))
+(setq auto-mode-alist 
+   (cons '("\\.i3$" . modula-3-mode) auto-mode-alist))
+(setq m3::abbrev-enabled t)
+\end{verbatim}
+
+This does two things. First it loads an augmented modula-3 mode so that you will get syntax highlighting of your model text. Secondly it makes
+a simple communication mechanism available by which emacs can talk to the capsule editor and tell it to reload text which you have edited ``behind its back''
+This is bound to the Alt-R key by default. Another useful habit to get into is to switch on \texttt{auto-revert-mode} for those files which you have
+opened in emacs and which you are nonetheless editing with the capsule editor. Note that you can get very confused and will probably lose work
+if you chop and change between two editors without being careful to save your changes in between.
+
+\subsection{Compilation}
+
+Every time you add an object graphically or accept changes in the text editor, the capsule is recompiled. Any errors are shown in the message window
+in red - so you are unlikely to miss them. A click on the error text will cause the offending line of source code to be highlighted in its text
+editor.
+
+\subsection{Graphical Debugging}
+\index{Graphical Debugging}
+\label{sec:graphdebug}
+Providing that your capsule has compiled without errors and  you have prepared an \texttt{.inp} file of the same name as your capsule, you
+can start a simulation run by selecting the \texttt{debug} right-button entry and step through it using the \texttt{next} button of the central window.
+At each step the currently running activity is shown highlighted in red, and the contents of datastores are also shown. Previously visited
+activites are highlighted in green. Any child capsules called during the simulation run are opened by the editor if necessary.
+
+\footnote{This currently has a problem debugging several instances of the same capsule in a running program.}
+\section{Tool Invocation}
+
+The toolset consists of a number of scripts which are invoked from the command line.
+Options of interest to the user are described in the following sections. 
+For a more complete list (including
+obscure developer options) invoke any of the tools with the \texttt{-h} option.
+\index{m3}
+\subsection{m3 - the Compiler}
+\begin{verbatim}
+  -h, --help            show this help message and exit
+  -c, --track-constant-expressions
+                        track constant expression calculation
+  -e, --stop-on-error   stop on error (rather than just complain and go on)
+  -lLIBRARY, --library=LIBRARY
+                        library to store object files and generated code
+  -m, --no-summary-messages
+                        suppress summary messages (restricts output on
+                        regression tests)
+  -p, --no-python       do not generate python code
+  -s, --syntax-only     quit before naming pass
+  -SSCRIPT_OUTPUT, --script-output=SCRIPT_OUTPUT
+                        where to put script output (default SessionScript.py
+
+  -vVERBOSITY, --verbose=VERBOSITY
+                        Track syntax checking over rules 0=none;1=matched
+                        symbols;2=all rules
+  -w, --no-warnings     suppress warnings
+  -X, --raise-unhandled-exceptions
+                        raise unhandled exceptions rather than transforming them
+                        to M3 world
+\end{verbatim}
+
+\subsection{ce - the Capsule Editor}
+\index{ce}
+\begin{verbatim}
+  -g, --generate-scene  generate POVRAY scene and quit
+  -G, --ignore-geometry
+                        ignore Window geometry resources
+  -H, --hide-ports      Do not show messages in ports (useful for domain models
+                        containing activities only)
+  -I, --no-implicit-connections
+                        do not render implicit connections
+  -R, --ignore-resources
+                        ignore all resources (use random positions)
+  --screenshot          generate a screenshot of the capsule(s) and quit
+\end{verbatim}
+
+\subsection{runcap - the Capsule Launcher}
+\index{runcap}
+\verbatiminput{runcapopts.txt}
+
+\section{RTS and Testing Issues}
+
+\subsection{Toolset Dataflow Overview}
+\index{Files}
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=fileoverview.eps, width=\linewidth}
+\end{center}
+\caption{Files used in the course of modeling \label{fig:fileoverview}}
+\end{figure}
+The following file types are used during the modeling process:
+\begin{itemize}
+\item \texttt{*.rsc} : Resource files describing the position of modeling objects 
+within a diagram. If no such file can be found and a model is loaded into the capsule
+editor it will make no attempt to make things ``pretty'', but places the objects randomly
+and relies on the user to position them in a readable manner
+\item \texttt{*.i3,*.m3} : Model source files.
+\item \texttt{m3lib/*.*o} : Internal, intermediate compiler files in xml format, these are all stashed away in the
+library where they won't disturb you
+\item \texttt{m3lib/*.py} : Executable results of compilation. Not for direct use.
+These should be accessed via the \texttt{runcap} command only.
+\item \texttt{*.inp} : Test input files - described in Section \ref{sec:inputfiles}.
+\item \texttt{*.sys} : System Architecture Description files - described in Section \ref{sec:sysarch}.
+\item \texttt{*.map} : Processor Capsule Mapping files - described in Section \ref{sec:mapping}.
+\item \texttt{*.res,*.pro} : Test result files  - described in Section \ref{sec:resultfiles}.
+\end{itemize}
+
+\label{sec:rtsissues}
+\subsection{The Input File Sublanguage}
+\index{test files}
+\label{sec:inputfiles}
+\subsubsection{Lexical issues}
+An input file is a series of commands to the simulator.
+Each command is on a new line. Commands can be spread across several 
+lines using a trailing backslash.
+Comments are preceded with a \texttt{\%} sign and are effective to the end of the line.
+\subsubsection{Syntax}
+
+\begin{rail}
+Command : InputCommand | ElapseCommand | TestValueCommand | MacroCommand ;
+InputCommand : '>' messageName ( CommandParam ',' + ) ;
+CommandParam : formalName '=' CommandValue ;
+CommandValue : integer ( scalingId ? )  | real | id | ListValue | DictValue ;
+DictValue : lbr ( id ':' CommandValue ',' + ) rbr ;
+ListValue : '[' ( CommandValue ',' + ) ']' ;
+
+ElapseCommand : '?' ( integer | real ) ( 'ps' | 'ns' | AnyValuesInBetween | 'day' | 'year' ) ;
+TestValueCommand : '==' id ( CommandValue ? ) ;
+MacroCommand : at id  ( id '=' id + )  ;
+DataPortCommand : ':' 'set' id CommandValue ;
+\end{rail}
+
+\subsubsection{Message Input}
+\index{inputs}
+As shown in the syntax above, an input command consists of a \texttt{>} sign followed by a message name and
+and any number of parameters each of which is a pair consisting of the formal parameter name and the 
+actual parameter value.
+
+Parameter values can be written for any internal Modula-3 types other than references. Integers and 
+reals map as expected. Id values map to objects of type \texttt{TEXT} and to enumerated types. 
+ListValues map to ARRAYs and LISTs and DictValues map to RECORDs and DICTs. The mapping is the 
+exact inverse of that used for message output, which is identical to the predefined IMAGE function (see section
+\ref{sec:image} for details). See section \ref{sec:feedback} below however for a powerful extension to
+support patterns in expected values.
+
+If a value can not be mapped to the type of the corresponding model parameter then an exception is raised and
+the model is not executed.
+
+For example suppose we have a model whose top level capsule is as follows ...
+
+\verbatiminput{TestInputTypes.i3}
+
+... and type definitions used are as follows ...
+
+\verbatiminput{InputTypes.i3}
+
+... then the following input command will feed valid data to the model
+
+\verbatiminput{TestInputTypes.inp}
+
+\subsubsection{Simulating Time Elapse}
+\index{elapse}
+\label{sec:elapse}
+Time is caused to elapse using a command consisting of a \texttt{?} sign followed by a value
+and a factor. The valid factor identifiers are the same as those of the constants
+in the \texttt{Timer} library interface. See Section \ref{sec:timerresolution} above for details. 
+To cause an elapse of 10 millisecond, write
+\begin{verbatim}
+   ? 10 ms
+\end{verbatim}
+To cause an elapse of two and a half hours, write
+\begin{verbatim}
+   ? 2.5 hour
+\end{verbatim}
+
+\subsubsection{Dataports and TestValue Commands }
+\index{dataport}
+Data items within the model can be written directly using a command from the input file. Value mappings are
+as described above under Message Input. Data items at an arbitrary depth in the runtime capsule tree can be
+adressed using dotted notation.
+To set an INTEGER \texttt{x} in your top level capsule to the value 99, write
+\begin{verbatim}
+   : set x 99
+\end{verbatim}
+To set an object \texttt{rec} of type \texttt{RECORD  b : BOOLEAN ; i : INTEGER END} in the child capsule b of the 
+child capsule a of the top capsule, write
+\begin{verbatim}
+   : set a.b.rec {b: TRUE, i: 99}
+\end{verbatim}
+Similarly the values of data items can be read directly from the model using the test value command (\texttt{==}). 
+Execution of this command creates
+an entry in the result and protocol files which includes an image of the current value of the data item supplied as the
+first parameter. The second parameter, if present, is tested for equality against that value.
+See section \ref{sec:feedback} below for more on this technique. 
+
+\subsubsection{Using Macros}
+\index{macros}
+Some sequences may be repeated several times with small changes in one
+test sequence, or (for example in a setup sequence) reused over many
+separate test sequences. For this purpose a simple macro facility is
+provided.
+
+When a macro is encountered using the \texttt{\tt @} sign, the file of that
+name is read, parameter substitution is performed and the resulting
+text is inserted into the the command parser. Parameter substitution
+is done using any key value pairs which supplied with the macro
+invocation. For each pair with the form \texttt{formal=actual},
+instances of the pattern \texttt{\${\tt (}formal{\tt )}} are replaced with \texttt{actual}. 
+% bug in there somewhere, parentheses don't show
+
+\footnote{The only values currently supported are integers and strings.
+Contact the author if you have further requirements}
+
+Currently the macros files are expected in the same directory as the file using them.
+
+For example we can package the whole business of inserting our card, inserting
+our pin and requesting money into one macro, which we store in the file \texttt{withdraw.mac}
+as follows:
+
+\verbatiminput{withdraw.mac}
+
+and then we can write a test in which we make a deposit, two withdrawals 
+and then wait a year. 
+
+\verbatiminput{Withdrawals.inp}
+
+Remember that this bank has generous interest rates
+
+\verbatiminput{res/Withdrawals.res}
+
+\subsection{Input, Result and Protocol Files}
+\label{sec:resultfiles}
+\index{result files}
+\index{protocol files}
+A test run produces at least two files as output, one with the extension \texttt{.res} and one \texttt{.pro}.
+See section \ref{sec:feedback} below for a further file used in case of failures.
+The basename of the output files is by default the basename of the \texttt{.inp} file, which by default
+is the basename of the model itself. Thus the invocation:
+\begin{verbatim}
+    runcap Account
+\end{verbatim}
+will expect that we have at some time compiled a Capsule named Account and that we have prepared a
+file of test inputs called \texttt{Account.inp}. It will produce test outputs in \texttt{Account.res}
+and \texttt{Account.pro}. 
+
+The following command
+\begin{verbatim}
+    runcap Account WithdrawTest
+\end{verbatim}
+... will expect the test input in called \texttt{WithdrawTest.inp} and will produce test outputs in \texttt{WithdrawTest.res}
+and \texttt{WithdrawTest.pro}, and finally this command 
+\begin{verbatim}
+    runcap Account WithdrawTest SpecialResults
+\end{verbatim}
+will leave test outputs in \texttt{SpecialResults.res} and \texttt{SpecialResults.pro}.
+
+So what is the difference between a result and a protocol file? 
+
+A Result file describes only the interactions of the model with its environment. It shows nothing more than
+the inputs and outputs and the simulation time at which they occurred. As such it is suited for regression
+testing of single models or for comparing the results of different models to see if their behaviour is identical.
+See the section on Feedback Testing below for the details.
+Each line in a result file takes one of the following forms
+\begin{description}
+\item [\texttt{>} input-message-name message-parameters] a test input message
+\item [\texttt{<} output-message-name message-parameters] a model output to the environment
+\item [\texttt{?} time-value] an elapse request from input file
+\item [\texttt{!} time-value] notification of elapsed time in the simulation
+\end{description}
+A Protocol file is a more detailed human-readable account of the test run. It contains adds the following information 
+\begin{itemize}
+\item A header describing the circumstances when the test was run, by whom and which files were used
+\item Commands are listed in the form they were presented in the test input file, including any comments
+\item Trigger events, denoted with a \texttt{*}
+\item Output from the application layer of the model, accessible to the user via the Results interface (see Section \ref{sec:resultsif})
+\item A summary of the test run giving a configurable depth of detail (use the -s option)
+\end{itemize}
+
+\subsection{Feedback Testing : Advanced Input Files}
+\label{sec:feedback}
+\index{expectations}
+\index{feedback testing}
+\index{pattern matching}
+As described above, input files can be used simply to specify inputs for the system and the elapse of time between those inputs.
+It is however also possible to specify expected behaviour in an input file. Both the expected time and expected values for individual outputs
+can be specified. If such expectations are stated but not met then the test run is regarded as having failed, corresponding comments are written
+into the results and protocol files, and a new file is created with the ending \texttt{.fail}
+
+This feature reuses the syntax of the results file in such a way that, for a given model, the results file can be fed back in to that
+model as an input file. In the context of an input file, the output (\texttt{<}) and elapsed (\texttt{!}) tokens take on new meanings.
+\begin{description}
+\item [\texttt{!}] Set the base time for all subsequent expectations to the given absolute time value
+\item [\texttt{<}] Expect the following message with the following parameters at the currently set base time, or within some window surrounding it
+\item [\texttt{==}] Check that the following datastore reference has the given value
+\end{description}
+
+The idea is that the lazy modeller, once he has specified the inputs and their timing, can let the model write 
+his test file for him. If he is very lazy he will just copy the res file over the original inp file and carry on. 
+\index{macros}
+\footnote{There is a limitation with respect to macros, because the preprocessor deals with them first and 
+because they are essentially invisible to
+the test input processing mechanism. Macros need to be dealt with by hand. This means, if you have used macros
+in your input file you really need to split your result file back up into the corresponding pieces so that you
+retain the reuse benefit of your macros.}
+As he works with the model and refines it, it is more likely that he will want to loosen the absolute constraints 
+of the original res file in the hope of creating a test suite which is relevant for
+models at various stages of detail and completeness, and this is what we look at next.
+
+
+\subsubsection{Expected Values}
+
+There are cases where we may not want to specify the expected value at all, just that we do expect one, this can be 
+done by using an asterisk instead of a value with the given
+parameter. Note that it is not considered a failure if extra, unspecified parameters are sent by the model. The intention
+is that simple early tests should still be able to work on mature complicated models. The real power of the asterisk 
+lies in the ability to embed it within values. For example if we originally receive the following message from the model
+\begin{verbatim}
+   < fire x = [ 3, 1, 2, 0 ]
+\end{verbatim}
+but we know that the second element in the list or array which is sent may change over time, then we can use the
+asterisk to loosen only this constraint, and place the following in our input file
+\begin{verbatim}
+   < fire x = [ 3, *, 2, 0 ]
+\end{verbatim}
+
+There are other cases where we may not be sure of the exact value to expect, but know that it will either lie within a given
+range (if it is a scalar type) or that it will assume the value of one of a set of alternatives. For these cases we need
+some extra syntax. If we know that the third value in the list will lie between 2 and 5 we specify the range of expected values as follows:
+\begin{verbatim}
+   < fire x = [ 3, *, [[2 .. 5]], 0 ]
+\end{verbatim}
+This obviously only makes sense for scalars. Finally there is the possibility to specify a set of disjoint values, one of which we
+expect. For example if we know that the 4th element is always either 0, 2 or 4, we write the following
+\begin{verbatim}
+   < fire x = [ 3, *, [[2 .. 5]], [[0; 2; 4]] ]
+\end{verbatim}
+The notation can be used at any level, using and within values of arbitrary complexity.
+
+\subsubsection{Expected Times}
+
+By default, an expected output must occur at precisely the currently set base time. If this is too strict, 
+an expected output can be given a time window in which it may occur relative to the currently set base time. 
+
+For example if we want to specify that the signal \texttt{fire} with a parameter x of unknown value is expected at any point 
+within the 10 ms previous to the current base time we write the following:
+\begin{verbatim}
+    < fire [ 10 ms, 0 ms ] x = *
+\end{verbatim}
+If we just want to say that it can occur at any point after the current base time, but now know that the value of x should be exactly 99, 
+we write the following:
+\begin{verbatim}
+    < fire [ 0 ms, * ] x = 99
+\end{verbatim}
+
+
+
+\subsection{Debugging}
+\index{Debugging}
+Invoking the system with the \texttt{-d} option will open a simple debugger 
+with which you can step from one event to the 
+next and look at the time and command queues. Graphical debugging (see section \ref{sec:graphdebug})is available
+from the capsule editor.
+\section{Simulation Concepts}
+
+\subsection{Time}
+\index{time}
+\label{sec:time}
+
+Following the tenets of perfect technology as discussed in \cite{perfect} and \cite{modeling}, 
+initial SESIS models run in a VPS or Virtual Perfect System.
+This system has unlimited memory and performs all operations in zero time. Using a contemporary
+desktop computer rather than our final embedded target frees us from any practical concerns about memory, but what about
+time? Here it is not adequate to simply say that our simulation machine is faster than our target machine. Although
+internal operations are performed in zero time, time itself still exists in the outside world and 
+the representation of these external time intervals is vital to the construction of any meaningful model for
+the realtime, embedded domain. 
+
+For a description of timers and how to declare them, consult section \ref{sec:timers}. For information
+on how to control the elapse of time using test input files consult section \ref{sec:elapse}. For 
+information on how to test the time behaviour of your model by stating your expectations in the test input file
+consult section \ref{sec:feedback}.
+
+\subsection{Run To Completion}
+\label{sec:runtocompletion}
+\index{Run To Completion}
+This concept can be understood on two levels; the first, simplest and most common level is
+that activities or transitions are never interrupted or interleaved but happen one after another.
+Concretely this comes into effect when the execution of a \texttt{SEND} statement leads 
+to the corresponding message being placed on a queue for later processing. The activity performing 
+the \texttt{SEND} must finish first. If we combine this with the absence of any mechanisms for 
+implicit parallelism in the simulation environment then this kind of
+run to completion is practically unavoidable.
+
+There is however another level. Here we regard ``completion'' as the completion not only of 
+the activity itself, but also the completion of the local consequences of its \texttt{SEND} statements.
+This becomes relevant in models with several layers of capsules. In such cases we want to know that
+the dispatch of a message to a given capsule at a given layer will not result in any messages for that
+capsule being ``left in the queue'' afterwards. This means we can change the internal organization
+of a capsule at any level confident in the knowledge that, if its direct behaviour towards its environment
+in terms of messages and timing is unchanged, our system is guaranteed to perform as previously.
+
+An example for this behaviour is available in the \texttt{test} subdirectory in the CapRTC* family of files.
+In Figures \ref{fig:rtcbild1} to \ref{fig:rtcbild3} we depict a nested set of capsules which form the following tree.
+\begin{verbatim}
+   CapRTC1
+      CapRTC21
+      CapRTC22
+         CapRTC221
+         CapRTC222
+\end{verbatim}
+
+The main activity in CapRTC1 sends three messages, s1 to CapRTC221, s2 to CapRTC222 
+and finally s3 to its own capsule.
+On receipt of s1, the activity in CapRTC221 sends s4 to CapRTC222. 
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=CapRTC1.ps, width=\linewidth}
+\end{center}
+\caption{Run To Completion Scenario: Top Level\label{fig:rtcbild1}}
+\end{figure}
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=CapRTC21.ps, height=2.5in}
+\end{center}
+\caption{Run To Completion Scenario: Left Hand Child\label{fig:rtcbild2}}
+\end{figure}
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=CapRTC22.ps, height=2.5in}
+\end{center}
+\caption{Run To Completion Scenario: Right Hand Child \label{fig:rtcbild3}}
+\end{figure}
+
+
+The question is: in what order should the dispatched messages result in an activity being called in their
+respective destinations?
+
+The answer is as follows:
+\begin{enumerate}
+\item s3, although the last to be sent by the main activity, is the most local and therefore has the highest
+priority, so it is scheduled first.
+\item s1 is next: the targets of s1 and s2 are both at the same level, so by default the first to be dispatched is the
+first to be scheduled. 
+\item while the recipient of s1 is running, it dispatches s4 to its sibling capsule. This is the most local
+outstanding request so s4 is scheduled next.
+\item s2 comes last.
+\end{enumerate}
+
+\section{Parallelism, System Architecture and Deployment}
+\label{sec:parallelism}
+Parallelism and perfect technology are rather uneasy partners. If our technology is truly perfect we should have no need for 
+parallelism at the computational level. However, if parallelism is a potential aspect of our implementation, at some stage
+we will want to model this as well. 
+
+Up till now we have seen time as being actively influenced by the outside world only;
+practically this involves using a delay statement in a test script.
+The approach we add now is based on the notion of time as a resource which can be consumed internally. 
+Note that we are only concerned with true physical parallelism here, rather than thread or process based pseudo-parallelism.
+\subsection{Time weighted execution}
+Our term for a unit of parallelism is a \emph{processor}. Within a model where parallelism is being considered, any given capsule
+will be allocated to a certain processor. Unless otherwise defined this means that all the children of that capsule
+will also be allocated to the processor. While time is being consumed internally by a given processor, that processor is blocked
+and none of the allocated capsules can perform any operations. By default we simply have one processor 
+to which all capsules are allocated.
+It remains for us to specify the consumption of time. This is done using two new language features:
+\begin{itemize}
+\item{Delayed SEND : we append an \texttt{AFTER} \emph{time} annotation to a \texttt{SEND} statement}
+\item{Delayed completion : we append an \texttt{AFTER} \emph{time} annotation to the \texttt{END} 
+of an \texttt{ACTIVITY} or \texttt{TRANSITION}}
+\end{itemize}
+A delayed \texttt{SEND} has two effects. Firstly the message is only sent when the specified amount of time has elapsed. 
+Secondly the owning processor of the sending capsule is blocked for at least the time. Delayed completion simply 
+guarantees that the sending capsule is blocked for at least the time specified. These two annotations can be combined, in which
+case the actual blocking time for the capsule is the maximum of all delayed \texttt{SEND}s and the delayed completion. 
+
+Should any of the \texttt{SEND}s consume less time than this calculated maximum then they will be dispatched earlier. Of course this
+will only be of relevance if their targets are allocated to another processor.
+\subsection{A Single Processor Example}
+Consider the following code:
+\verbatiminput{SimplePar.i3}
+\verbatiminput{SimplePar.m3}
+This capsule, on receiving the message \texttt{getBusy}, must first do some work itself, before it can send the \texttt{delegate}
+message, which we here describe as being sent 5 seconds after the activity has started. After sending the signal, it must
+do more 5 more seconds of work and so as a whole it blocks the processor (we only have one of them so far) for a total of 10 seconds.
+
+If we test this capsule with the following script:
+
+\verbatiminput{SimplePar.inp}
+
+we are rewarded with the following results:
+
+\verbatiminput{res/SimplePar.res}
+
+Here we can see that the first call to \texttt{delegate} is sent out after 5 seconds, while the activity, and the capsule as a whole,
+is blocked for 10 seconds, such that the subsequent \texttt{getBusy} call from the test file is delayed for that time, and the
+subsequent \texttt{delegate} is sent at 15 seconds.
+
+\subsection{Multiple Processors}
+As described above, by default all capsules belong to one default processor. If we wish to partition our system across processors,
+the simplest way to do this is via the command line with the -p argument. To demonstrate this we need to add at least another
+capsule. In this case we match the capsule defined previously with a receiver for the delegate message and instantiate them
+both within a top level, depicted in Figure \ref{fig:ParTopshot}:
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=ParTop.ps, height=2.5in}
+\end{center}
+\caption{Top Level View of simple parallelism example  \label{fig:ParTopshot}}
+\end{figure}
+
+And here is the partner capsule
+
+\verbatiminput{SimplePar2.i3}
+
+\verbatiminput{SimplePar2.m3}
+
+We can now run this new top capsule with the same input as before and with only one processor to get the 
+following results:
+
+\verbatiminput{res/ParTop.res}
+
+However when we divide the two capsules over two processors, \texttt{proca} and \texttt{procb} 
+(using the -r parameter so that our results end up in a new subdirectory and do not overwrite 
+those from the previous run) 
+
+\texttt{runcap ParTop --processors=par1=proca,par2=procb --results=par}
+
+ ... then we see the following results:
+
+\verbatiminput{par/ParTop.res}
+
+It is left as an exercise for the reader to convince himself that the timing figures are as
+should be expected.
+
+\subsection{Defining System Architecture}
+\label{sec:sysarch}
+\index{System Architecture}
+While the previous technique might be useful for experimentation, another approach is available for
+permanent and detailed documentation of \emph{system architecture} in terms of processors, their relative
+performance and the speed of the links between them. These features are described in extra descriptor
+files using a special purpose language with the following syntax:
+\begin{rail}
+SystemArchitecture : 'SYSTEM' 'ARCHITECTURE' id 'IS' Processors Links 'END' ;
+Processors : ( 'PROCESSOR' id ('SPEED' floatval)? + ) ;
+Links : ( 'LINK' id ( '->' | '<=>' ) id ('COST' timeval)? * ) ;
+\end{rail}
+
+In this description we record not only the existence of processors but also:
+
+\begin{itemize}
+\item Processor speed : this is a floating point factor by which any time values 
+used in \texttt{AFTER} clauses by activities of capsules allocated to that processor is divided.
+\item Link costs between processors. This cost, given as a scaled time expression is added to the delay time of any \texttt{SEND}
+between the two given processors. If the link is symmetrical in terms of cost we can use the \texttt{<=>} notation to cover
+both directions. Attempts to send between processors for which no link has been defined will cause a run time error.
+\end{itemize}
+Here is an example which we will apply to our previous example:
+\verbatiminput{Arch.sys}
+
+\subsection{System Mapping}
+\index{mapping}
+\label{sec:mapping}
+One way to use this definition, stored in this case in the file \texttt{Arch.sys} is to  reference it at run time 
+using the \texttt{--system-architecture} option, and then use the defined
+processor identifiers with the \texttt{--processors} option as follows
+
+\texttt{runcap ParTop --processors=par1=proca,par2=procb --system-architecture=Arch --results=parsys}
+
+\verbatiminput{parsys/ParTop.res}
+
+Here we notice that the first \texttt{done} message now comes back in 8.5 seconds. 
+This breaks down into 5 seconds for the work done by par1, 2 seconds for the
+link cost and 1.5 seconds for the original 3 seconds reduced by the 2.0 speed factor.
+
+Finally, if we want to permanently document both our System Architecture and the mapping of the capsules in our design to that
+architecture, we can do so in a separate mapping file. This uses the following syntax:
+\begin{rail}
+Mapping : 'SYSTEM' id 'USING' architectureFileName 'IS' Allocations 'END' ;
+Allocations : ( 'CAPSULE' capsuleName 'ON' 'PROCESSOR' processorName + )
+\end{rail}
+
+If the following is in the file \texttt{Sys1.map}
+
+\verbatiminput{Sys1.map}
+
+then the following, supplying the mapping file alone, will have the same effect as the previous invocation
+
+\texttt{runcap ParTop --system-mapping=Sys1}
+
+\subsection{Restrictions}
+Synchronous calls across processor boundaries are not detected and may therefore produce misleading results.
+
+
+\section{The Library}
+Modula-3 has a substantial library of interfaces. Most of these however are either of no relevance to the modelling/embedded domain
+or are superceded by the more powerful modeling types included in the language extensions documented here. The following are presented
+either to give a starting point for users coming from Modula-3 (Text, IO and Fmt) or to provide access to SESIS run-time resources
+(Results and Timer).
+\subsection{Results}
+\label{sec:resultsif}
+This offers an interface from the application layer of the model to the results and protocol files
+\verbatiminput{../lib/Results.i3}
+\subsection{Timer}
+\verbatiminput{../lib/Timer.i3}
+\subsection{IO}
+\verbatiminput{../lib/IO.i3}
+\subsection{Fmt}
+\verbatiminput{../lib/Fmt.i3}
+\subsection{Text}
+\verbatiminput{../lib/Text.i3}
+
+\newpage
+
+\section{C Code Generation (highly experimental)}
+During the normal course of modelling, the model is compiled into python code and tested using the test framework.
+An alternative path, useful at a later stage of development, translates models written in a subset of SML into C code which
+can be compiled for and run on the target hardware.
+
+\subsection{Invocation}
+Use the ``-c'' option of the m3 compiler to create C code. You will be notified if you have used any restricted features. 
+Additionally the ``--main'' option should also be used when compiling the module whose ``BEGIN'' .. ``END'' block you wish
+to run as main.
+
+This will leave you with a collection of ``.h'' and ``.c'' files. Consult the manual for your cross compiler to find out
+how to compile and link these. For windows users who have installed Microsoft Visual C such that it is callable from the command
+line a simple batch file \texttt{ccomp.bat} has been provided in the \texttt{bin} directory. Consult the \texttt{test} directory 
+for examples (hint: the test driver \texttt{ccode.bat} is a good place to start.)
+
+If you use library functions, for which C code has been provided, then do not forget to compile
+and link these modules as well. 
+
+\subsection{Mappings}
+\subsubsection{Modules}
+Modules and Module Interfaces are transformed into ``.c'' and ``.h'' files. Interfaces which declare only types and have
+no corresponding implementation will result in the generation of a header file only. For Interfaces which contain variables 
+an empty Module file must be provided which will map to a ``.c'' file containing the variable declarations. 
+
+The flat C namespace is split up by naming all entities (variables and procedures) in the system according 
+to the module in which they are declared. Thus
+the integer \texttt{i} declared in the module \texttt{mod} is known in C as \texttt{mod\_\_i} both locally in the module
+where it is declared and also whereever else it referenced in the program. 
+
+When several modules are compiled and linked together, one of them must have been selected as the main module, 
+using the ``--main'' option described above.
+The execution of the program as such consists of the execution of the ``BEGIN'' .. ``END'' block of this module, 
+\emph{preceded} by the execution of such blocks for any other modules used. 
+\footnote {Currently no guarantee is given as to
+the order in which the blocks are called, other than that the main block is called last. If you have complex
+interdependencies in your startup sequence you are safer if you make these explicit using normal procedure calls from the main
+module.}
+
+
+\subsubsection{Types}
+\begin{itemize}
+\item The C type \texttt{int} is used for all enumerated types, BOOLEAN, INTEGER and all their subtypes. The C type \texttt{float}
+is used for REAL. 
+\item All REF types are mapped to C pointers, with the NEW function calling \texttt{malloc} with the size of the referent.
+\item RECORDs are mapped to \texttt{struct} 
+\item ARRAYs to C arrays, with the offsets of any subscripts adjusted accordingly wherever
+they are used. 
+\end{itemize}
+\subsubsection{Parameters}
+VAR and VALUE parameter semantics is preserved for all types other than arrays. This means that the error prone 
+(when done by hand) C mechanism of explicitly passing adresses or values depending on parameter mode is handled
+automatically.
+
+Array parameters are always passed by reference. The use of the VAR qualifier is erroneous for array parameters.
+\subsection{Restrictions (permanent)}
+\begin{itemize}
+\item \texttt{OBJECT}, \texttt{DICT} and \texttt{LIST} types are not supported.
+\item Nested procedures are not supported.
+\end{itemize}
+\subsection{Restrictions (hopefully temporary)}
+\begin{itemize}
+\item Anonymous types may sometimes produce uncompilable code. Solve this by using named types.
+\item Support for predefined procedures is (still) patchy at best.
+\item Initialisation of static objects with dynamic complex values (e.g. REFs with NEW, arrays with non-constant aggregates). 
+The workaround here is to initialise them later with an assignment statement.
+\item Algol scope is not supported, the original declaration order is retained instead.
+\item Mutually recursive types cannot be defined. If you need these on the target your code is probably too fat anyway.
+\item Default field values in nested record declarations are ignored by constructors
+\item WITH only creates aliases for l-values (e.g. WITH a = 10 DO .. will not work)
+\end{itemize}
+
+\subsection{The C Run Time System}
+To Be Completed : currently under implementation.
+
+\newpage
+
+\appendix
+
+\section{Installation}
+\index{installation}
+\label{sec:installation}
+The toolset should run without change on any computer with a current implementation of Python.
+Practically this has been tested for Win32, Intel-Linux and Mac OS X.
+
+\subsection{Prerequisites}
+\begin{itemize}
+\item Install the latest python interpreter (2.3.3) available from www.python.org
+\item Check out the standard SESIS toolset from the subversion repository (or get hold of the zip file somehow)
+\end{itemize}
+You may also optionally wish to install the following
+\begin{itemize}
+\item Ghostscript - if present on your path, the commands \texttt{ps2pdf} and \texttt{gswin32c} are 
+called to convert raw postscript output from the tool into \texttt{pdf} and \texttt{png} formats respectively.
+\item POVray - a ray tracing program. The capsule editor can create scenery files which can be rendered
+into high-quality 3-dimensional images by this program.
+\end{itemize}
+
+\subsection{Environment variables}
+\begin{itemize}
+\item Set the environment variable \texttt{M3\_HOME} to the top level directory of the toolset -- i.e. the one
+  containing \texttt{bin}, \texttt{src}, \texttt{lib} and friends.
+% \item Set the environment variable \texttt{PYTHONPATH} to include the subdirectories 
+%   \texttt{src} and \texttt{src/rts} below \texttt{M3\_HOME}.
+\item Set your path to include the \texttt{bin} directory below \texttt{M3\_HOME} and also the directory where you have installed python.
+\item Set your path to include the \texttt{bin} and \texttt{lib} directories of Ghostscript (if you have installed it)
+\end{itemize}
+
+%\subsection{Compile the library units}
+%Change into the \texttt{lib} directory below \texttt{M3\_HOME} and execute the following command
+%\begin{verbatim}
+%    m3 *.i3
+%\end{verbatim}
+%The units should all compile without errors
+
+\subsection{Check that everything is working}
+In the \texttt{test} subdirectory you will find a number of test programs for all parts of the language. 
+Change into that directory and call the \texttt{testall} script. This may take a few minutes. If this runs without errors then
+your installation is OK, otherwise contact the author of this document immediately. 
+\newpage
+
+\section{Complete Syntax Summary}
+
+\begin{rail}
+Compilation : CapsuleInterface | Capsule | Interface | Module | GenericInterface | GenericModule ;
+CapsuleInterface : 'CAPSULE' 'INTERFACE'  id  ';' ( Import + )  ( Port + ) 'END' id '.';
+Port : 'PORT' id ':' Protocol ;
+Capsule : 'CAPSULE' id ( 'IMPLEMENTS' id )?  ';' \\ ( Import * ) ( UseCapsule * ) CapsuleBlock id '.';
+CapsuleBlock : ( Declaration * ) ( Connections ? ) 'BEGIN' Statements 'END' ;
+UseCapsule : 'USECAPSULE' id ';' ;
+Connections : 'CONNECT' ( id ( '->' | '<=>' ) id ';' + ) ;
+Declaration :   'Standard Modula-3 Declaration' 
+              | 'TRIGGER' id 'ON' Expr ';' 
+              | 'ACTIVITY' id '(' Formals ')' '=' Block id ('AFTER' TimeExpr )? ';'
+              | 'STATE' id ( TransitionDecl + ) ';'
+              | 'START' '=' 'BEGIN' Statements 'END' ';'
+              | 'READS' id ';'
+              | 'WRITES'id ';'
+              | 'SENDS' id ';' ;
+TransitionDecl : 'ON' id '(' Formals ')' '=' Block id ';' ;
+Type : 'Standard Modula-3 Type' | TimerType | ModelingContainerType | Protocol ;
+
+TimerType : ( 'ONESHOT' | 'PERIODIC' ) ( 'CHANGEABLE' | 'FIXED' ) 'TIMER' ( 'DELAY' TimeExpr ) ;
+
+Protocol : ( tilde )? (TypeName | 'PROTOCOL' (MessageGroup *) 'END' );
+MessageGroup : ( 'SYNCHRONOUS' )? ( 'INCOMING' | 'OUTGOING' ) ( Message + ); 
+Message : 'MESSAGE' id '(' Formals ')' ;
+
+ModelingContainerType : 'DICT' ( IndexType )? 'OF' ElementType | 'LIST' 'OF' ElementType ;
+Statement : 'Standard Modula-3 Statement' 
+           | 'SEND' id '(' ( ActualParameter + ) ')' ('AFTER' TimeExpr)? 
+           | 'CALL' id '(' ( ActualParameter + ) ')' 
+	   | 'NEXT' id 
+           | 'FOREACH' id 'IN' Expr 'DO' Statements 'END' ;
+
+\end{rail}
+
+\newpage
+
+\section{Interfacing to the Generated Code}
+\subsection{Implementing Modules in Python}
+\index{python, interfacing to native code}
+If you need to access to some resource which is not provided by the current libraries, it is
+straightforward to slot in python code under a Modula-3 interface. 
+\begin{itemize}
+\item For a given module X, write the interface \texttt{X.i3} as usual in Modula-3 and compile it.
+\item Create a python module named \texttt{XMod.py} making sure that it is on your path and that the 
+functions declared in the python module correspond exactly in name and number of arguments with 
+the interface.
+\item Dereference parameters as necessary to get at their raw python values (see below)
+\item Make sure that your \texttt{PYTHONPATH} includes the directory where you have stored XMod.py
+\end{itemize}
+
+\subsection{Example}
+Here is how the IO library is currently implemented. In IO.i3 we have the following:
+
+\verbatiminput{../lib/IO.i3}
+
+and in IOMod.py we implement the functionality as follows:
+
+\verbatiminput{../lib/IOMod.py}
+
+\subsection{Modula-3 Type and Object Representation}
+\index{object representation}
+\index{type representation}
+Every Modula-3 object which you will receive as a parameter is an instance of one of the
+classes in the python module \texttt{M3Objects.py}. Each of these objects has a reference
+to its type which is defined in the python module \texttt{M3Types.py}. These two modules
+can be found in the \texttt{src/rts} subdirectory of the installation. Operations
+such as assignment, dereferencing and numerics are handled by the object itself, whereas
+type checking is handled by the type of the object. For further information
+consult the source code of those two modules and just try experimenting!  
+
+\newpage
+
+\section{Accessing the RTS from Python}
+\index{python, access to rts}
+This appendix describes how to use the python API to the run time system. Using
+the classes and methods described below, you can create models in ``pure'' python.
+This has the advantage that you have all the features of the python language immediately at your
+disposal. It also should be mentioned here that it has the \emph{disadvantage} that your
+model is not statically checked for completeness by a compiler.
+
+\subsection{Installation}
+Proceed as described in \ref{sec:installation} above, ignoring the optional components.
+
+Set the environment variable \texttt{RAW\_PYTHON} to a non-null string value. 
+
+\footnote{This tells the RTS not to expect Modula-3 types synthesized by the compiler, 
+the --raw-python option can also be used as an additional command line argument to the same effect}
+
+No tools are considered here, only code which is made available to the python 
+interpreter via \texttt{PYTHONPATH}
+
+\subsection{Capsules}
+Capsules are declared as classes deriving from the base class \texttt{M3CapsuleRuntimeType} in the
+\texttt{RTSTypes} module. The activities
+of that capsule are declared as methods of the class. Any other contents
+of the capsule, such as timers, triggers, connections or application data are 
+declared in the constructor (\texttt{\_\_init\_\_}) of the capsule.
+
+\subsubsection{Example}
+Here is a simple capsule, in the file \texttt{pyact.py} corresponding to the 
+diagram in Figure \ref{fig:pyactshot}.
+
+\verbatiminput{pyact.py}
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=pyact.ps, width=\linewidth}
+\end{center}
+\caption{The Simple Capsule \label{fig:pyactshot}}
+\end{figure}
+
+\subsubsection{Running the Capsule}
+Before this capsule can run, some input must be prepared. In this case we have a activity named
+\texttt{a1} which expects two parameters \texttt{foo} and \texttt{bar} 
+
+In order to send a message to the system with those two parameters we prepare an 
+input file \texttt{pyact.inp} with the following input.
+
+\verbatiminput{pyact.inp}
+
+and run the capsule using the python interpreter with the following command:
+
+
+\texttt{python pyact.py pyact}
+
+
+and this generates the following output, which is simply the result of the print statement in the
+activity:
+
+\texttt{activity a1 called with foo 1 and bar 2}
+
+Apart from the definition of the capsule class \texttt{pyact}, the example contains only the call to
+the \texttt{run} function of the \texttt{Simulator} module which manages the feeding of the input into
+the capsule. 
+
+\subsection{Activities}
+Activities are declared as methods of capsule classes. 
+The parameters can be of any python type. Optional parameters are also supported. 
+
+See Section \ref{sec:testtypeconv} below for further details on conversion of input to
+python parameters.
+
+\subsection{Timers}
+\subsubsection{Example}
+Here is a capsule containing a timer, connected to an activity which itself uses the local data
+item \texttt{i}. It corresponds to the diagram in Figure \ref{fig:pytimershot}.
+
+\verbatiminput{pytimer.py}
+
+\subsubsection{Timer Definition}
+Timer definition occurs in two phases. First the timer type is defined by instantiating an object
+of the class \texttt{M3TimerRuntimeType}. The constructor expects the following parameters
+\begin{itemize}
+\item \texttt{delay} : the time delay in picoseconds (see below).
+\item \texttt{periodic} : if this is set then the timer will restart automatically on elapsing.
+\item \texttt{changeable} : defines whether the timer can be changed.
+\end{itemize}
+
+Once the type has been created, then a timer object is created from that type using the
+\texttt{createObject} method. In the example above, type and object creation are run together
+in one line. It is however possible to create several separate timer objects from one type.
+
+\subsubsection{Timer Functions}
+Once created, a timer offers the following methods to the user:
+\begin{itemize}
+\item \texttt{stop} : stops the timer
+\item \texttt{start} : starts the timer
+\item \texttt{change <integer-value>} : changes the value of the timer - with no influence on the 
+current delay if there is one. 
+\item \texttt{connect} : see section \ref{sec:timerconn} below.
+\end{itemize}
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=pytimer.ps, width=\linewidth}
+\end{center}
+\caption{The Timer Capsule \label{fig:pytimershot}}
+\end{figure}
+
+\subsection{Making Connections with connect}
+\label{sec:timerconn}
+In the previous example we saw our first connection. Connections are used to attach timers
+activities which will be called when they time out. A connection is created by calling the connect
+method on the timer with the following parameters:
+\begin{itemize}
+\item \texttt{context} : the capsule in which the connection is created (normally just use \texttt{self})
+\item \texttt{srcMsg} : not used by the timer, can be given a dummy value.
+\item \texttt{destMsg} : a string, which is the name either of the activity (which is the case here) 
+or of a message.
+\item \texttt{destObj} : the destination object, in the case of a local connection 
+this is \texttt{self} again. More on this below.
+\item \texttt{level} : The nesting level at which the connection is created. Use the \texttt{level} value 
+which has been given to you as a constructor parameter.
+\end{itemize}
+
+\subsection{Message Dispatch with send}
+Messages are sent using the \texttt{send} method of the owning capsule. This method
+has the following parameters:
+\begin{description}
+\item [originator]  The capsule in which connection is created (normally just use \texttt{self}).
+\item [level] The nesting level at which the connection is created. Use the \texttt{level} value 
+which has been given to you as a constructor parameter.
+\item [msgName] The message you want to send.
+\item [... application specific parameters ...]  These must fit those of the final destination using the
+normal python parameter handling features (i.e. keywords and default parameters).
+\end{description}
+
+\subsection{Nested Capsules}
+Nestability is an essential feature of capsules, and it is only when we start to nest capsules
+that features such as message routing and run to completion (see section \ref{sec:runtocompletion} above)
+become relevant. This nesting is
+naturally easier to visualise graphically, and the diagram for the following example is in Figure
+\ref{fig:C1shot}. In this example we have a top-level capsule C1, with two child capsules of type
+C2 and C3 respectively. The test message \texttt{input} is connected to the input message of the
+child instance \texttt{c2} which in turn sends a message to \texttt{c3} which finally sends the
+message \texttt{response} which is connected back to the outputs at the top level.
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=C1.ps, width=\linewidth}
+\end{center}
+\caption{Nested Capsules \label{fig:C1shot}}
+\end{figure}
+
+The code for the top level is as follows:
+
+\verbatiminput{C1.py}
+
+From looking at the code we can deduce nothing about the structure of the two subcapsules C2 and C3.
+We have presupposed, in the connection statements, that they will be able to answer and send the 
+appropriate messages.
+
+Here is the code for the child capsules:
+
+\verbatiminput{C2.py}
+
+\verbatiminput{C3.py}
+
+\subsection{More about Connections}
+The capsules in the previous example were held together by three connection statements placed 
+in the constructor of the root capsule.
+\begin{verbatim}
+        self.connect(context=self,
+                     srcMsg='input',
+                     destMsg='c2act',
+                     destObj=self.c2,
+                     level=level)
+        self.c2.connect(self,'messageFromC2','c3act',self.c3,level)
+        self.c3.connect(self,'response','response',self,level)
+\end{verbatim}
+Note that all \texttt{connect} method calls are made with the \texttt{context} of the current capsule (\texttt{self})
+but that the object on which the method calls is made is different. The object on which the method is called
+is always the source of the message which is being connected.
+
+\subsection{Triggers}
+
+\subsubsection{Example}
+A trigger is a component which waits for a condition to occur in the system and then generates a message.
+In our example we have an input message \texttt{dec} causing a local variable to be decremented. The
+variable has been initialised on capsule construction with a value of 2. The trigger tests whether 
+the variable has the value 0, and then, because it is so connected, causes the \texttt{alarm} message
+to be sent out.
+
+Here is the code corresponding to the diagram in Figure \ref{fig:pytriggershot}
+
+\verbatiminput{pytrigger.py}
+
+\begin{figure}[htb]
+\begin{center}
+\epsfig{file=pytrigger.ps, width=\linewidth}
+\end{center}
+\caption{Diagram for Trigger Example \label{fig:pytriggershot}}
+\end{figure}
+
+\subsubsection{Defining a Trigger}
+The definition of a trigger comes in two parts. First we define the test function, this can be any valid executable
+python object. The standard python definition of truth/falsehood is 
+used. In the example we have used a method as the test function, which has the advantage that we can access the environment
+of the capsule, which in this case includes the counter we are testing.
+
+The second part is the definition of the trigger itself which is an instance of the \texttt{M3TriggerType} class.
+We supply the test function as a parameter to the constructor.
+
+Finally, we connect the trigger, in this case to a local activity, 
+just as we connected the Timer in section \ref{sec:timerconn}
+
+\subsection{Testing and type conversion}
+\label{sec:testtypeconv}
+For the syntax of input files see Section \ref{sec:inputfiles} above.
+When using python, (i.e. with the RAW\_PYTHON environment
+variable set) compound input values are mapped to the \texttt{Dict} and \texttt{List} types.
+Simple input values are mapped to \texttt{Float}, \texttt{Int} or \texttt{String} by testing 
+whether they can evaluate to such a value. 
+
+For example the following input file:
+
+\verbatiminput{pytypes.inp}
+
+can be fed to the following capsule:
+
+\verbatiminput{pytypes.py}
+
+and will produce the following output:
+
+\begin{verbatim}
+
+activity a1 called with foo {'a': 1, 'c': 'blather', 'b': 3.415} and bar [1, 2, 3, 4]
+keys of foo are:  ['a', 'c', 'b']
+length of bar is: 4
+
+\end{verbatim}
+
+%% \section{Why another language and another tool?}
+%% This question is bound to be asked. Here are some answers.
+%% \subsection{Tools are not as hard as you think}
+%% Languages have become more expressive and wide-reaching in their capabilities
+%% and CPU's have become more capable of executing non-optimally written code in tolerable time.
+%% This means that the barriers to entry for tool builders have come down in the last twenty years, 
+%% although the software engineering community may itself be slow to realise it. 
+%% \subsection{Big Tools are Bad}
+%% Tool companies have their own agenda: to make money by selling tools. 
+%% It is only good luck if this intersects with the aims of system developers.
+%% \subsection{Focus on task}
+%% .. and not on ``how to get tool X do do job Y'', 
+%% \subsection{Unique features of the tool}
+%% \subsubsection{Language based approach}
+%% Sapir-Whorf hypothesis : there is a systematic relationship between 
+%% the grammatical categories of the language a person speaks and how 
+%% that person both understands the world and behaves in it. 
+
+%% More mundanely, using a class framework
+%% to define the metamodel (e.g. SystemC) leads to less clarity (more freedom) 
+%% as to what operations and combinations of objects are sensible rather than
+%% syntactically possible. This is certainly a limitation for SESIS beginners.
+
+%% \subsubsection{Run Time Behaviour}
+%% Run to completion not supported by any other vendor
+%% \subsubsection{Multi Model}
+%% \subsection{What about UML2?}
+
+\section{Comparison with ASCET}
+
+\begin{tabular}{|c|l|p{7.0cm}|}
+\hline
+Axis & ASCET & SESIS Tool \\
+\hline
+business model & commercial  & in house \\
+status         & productive  & experimental \\
+asset storage  & database    & language \\
+market         & vertical    & horizontal \\
+OS             & ERCOSEK     & VPS \\
+code           & closed      & open \\
+timing         & time triggered & event based \\
+size           & big         & small \\
+cardinality    & single model & multi model \\
+execution      & compiled     & interpreted or compiled \\
+\hline
+\end{tabular}
+
+\section{Quo Vadis?}
+The question arises whether the current approach to SESIS tooling is scaleable. If we decide that
+this is NOT the case then we need to think about possible future developments or even
+\emph{exit strategies} if and when the ideas
+behind SESIS achieve a critical degree of acceptance.
+In brainstorming mode (i.e. no idea is too crazy) future directions for the tool/language could be
+\begin{enumerate}
+\item Eclipse Plugin
+\item XMI Output
+\item C Output
+\item Front End for gcc
+\item UML Metamodel
+\item Integrate with leading case tool
+\item Customize case tool (GME ROSE TAU)
+\item No Exit : spread the word on cognitive automation and fork the tool for each new project.
+\end{enumerate}
+
+\begin{thebibliography}{99}
+\bibitem{sesiswp} M. Rittel, Ein Systems-Engineering-Ansatz f\"ur software-intensive Produkt\-linien, 
+Robert Bosch GmbH, Frankfurt 2002
+\bibitem{modeling} M. Rittel, Formale Dom\"anen-Modelle, Robert Bosch GmbH, Frankfurt 2003
+\bibitem{perfect} S.M. McMenamin, J.F. Palmer Essential Systems Analysis, New York, 1984
+\bibitem{sysmodula3} Greg Nelson, Ed., Systems Programming with Modula-3, New Jersey, 1991
+\bibitem{arbmodula3} Samuel P. Arbison, Modula-3, New Jersey, 1992
+\bibitem{python} http://www.python.org
+\end{thebibliography}
+
+\cleardoublepage
+\input{manual.ind}
+\end{document}

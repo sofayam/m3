@@ -1,0 +1,10 @@
+MODULE E014;
+
+TYPE aref = REF ARRAY OF ARRAY [1..5] OF INTEGER;
+
+VAR a := NEW(aref,1,3); <*ERROR 014*>
+BEGIN
+
+  a[1][1] := 9;
+
+END E014.

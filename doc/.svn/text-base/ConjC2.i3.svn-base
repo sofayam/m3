@@ -1,0 +1,4 @@
+CAPSULE INTERFACE ConjC2 ;
+IMPORT ConjTypes AS CT;
+PORT p1 : CT.aOutbIn ; 
+END ConjC2.

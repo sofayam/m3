@@ -1,0 +1,43 @@
+How Nodes work
+--------------
+
+Each node has its origin in a syntactical entity, leaf or otherwise
+Each node is a subclass of Node
+
+Each node has:
+     attributes
+     kids
+     
+attributes are stored as xml attributes: these are universal and general purpose 
+   refid  : a node id to be used for crossreferencing (e.g. where am I defined ?) 
+            in order to avoid cycles and bloat when writing the tree to xml 
+   slot   : name of the intance var which should point to this node in the parent object (or "anon")
+   terminal values : as xml-escaped string
+
+kids are used by the visit function to generically cover the whole tree of Nodes
+
+Each Node object is generated in the grammar as an instance of a RuleNode
+
+Elements of the kids array are automatically converting into instance variables 
+by the restoreSlots method.
+
+Further behaviour is added on top by generating a new set of classes as subclasses of the RuleNode
+
+Envisaged jobs are:
+
+-Naming and typing (probably needs to be all together)
+
+-M3 regeneration
+
+-Python generation
+
+Each job also has a default class for those Nodes which have not been subclassed for that job
+
+Typical Node navigation:
+	send message to node, then send message to all kids (visit)
+        get info from current node, if not available get from parent and cache result in node
+        
+The NodeGenerator needs to be told about
+  attributes
+  kids/instvars set up by the rule initialiser
+  use of default or specialised class for a given job

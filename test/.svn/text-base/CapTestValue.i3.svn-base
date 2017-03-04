@@ -1,0 +1,5 @@
+CAPSULE INTERFACE CapTestValue ;
+PORT p1 : PROTOCOL
+ INCOMING MESSAGE start() ;
+END;
+END CapTestValue.

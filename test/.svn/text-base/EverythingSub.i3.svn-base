@@ -1,0 +1,11 @@
+
+CAPSULE INTERFACE EverythingSub ;
+PORT p1 : PROTOCOL
+    INCOMING MESSAGE a() ;
+    INCOMING MESSAGE b() ;
+    INCOMING MESSAGE c() ;
+END;
+PORT p2 : PROTOCOL
+    OUTGOING MESSAGE tiddlypom() ;
+END;
+END EverythingSub.

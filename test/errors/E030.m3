@@ -1,0 +1,9 @@
+MODULE E030;
+
+
+VAR i : INTEGER;
+    j := ISTYPE(INTEGER,i); <*ERROR 030*>
+
+BEGIN
+  
+END E030.

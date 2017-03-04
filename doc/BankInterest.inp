@@ -1,0 +1,6 @@
+> deposit sum = 100
+? 3 year
+> insertCard card = {encodedPIN: 1234}
+> inputPIN pin = 1234
+> inputSum sum = 100
+? 1 year

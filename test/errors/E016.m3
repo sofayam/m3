@@ -1,0 +1,11 @@
+MODULE E016;
+
+TYPE rref = REF RECORD 
+  i : INTEGER ;
+END ;
+
+
+VAR a := NEW(rref,j:=1); <*ERROR 016*>
+BEGIN
+
+END E016.

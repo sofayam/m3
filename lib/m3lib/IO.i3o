@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<Interface source="/home/mark/m3/lib/IO.i3" refid="1" slot="anon">
+ <KeyWord token="INTERFACE" startCol="0" leadChars="" refid="2" slot="kwi"/>
+ <Id idname="IO" startCol="10" leadChars=" " refid="3" slot="modname"/>
+ <Sep token=";" startCol="12" leadChars="" refid="4" slot="ts"/>
+ <ImportList refid="5" slot="imports"/>
+ <InterfaceDeclList refid="6" slot="decls">
+  <ProcedureDecl refid="7" slot="anon">
+   <ProcedureHead refid="8" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="187" leadChars="%0A%0A(* The following perform simple output to the terminal, for testing %0A   purposes it is recommended that you use the features provided by%0A   the Results Interface *)%0A%0A" refid="9" slot="kwp"/>
+    <Id idname="Put" startCol="197" leadChars=" " refid="10" slot="name"/>
+    <Signature refid="11" slot="signature">
+     <Tok token="(" startCol="200" leadChars="" refid="12" slot="lbr"/>
+     <Formals refid="13" slot="formals">
+      <Formal refid="14" slot="anon">
+       <Null refid="15" slot="mode"/>
+       <IdList refid="16" slot="idList">
+        <Id idname="T" startCol="201" leadChars="" refid="17" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="202" leadChars="" refid="18" slot="col"/>
+       <TypeName refid="19" slot="tipe">
+        <QualId refid="20" slot="qualId">
+         <Id idname="TEXT" startCol="203" leadChars="" refid="21" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Null refid="22" slot="ass"/>
+       <Null refid="23" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="207" leadChars="" refid="24" slot="rbr"/>
+     <Null refid="25" slot="col"/>
+     <Null refid="26" slot="tipe"/>
+     <Null refid="27" slot="kwr"/>
+     <Null refid="28" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="29" slot="kweq"/>
+   <Null refid="30" slot="procBlock"/>
+   <Null refid="31" slot="endId"/>
+   <Sep token=";" startCol="208" leadChars="" refid="32" slot="ts"/>
+  </ProcedureDecl>
+  <ProcedureDecl refid="33" slot="anon">
+   <ProcedureHead refid="34" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="213" leadChars="%0A%0A" refid="35" slot="kwp"/>
+    <Id idname="PutInt" startCol="223" leadChars=" " refid="36" slot="name"/>
+    <Signature refid="37" slot="signature">
+     <Tok token="(" startCol="229" leadChars="" refid="38" slot="lbr"/>
+     <Formals refid="39" slot="formals">
+      <Formal refid="40" slot="anon">
+       <Null refid="41" slot="mode"/>
+       <IdList refid="42" slot="idList">
+        <Id idname="I" startCol="230" leadChars="" refid="43" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="231" leadChars="" refid="44" slot="col"/>
+       <TypeName refid="45" slot="tipe">
+        <QualId refid="46" slot="qualId">
+         <Id idname="INTEGER" startCol="232" leadChars="" refid="47" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Null refid="48" slot="ass"/>
+       <Null refid="49" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="239" leadChars="" refid="50" slot="rbr"/>
+     <Null refid="51" slot="col"/>
+     <Null refid="52" slot="tipe"/>
+     <Null refid="53" slot="kwr"/>
+     <Null refid="54" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="55" slot="kweq"/>
+   <Null refid="56" slot="procBlock"/>
+   <Null refid="57" slot="endId"/>
+   <Sep token=";" startCol="240" leadChars="" refid="58" slot="ts"/>
+  </ProcedureDecl>
+  <ProcedureDecl refid="59" slot="anon">
+   <ProcedureHead refid="60" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="245" leadChars="%0A%0A" refid="61" slot="kwp"/>
+    <Id idname="PutReal" startCol="255" leadChars=" " refid="62" slot="name"/>
+    <Signature refid="63" slot="signature">
+     <Tok token="(" startCol="262" leadChars="" refid="64" slot="lbr"/>
+     <Formals refid="65" slot="formals">
+      <Formal refid="66" slot="anon">
+       <Null refid="67" slot="mode"/>
+       <IdList refid="68" slot="idList">
+        <Id idname="f" startCol="263" leadChars="" refid="69" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="264" leadChars="" refid="70" slot="col"/>
+       <TypeName refid="71" slot="tipe">
+        <QualId refid="72" slot="qualId">
+         <Id idname="REAL" startCol="265" leadChars="" refid="73" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Null refid="74" slot="ass"/>
+       <Null refid="75" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="269" leadChars="" refid="76" slot="rbr"/>
+     <Null refid="77" slot="col"/>
+     <Null refid="78" slot="tipe"/>
+     <Null refid="79" slot="kwr"/>
+     <Null refid="80" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="81" slot="kweq"/>
+   <Null refid="82" slot="procBlock"/>
+   <Null refid="83" slot="endId"/>
+   <Sep token=";" startCol="270" leadChars="" refid="84" slot="ts"/>
+  </ProcedureDecl>
+  <ProcedureDecl refid="85" slot="anon">
+   <ProcedureHead refid="86" slot="procHead">
+    <KeyWord token="PROCEDURE" startCol="275" leadChars="%0A%0A" refid="87" slot="kwp"/>
+    <Id idname="PutChar" startCol="285" leadChars=" " refid="88" slot="name"/>
+    <Signature refid="89" slot="signature">
+     <Tok token="(" startCol="292" leadChars="" refid="90" slot="lbr"/>
+     <Formals refid="91" slot="formals">
+      <Formal refid="92" slot="anon">
+       <Null refid="93" slot="mode"/>
+       <IdList refid="94" slot="idList">
+        <Id idname="C" startCol="293" leadChars="" refid="95" slot="anon"/>
+       </IdList>
+       <Tok token=":" startCol="295" leadChars=" " refid="96" slot="col"/>
+       <TypeName refid="97" slot="tipe">
+        <QualId refid="98" slot="qualId">
+         <Id idname="CHAR" startCol="297" leadChars=" " refid="99" slot="anon"/>
+        </QualId>
+       </TypeName>
+       <Null refid="100" slot="ass"/>
+       <Null refid="101" slot="constExpr"/>
+      </Formal>
+     </Formals>
+     <Tok token=")" startCol="301" leadChars="" refid="102" slot="rbr"/>
+     <Null refid="103" slot="col"/>
+     <Null refid="104" slot="tipe"/>
+     <Null refid="105" slot="kwr"/>
+     <Null refid="106" slot="raises"/>
+    </Signature>
+   </ProcedureHead>
+   <Null refid="107" slot="kweq"/>
+   <Null refid="108" slot="procBlock"/>
+   <Null refid="109" slot="endId"/>
+   <Sep token=";" startCol="302" leadChars="" refid="110" slot="ts"/>
+  </ProcedureDecl>
+ </InterfaceDeclList>
+ <KeyWord token="END" startCol="307" leadChars="%0A%0A" refid="111" slot="kwe"/>
+ <Id idname="IO" startCol="311" leadChars=" " refid="112" slot="endId"/>
+ <Sep token="." startCol="313" leadChars="" refid="113" slot="td"/>
+</Interface>

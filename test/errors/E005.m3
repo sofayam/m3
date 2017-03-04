@@ -1,0 +1,7 @@
+MODULE E005;
+
+BEGIN
+
+ i := 5; <*ERROR 005*>
+
+END E005.

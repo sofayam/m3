@@ -1,0 +1,358 @@
+<?xml version="1.0"?>
+<Capsule source="/home/mark/m3/doc/ATMState.m3" refid="1" slot="anon">
+ <KeyWord token="CAPSULE" startCol="0" leadChars="" refid="2" slot="kwc"/>
+ <Id idname="ATMState" startCol="8" leadChars=" " refid="3" slot="modname"/>
+ <Null refid="4" slot="kwi"/>
+ <Null refid="5" slot="implId"/>
+ <Sep token=";" startCol="17" leadChars=" " refid="6" slot="ts"/>
+ <ImportList refid="7" slot="imports">
+  <FromImport refid="8" slot="anon">
+   <KeyWord token="FROM" startCol="20" leadChars="%0A" refid="9" slot="kwf"/>
+   <Id idname="BankTypes" startCol="25" leadChars=" " refid="10" slot="impname"/>
+   <KeyWord token="IMPORT" startCol="35" leadChars=" " refid="11" slot="kwi"/>
+   <IdList refid="12" slot="implist">
+    <Id idname="Card" startCol="42" leadChars=" " refid="13" slot="anon"/>
+   </IdList>
+   <Sep token=";" startCol="46" leadChars="" refid="14" slot="ts"/>
+  </FromImport>
+ </ImportList>
+ <UseCapsuleList refid="15" slot="usedCapsules"/>
+ <CapsuleBlock refid="16" slot="block">
+  <DeclList refid="17" slot="decList">
+   <VariableDecls refid="18" slot="anon">
+    <KeyWord token="VAR" startCol="51" leadChars="%0A  " refid="19" slot="kwv"/>
+    <VariableDeclsList refid="20" slot="variables">
+     <VariableDecl refid="21" slot="anon">
+      <IdList refid="22" slot="idlist">
+       <Id idname="cardInfo" startCol="55" leadChars=" " refid="23" slot="anon"/>
+      </IdList>
+      <Tok token=":" startCol="64" leadChars=" " refid="24" slot="col"/>
+      <TypeName refid="25" slot="tipe">
+       <QualId refid="26" slot="qualId">
+        <Id idname="Card" startCol="66" leadChars=" " refid="27" slot="anon"/>
+       </QualId>
+      </TypeName>
+      <Null refid="28" slot="ass"/>
+      <Null refid="29" slot="expr"/>
+     </VariableDecl>
+     <Sep token=";" startCol="71" leadChars=" " refid="30" slot="anon"/>
+    </VariableDeclsList>
+   </VariableDecls>
+   <StartDecl refid="31" slot="anon">
+    <KeyWord token="START" startCol="76" leadChars="%0A  " refid="32" slot="kws"/>
+    <Op token="=" startCol="82" leadChars=" " refid="33" slot="kweq"/>
+    <KeyWord token="BEGIN" startCol="84" leadChars=" " refid="34" slot="kwb"/>
+    <Statements refid="35" slot="statements">
+     <NextSt refid="36" slot="anon">
+      <KeyWord token="NEXT" startCol="95" leadChars="%0A    " refid="37" slot="kwn"/>
+      <Id idname="empty" startCol="100" leadChars=" " refid="38" slot="stateId"/>
+     </NextSt>
+    </Statements>
+    <KeyWord token="END" startCol="109" leadChars="%0A  " refid="39" slot="kwe"/>
+    <Sep token=";" startCol="112" leadChars="" refid="40" slot="ts"/>
+   </StartDecl>
+   <StateDecl refid="41" slot="anon">
+    <KeyWord token="STATE" startCol="117" leadChars="%0A  " refid="42" slot="kws"/>
+    <Id idname="empty" startCol="123" leadChars=" " refid="43" slot="stateId"/>
+    <TransitionList refid="44" slot="transitionList">
+     <TransitionDecl refid="45" slot="anon">
+      <TransitionHead refid="46" slot="transHead">
+       <KeyWord token="ON" startCol="134" leadChars="%0A    " refid="47" slot="kwo"/>
+       <Id idname="insertCard" startCol="137" leadChars=" " refid="48" slot="name"/>
+       <Signature refid="49" slot="signature">
+        <Tok token="(" startCol="147" leadChars="" refid="50" slot="lbr"/>
+        <Formals refid="51" slot="formals">
+         <Formal refid="52" slot="anon">
+          <Null refid="53" slot="mode"/>
+          <IdList refid="54" slot="idList">
+           <Id idname="card" startCol="148" leadChars="" refid="55" slot="anon"/>
+          </IdList>
+          <Tok token=":" startCol="153" leadChars=" " refid="56" slot="col"/>
+          <TypeName refid="57" slot="tipe">
+           <QualId refid="58" slot="qualId">
+            <Id idname="Card" startCol="155" leadChars=" " refid="59" slot="anon"/>
+           </QualId>
+          </TypeName>
+          <Null refid="60" slot="ass"/>
+          <Null refid="61" slot="constExpr"/>
+         </Formal>
+        </Formals>
+        <Tok token=")" startCol="159" leadChars="" refid="62" slot="rbr"/>
+        <Null refid="63" slot="col"/>
+        <Null refid="64" slot="tipe"/>
+        <Null refid="65" slot="kwr"/>
+        <Null refid="66" slot="raises"/>
+       </Signature>
+      </TransitionHead>
+      <Op token="=" startCol="161" leadChars=" " refid="67" slot="kweq"/>
+      <Block refid="68" slot="block">
+       <DeclList refid="69" slot="decList"/>
+       <KeyWord token="BEGIN" startCol="170" leadChars="%0A      " refid="70" slot="kwb"/>
+       <Statements refid="71" slot="statements">
+        <AssignSt refid="72" slot="anon">
+         <Expr refid="73" slot="lhs">
+          <TypeName refid="74" slot="expr">
+           <QualId refid="75" slot="qualId">
+            <Id idname="cardInfo" startCol="186" leadChars="%0A         " refid="76" slot="anon"/>
+           </QualId>
+          </TypeName>
+         </Expr>
+         <Tok token=":=" startCol="195" leadChars=" " refid="77" slot="ass"/>
+         <Expr refid="78" slot="rhs">
+          <TypeName refid="79" slot="expr">
+           <QualId refid="80" slot="qualId">
+            <Id idname="card" startCol="198" leadChars=" " refid="81" slot="anon"/>
+           </QualId>
+          </TypeName>
+         </Expr>
+        </AssignSt>
+        <Sep token=";" startCol="202" leadChars="" refid="82" slot="anon"/>
+        <NextSt refid="83" slot="anon">
+         <KeyWord token="NEXT" startCol="214" leadChars="%0A         " refid="84" slot="kwn"/>
+         <Id idname="inserted" startCol="219" leadChars=" " refid="85" slot="stateId"/>
+        </NextSt>
+        <Sep token=";" startCol="227" leadChars="" refid="86" slot="anon"/>
+       </Statements>
+       <KeyWord token="END" startCol="236" leadChars="%0A      " refid="87" slot="kwe"/>
+      </Block>
+      <Id idname="insertCard" startCol="240" leadChars=" " refid="88" slot="endId"/>
+      <AfterClause refid="89" slot="after">
+       <Null refid="90" slot="kwa"/>
+       <Null refid="91" slot="afterExpr"/>
+      </AfterClause>
+     </TransitionDecl>
+    </TransitionList>
+    <Sep token=";" startCol="250" leadChars="" refid="92" slot="ts"/>
+   </StateDecl>
+   <StateDecl refid="93" slot="anon">
+    <KeyWord token="STATE" startCol="255" leadChars="%0A  " refid="94" slot="kws"/>
+    <Id idname="authorized" startCol="261" leadChars=" " refid="95" slot="stateId"/>
+    <TransitionList refid="96" slot="transitionList">
+     <TransitionDecl refid="97" slot="anon">
+      <TransitionHead refid="98" slot="transHead">
+       <KeyWord token="ON" startCol="277" leadChars="%0A    " refid="99" slot="kwo"/>
+       <Id idname="inputSum" startCol="280" leadChars=" " refid="100" slot="name"/>
+       <Signature refid="101" slot="signature">
+        <Tok token="(" startCol="288" leadChars="" refid="102" slot="lbr"/>
+        <Formals refid="103" slot="formals">
+         <Formal refid="104" slot="anon">
+          <Null refid="105" slot="mode"/>
+          <IdList refid="106" slot="idList">
+           <Id idname="sum" startCol="289" leadChars="" refid="107" slot="anon"/>
+          </IdList>
+          <Tok token=":" startCol="293" leadChars=" " refid="108" slot="col"/>
+          <TypeName refid="109" slot="tipe">
+           <QualId refid="110" slot="qualId">
+            <Id idname="INTEGER" startCol="295" leadChars=" " refid="111" slot="anon"/>
+           </QualId>
+          </TypeName>
+          <Null refid="112" slot="ass"/>
+          <Null refid="113" slot="constExpr"/>
+         </Formal>
+        </Formals>
+        <Tok token=")" startCol="302" leadChars="" refid="114" slot="rbr"/>
+        <Null refid="115" slot="col"/>
+        <Null refid="116" slot="tipe"/>
+        <Null refid="117" slot="kwr"/>
+        <Null refid="118" slot="raises"/>
+       </Signature>
+      </TransitionHead>
+      <Op token="=" startCol="304" leadChars=" " refid="119" slot="kweq"/>
+      <Block refid="120" slot="block">
+       <DeclList refid="121" slot="decList"/>
+       <KeyWord token="BEGIN" startCol="313" leadChars="%0A      " refid="122" slot="kwb"/>
+       <Statements refid="123" slot="statements">
+        <SendSt refid="124" slot="anon">
+         <KeyWord token="SEND" startCol="329" leadChars="%0A         " refid="125" slot="kws"/>
+         <Expr refid="126" slot="expr">
+          <SelectorExpr refid="127" slot="expr">
+           <TypeName refid="128" slot="expr">
+            <QualId refid="129" slot="qualId">
+             <Id idname="withdraw" startCol="334" leadChars=" " refid="130" slot="anon"/>
+            </QualId>
+           </TypeName>
+           <SelectorList refid="131" slot="selectorList">
+            <ProcCallSelector refid="132" slot="anon">
+             <Tok token="(" startCol="342" leadChars="" refid="133" slot="lbr"/>
+             <ActualList refid="134" slot="actualList">
+              <ActualExpr refid="135" slot="anon">
+               <Null refid="136" slot="id"/>
+               <Null refid="137" slot="ass"/>
+               <Expr refid="138" slot="expr">
+                <TypeName refid="139" slot="expr">
+                 <QualId refid="140" slot="qualId">
+                  <Id idname="sum" startCol="343" leadChars="" refid="141" slot="anon"/>
+                 </QualId>
+                </TypeName>
+               </Expr>
+              </ActualExpr>
+             </ActualList>
+             <Tok token=")" startCol="346" leadChars="" refid="142" slot="rbr"/>
+            </ProcCallSelector>
+           </SelectorList>
+          </SelectorExpr>
+         </Expr>
+         <AfterClause refid="143" slot="after">
+          <Null refid="144" slot="kwa"/>
+          <Null refid="145" slot="afterExpr"/>
+         </AfterClause>
+        </SendSt>
+        <Sep token=";" startCol="347" leadChars="" refid="146" slot="anon"/>
+        <SendSt refid="147" slot="anon">
+         <KeyWord token="SEND" startCol="360" leadChars="	%0A         " refid="148" slot="kws"/>
+         <Expr refid="149" slot="expr">
+          <SelectorExpr refid="150" slot="expr">
+           <TypeName refid="151" slot="expr">
+            <QualId refid="152" slot="qualId">
+             <Id idname="emitCash" startCol="365" leadChars=" " refid="153" slot="anon"/>
+            </QualId>
+           </TypeName>
+           <SelectorList refid="154" slot="selectorList">
+            <ProcCallSelector refid="155" slot="anon">
+             <Tok token="(" startCol="373" leadChars="" refid="156" slot="lbr"/>
+             <ActualList refid="157" slot="actualList"/>
+             <Tok token=")" startCol="374" leadChars="" refid="158" slot="rbr"/>
+            </ProcCallSelector>
+           </SelectorList>
+          </SelectorExpr>
+         </Expr>
+         <AfterClause refid="159" slot="after">
+          <Null refid="160" slot="kwa"/>
+          <Null refid="161" slot="afterExpr"/>
+         </AfterClause>
+        </SendSt>
+        <Sep token=";" startCol="375" leadChars="" refid="162" slot="anon"/>
+        <SendSt refid="163" slot="anon">
+         <KeyWord token="SEND" startCol="387" leadChars="%0A         " refid="164" slot="kws"/>
+         <Expr refid="165" slot="expr">
+          <SelectorExpr refid="166" slot="expr">
+           <TypeName refid="167" slot="expr">
+            <QualId refid="168" slot="qualId">
+             <Id idname="returnCard" startCol="392" leadChars=" " refid="169" slot="anon"/>
+            </QualId>
+           </TypeName>
+           <SelectorList refid="170" slot="selectorList">
+            <ProcCallSelector refid="171" slot="anon">
+             <Tok token="(" startCol="402" leadChars="" refid="172" slot="lbr"/>
+             <ActualList refid="173" slot="actualList"/>
+             <Tok token=")" startCol="403" leadChars="" refid="174" slot="rbr"/>
+            </ProcCallSelector>
+           </SelectorList>
+          </SelectorExpr>
+         </Expr>
+         <AfterClause refid="175" slot="after">
+          <Null refid="176" slot="kwa"/>
+          <Null refid="177" slot="afterExpr"/>
+         </AfterClause>
+        </SendSt>
+        <Sep token=";" startCol="404" leadChars="" refid="178" slot="anon"/>
+        <NextSt refid="179" slot="anon">
+         <KeyWord token="NEXT" startCol="416" leadChars="%0A         " refid="180" slot="kwn"/>
+         <Id idname="empty" startCol="421" leadChars=" " refid="181" slot="stateId"/>
+        </NextSt>
+        <Sep token=";" startCol="426" leadChars="" refid="182" slot="anon"/>
+       </Statements>
+       <KeyWord token="END" startCol="435" leadChars="%0A      " refid="183" slot="kwe"/>
+      </Block>
+      <Id idname="inputSum" startCol="439" leadChars=" " refid="184" slot="endId"/>
+      <AfterClause refid="185" slot="after">
+       <Null refid="186" slot="kwa"/>
+       <Null refid="187" slot="afterExpr"/>
+      </AfterClause>
+     </TransitionDecl>
+    </TransitionList>
+    <Sep token=";" startCol="447" leadChars="" refid="188" slot="ts"/>
+   </StateDecl>
+   <StateDecl refid="189" slot="anon">
+    <KeyWord token="STATE" startCol="452" leadChars="%0A  " refid="190" slot="kws"/>
+    <Id idname="inserted" startCol="458" leadChars=" " refid="191" slot="stateId"/>
+    <TransitionList refid="192" slot="transitionList">
+     <TransitionDecl refid="193" slot="anon">
+      <TransitionHead refid="194" slot="transHead">
+       <KeyWord token="ON" startCol="472" leadChars="%0A    " refid="195" slot="kwo"/>
+       <Id idname="inputPIN" startCol="475" leadChars=" " refid="196" slot="name"/>
+       <Signature refid="197" slot="signature">
+        <Tok token="(" startCol="483" leadChars="" refid="198" slot="lbr"/>
+        <Formals refid="199" slot="formals">
+         <Formal refid="200" slot="anon">
+          <Null refid="201" slot="mode"/>
+          <IdList refid="202" slot="idList">
+           <Id idname="pin" startCol="484" leadChars="" refid="203" slot="anon"/>
+          </IdList>
+          <Tok token=":" startCol="488" leadChars=" " refid="204" slot="col"/>
+          <TypeName refid="205" slot="tipe">
+           <QualId refid="206" slot="qualId">
+            <Id idname="INTEGER" startCol="490" leadChars=" " refid="207" slot="anon"/>
+           </QualId>
+          </TypeName>
+          <Null refid="208" slot="ass"/>
+          <Null refid="209" slot="constExpr"/>
+         </Formal>
+        </Formals>
+        <Tok token=")" startCol="497" leadChars="" refid="210" slot="rbr"/>
+        <Null refid="211" slot="col"/>
+        <Null refid="212" slot="tipe"/>
+        <Null refid="213" slot="kwr"/>
+        <Null refid="214" slot="raises"/>
+       </Signature>
+      </TransitionHead>
+      <Op token="=" startCol="499" leadChars=" " refid="215" slot="kweq"/>
+      <Block refid="216" slot="block">
+       <DeclList refid="217" slot="decList"/>
+       <KeyWord token="BEGIN" startCol="508" leadChars="%0A      " refid="218" slot="kwb"/>
+       <Statements refid="219" slot="statements">
+        <IfSt refid="220" slot="anon">
+         <KeyWord token="IF" startCol="523" leadChars="%0A        " refid="221" slot="kwi"/>
+         <Expr refid="222" slot="ifExpr">
+          <BinaryExpr refid="223" slot="expr">
+           <TypeName refid="224" slot="expr">
+            <QualId refid="225" slot="qualId">
+             <Id idname="pin" startCol="526" leadChars=" " refid="226" slot="anon"/>
+            </QualId>
+           </TypeName>
+           <OpExp refid="227" slot="exprList">
+            <Op token="=" startCol="530" leadChars=" " refid="228" slot="operator"/>
+            <TypeName refid="229" slot="expr">
+             <QualId refid="230" slot="qualId">
+              <Id idname="cardInfo" startCol="532" leadChars=" " refid="231" slot="anon"/>
+              <Sep token="." startCol="540" leadChars="" refid="232" slot="anon"/>
+              <Id idname="encodedPIN" startCol="541" leadChars="" refid="233" slot="anon"/>
+             </QualId>
+            </TypeName>
+           </OpExp>
+          </BinaryExpr>
+         </Expr>
+         <KeyWord token="THEN" startCol="552" leadChars=" " refid="234" slot="kwt"/>
+         <Statements refid="235" slot="ifConsequence">
+          <NextSt refid="236" slot="anon">
+           <KeyWord token="NEXT" startCol="569" leadChars="%0A           " refid="237" slot="kwn"/>
+           <Id idname="authorized" startCol="574" leadChars=" " refid="238" slot="stateId"/>
+          </NextSt>
+          <Sep token=";" startCol="584" leadChars="" refid="239" slot="anon"/>
+         </Statements>
+         <ElsifList refid="240" slot="elsifList"/>
+         <Null refid="241" slot="kwel"/>
+         <Null refid="242" slot="elseStatement"/>
+         <KeyWord token="END" startCol="595" leadChars="%0A        " refid="243" slot="kwe"/>
+        </IfSt>
+       </Statements>
+       <KeyWord token="END" startCol="607" leadChars=" %0A      " refid="244" slot="kwe"/>
+      </Block>
+      <Id idname="inputPIN" startCol="611" leadChars=" " refid="245" slot="endId"/>
+      <AfterClause refid="246" slot="after">
+       <Null refid="247" slot="kwa"/>
+       <Null refid="248" slot="afterExpr"/>
+      </AfterClause>
+     </TransitionDecl>
+    </TransitionList>
+    <Sep token=";" startCol="619" leadChars="" refid="249" slot="ts"/>
+   </StateDecl>
+  </DeclList>
+  <Null refid="250" slot="connections"/>
+  <KeyWord token="BEGIN" startCol="622" leadChars="%0A" refid="251" slot="kwb"/>
+  <Statements refid="252" slot="statements"/>
+  <KeyWord token="END" startCol="631" leadChars="%0A%0A" refid="253" slot="kwe"/>
+ </CapsuleBlock>
+ <Id idname="ATMState" startCol="635" leadChars=" " refid="254" slot="endId"/>
+ <Sep token="." startCol="643" leadChars="" refid="255" slot="td"/>
+</Capsule>

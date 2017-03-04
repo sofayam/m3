@@ -1,0 +1,4 @@
+SYSTEM Sys1 USING Arch IS
+   CAPSULE par1 ON PROCESSOR proca; 
+   CAPSULE par2 ON PROCESSOR procb; 
+END

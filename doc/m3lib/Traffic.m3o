@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<Module source="/home/mark/m3/doc/Traffic.m3" refid="1" slot="anon">
+ <KeyWord token="MODULE" startCol="0" leadChars="" refid="2" slot="kwm"/>
+ <Id idname="Traffic" startCol="7" leadChars=" " refid="3" slot="modname"/>
+ <Null refid="4" slot="kwex"/>
+ <Null refid="5" slot="exportIds"/>
+ <Sep token=";" startCol="14" leadChars="" refid="6" slot="ts"/>
+ <ImportList refid="7" slot="imports">
+  <AsImport refid="8" slot="anon">
+   <KeyWord token="IMPORT" startCol="16" leadChars="%0A" refid="9" slot="kwi"/>
+   <AsImportList refid="10" slot="importList">
+    <ImportItem refid="11" slot="anon">
+     <Id idname="IO" startCol="23" leadChars=" " refid="12" slot="id"/>
+    </ImportItem>
+   </AsImportList>
+   <Sep token=";" startCol="25" leadChars="" refid="13" slot="ts"/>
+  </AsImport>
+ </ImportList>
+ <Block refid="14" slot="block">
+  <DeclList refid="15" slot="decList"/>
+  <KeyWord token="BEGIN" startCol="27" leadChars="%0A" refid="16" slot="kwb"/>
+  <Statements refid="17" slot="statements">
+   <CallSt refid="18" slot="anon">
+    <Expr refid="19" slot="expr">
+     <SelectorExpr refid="20" slot="expr">
+      <TypeName refid="21" slot="expr">
+       <QualId refid="22" slot="qualId">
+        <Id idname="IO" startCol="36" leadChars="%0A%0A  " refid="23" slot="anon"/>
+        <Sep token="." startCol="38" leadChars="" refid="24" slot="anon"/>
+        <Id idname="Put" startCol="39" leadChars="" refid="25" slot="anon"/>
+       </QualId>
+      </TypeName>
+      <SelectorList refid="26" slot="selectorList">
+       <ProcCallSelector refid="27" slot="anon">
+        <Tok token="(" startCol="43" leadChars=" " refid="28" slot="lbr"/>
+        <ActualList refid="29" slot="actualList">
+         <ActualExpr refid="30" slot="anon">
+          <Null refid="31" slot="id"/>
+          <Null refid="32" slot="ass"/>
+          <Expr refid="33" slot="expr">
+           <SelectorExpr refid="34" slot="expr">
+            <TypeName refid="35" slot="expr">
+             <QualId refid="36" slot="qualId">
+              <Id idname="IMAGE" startCol="44" leadChars="" refid="37" slot="anon"/>
+             </QualId>
+            </TypeName>
+            <SelectorList refid="38" slot="selectorList">
+             <ProcCallSelector refid="39" slot="anon">
+              <Tok token="(" startCol="49" leadChars="" refid="40" slot="lbr"/>
+              <ActualList refid="41" slot="actualList">
+               <ActualExpr refid="42" slot="anon">
+                <Null refid="43" slot="id"/>
+                <Null refid="44" slot="ass"/>
+                <Expr refid="45" slot="expr">
+                 <TypeName refid="46" slot="expr">
+                  <QualId refid="47" slot="qualId">
+                   <Id idname="myCar" startCol="50" leadChars="" refid="48" slot="anon"/>
+                  </QualId>
+                 </TypeName>
+                </Expr>
+               </ActualExpr>
+              </ActualList>
+              <Tok token=")" startCol="55" leadChars="" refid="49" slot="rbr"/>
+             </ProcCallSelector>
+            </SelectorList>
+           </SelectorExpr>
+          </Expr>
+         </ActualExpr>
+        </ActualList>
+        <Tok token=")" startCol="56" leadChars="" refid="50" slot="rbr"/>
+       </ProcCallSelector>
+      </SelectorList>
+     </SelectorExpr>
+    </Expr>
+   </CallSt>
+   <Sep token=";" startCol="57" leadChars="" refid="51" slot="anon"/>
+   <CallSt refid="52" slot="anon">
+    <Expr refid="53" slot="expr">
+     <SelectorExpr refid="54" slot="expr">
+      <TypeName refid="55" slot="expr">
+       <QualId refid="56" slot="qualId">
+        <Id idname="IO" startCol="61" leadChars="%0A  " refid="57" slot="anon"/>
+        <Sep token="." startCol="63" leadChars="" refid="58" slot="anon"/>
+        <Id idname="Put" startCol="64" leadChars="" refid="59" slot="anon"/>
+       </QualId>
+      </TypeName>
+      <SelectorList refid="60" slot="selectorList">
+       <ProcCallSelector refid="61" slot="anon">
+        <Tok token="(" startCol="68" leadChars=" " refid="62" slot="lbr"/>
+        <ActualList refid="63" slot="actualList">
+         <ActualExpr refid="64" slot="anon">
+          <Null refid="65" slot="id"/>
+          <Null refid="66" slot="ass"/>
+          <Expr refid="67" slot="expr">
+           <SelectorExpr refid="68" slot="expr">
+            <TypeName refid="69" slot="expr">
+             <QualId refid="70" slot="qualId">
+              <Id idname="IMAGE" startCol="69" leadChars="" refid="71" slot="anon"/>
+             </QualId>
+            </TypeName>
+            <SelectorList refid="72" slot="selectorList">
+             <ProcCallSelector refid="73" slot="anon">
+              <Tok token="(" startCol="74" leadChars="" refid="74" slot="lbr"/>
+              <ActualList refid="75" slot="actualList">
+               <ActualExpr refid="76" slot="anon">
+                <Null refid="77" slot="id"/>
+                <Null refid="78" slot="ass"/>
+                <Expr refid="79" slot="expr">
+                 <TypeName refid="80" slot="expr">
+                  <QualId refid="81" slot="qualId">
+                   <Id idname="myTruck" startCol="75" leadChars="" refid="82" slot="anon"/>
+                  </QualId>
+                 </TypeName>
+                </Expr>
+               </ActualExpr>
+              </ActualList>
+              <Tok token=")" startCol="82" leadChars="" refid="83" slot="rbr"/>
+             </ProcCallSelector>
+            </SelectorList>
+           </SelectorExpr>
+          </Expr>
+         </ActualExpr>
+        </ActualList>
+        <Tok token=")" startCol="83" leadChars="" refid="84" slot="rbr"/>
+       </ProcCallSelector>
+      </SelectorList>
+     </SelectorExpr>
+    </Expr>
+   </CallSt>
+   <Sep token=";" startCol="84" leadChars="" refid="85" slot="anon"/>
+   <CallSt refid="86" slot="anon">
+    <Expr refid="87" slot="expr">
+     <SelectorExpr refid="88" slot="expr">
+      <TypeName refid="89" slot="expr">
+       <QualId refid="90" slot="qualId">
+        <Id idname="IO" startCol="88" leadChars="%0A  " refid="91" slot="anon"/>
+        <Sep token="." startCol="90" leadChars="" refid="92" slot="anon"/>
+        <Id idname="Put" startCol="91" leadChars="" refid="93" slot="anon"/>
+       </QualId>
+      </TypeName>
+      <SelectorList refid="94" slot="selectorList">
+       <ProcCallSelector refid="95" slot="anon">
+        <Tok token="(" startCol="95" leadChars=" " refid="96" slot="lbr"/>
+        <ActualList refid="97" slot="actualList">
+         <ActualExpr refid="98" slot="anon">
+          <Null refid="99" slot="id"/>
+          <Null refid="100" slot="ass"/>
+          <Expr refid="101" slot="expr">
+           <SelectorExpr refid="102" slot="expr">
+            <TypeName refid="103" slot="expr">
+             <QualId refid="104" slot="qualId">
+              <Id idname="IMAGE" startCol="96" leadChars="" refid="105" slot="anon"/>
+             </QualId>
+            </TypeName>
+            <SelectorList refid="106" slot="selectorList">
+             <ProcCallSelector refid="107" slot="anon">
+              <Tok token="(" startCol="101" leadChars="" refid="108" slot="lbr"/>
+              <ActualList refid="109" slot="actualList">
+               <ActualExpr refid="110" slot="anon">
+                <Null refid="111" slot="id"/>
+                <Null refid="112" slot="ass"/>
+                <Expr refid="113" slot="expr">
+                 <TypeName refid="114" slot="expr">
+                  <QualId refid="115" slot="qualId">
+                   <Id idname="myBike" startCol="102" leadChars="" refid="116" slot="anon"/>
+                  </QualId>
+                 </TypeName>
+                </Expr>
+               </ActualExpr>
+              </ActualList>
+              <Tok token=")" startCol="108" leadChars="" refid="117" slot="rbr"/>
+             </ProcCallSelector>
+            </SelectorList>
+           </SelectorExpr>
+          </Expr>
+         </ActualExpr>
+        </ActualList>
+        <Tok token=")" startCol="109" leadChars="" refid="118" slot="rbr"/>
+       </ProcCallSelector>
+      </SelectorList>
+     </SelectorExpr>
+    </Expr>
+   </CallSt>
+   <Sep token=";" startCol="110" leadChars="" refid="119" slot="anon"/>
+  </Statements>
+  <KeyWord token="END" startCol="113" leadChars="%0A%0A" refid="120" slot="kwe"/>
+ </Block>
+ <Id idname="Traffic" startCol="117" leadChars=" " refid="121" slot="endId"/>
+ <Sep token="." startCol="124" leadChars="" refid="122" slot="td"/>
+</Module>

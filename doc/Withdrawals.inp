@@ -1,0 +1,4 @@
+> deposit sum=100
+@withdraw sum=4
+@withdraw sum=6
+? 1 year

@@ -1,0 +1,8 @@
+CAPSULE INTERFACE PingPong;
+PORT p1 : PROTOCOL
+   INCOMING MESSAGE ping();
+   INCOMING MESSAGE pong();
+   OUTGOING MESSAGE innerreply();
+   INCOMING MESSAGE check() ;
+END;
+END PingPong.

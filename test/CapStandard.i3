@@ -1,0 +1,6 @@
+CAPSULE INTERFACE CapStandard ;
+PORT p1 : PROTOCOL
+   INCOMING MESSAGE ask() ;
+   OUTGOING MESSAGE reply(t : TEXT) ;
+END;
+END CapStandard.

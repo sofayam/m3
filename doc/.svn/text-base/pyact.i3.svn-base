@@ -1,0 +1,5 @@
+CAPSULE INTERFACE pyact ;
+PORT p1 : PROTOCOL
+  INCOMING MESSAGE act();
+END;
+END pyact.
